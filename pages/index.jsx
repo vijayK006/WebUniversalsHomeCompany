@@ -1,0 +1,721 @@
+import TerioCounter from "@/src/components/TerioCounter";
+import Layout from "@/src/layout/Layout";
+import { partnerswiper, studiesswiper } from "@/src/sliderProps";
+import Link from "next/link";
+import { HiOutlineLightBulb } from 'react-icons/hi';
+import {GiArcheryTarget, GiTeamIdea, GiCyberEye} from 'react-icons/gi';
+import {CgWebsite} from 'react-icons/cg';
+import {BiCartAlt} from 'react-icons/bi';
+import {MdOutlineEnergySavingsLeaf} from 'react-icons/md';
+// import {GiCyberEye} from 'react-icons/md';
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+// import { SlSettings } from 'react-icons/sl';
+// import { MdOutlineBroadcastOnPersonal } from 'react-icons/md';
+// import { SiAntdesign } from 'react-icons/si';
+// import { GiPayMoney } from 'react-icons/gi';
+
+const Index3 = () => {
+
+
+
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read More";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read Less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  return (
+    <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
+        <section>
+        <Swiper className="swiper-container herotwoswiper">
+          <div className="swiper-wrapper">
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Welcome to <span>Web Universals </span>
+                    </h2>
+                    <p>Your Trusted Australian Website Design & Development Company! </p>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            {/* <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ backgroundImage: "url(assets/img/hero-img-2.jpg)" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Start up & <span>Never stop </span>
+                    </h2>
+                    <p>We are a creative agency with a passion for design. Our methodical approach is focused on 
+                    revealing the essence of each design challenge to allow us 
+                    to create holistic and durable solutions. </p>
+                    <Link href="contacts" className="themebtu full">
+                      More Services
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide> */}
+          </div>
+          <div className="swiper-pagination" />
+        </Swiper>
+      </section>
+
+    
+{/* ---------------------------------------------------------- */}
+
+
+<section className="gap services-two no-bottom">
+        <div className="container">
+          <div className="row">
+
+
+            <div className="col-xl-6">
+              <div className="heading">
+              <h6 className="">Different. Relevant. Focused.</h6>
+                <img
+                  alt="line"
+                  className="mb-4"
+                  src="assets/img/headingline.png"
+                />
+              </div>
+              <div className="welcome-text">
+                <h2> Discover the Essence of <br/> Online Excellence</h2>
+                <p>
+                Are you looking for a website that reflects the true spirit of your business and captures the hearts of your Australian audience? Look no further! Since 2010, Web Universals has been crafting awe-inspiring web solutions with an Australian touch that resonates with businesses and their customers..
+                </p>
+
+                <h2>Australia's Premier <br/> Website Design Company </h2>
+                <p>
+                At Web Universals, we take immense pride in being a trailblazer in Australia's website design and development. Our passion for crafting visually stunning, highly functional, and user-friendly websites has earned us the reputation of being Australia's top website design company.
+                </p>
+
+                <h2>Best in Class Web Solutions </h2>
+                <p>
+                Being Australia's best website design company comes with great responsibility, and we deliver excellence on every front. From bespoke website designs that align with your brand identity to seamless e-commerce platforms that drive sales, our services cater to every business need.
+                </p>
+               
+
+
+             
+              </div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+            </div>
+            <div className="offset-xl-1 col-xl-5">
+           
+
+              <div className="welcome two">
+                <img alt="img" src="assets/img/welcome-3.jpg" />
+                <img
+                  alt="img"
+                  className="img-welcome"
+                  src="assets/img/welcome-4.jpg"
+                />
+              </div>
+
+           
+            </div>
+          </div>
+        </div>
+        <div className="tp-hero__shapes">
+          <div className="style-shapes-4">
+            <img alt="dots1" src="assets/img/dots1.png" />
+          </div>
+          <div className="style-shapes-5">
+            <img alt="dots1" src="assets/img/shap-3.png" />
+          </div>
+          <div className="style-shapes-6">
+            <img alt="dots1" src="assets/img/shap-2.png" />
+          </div>
+          <div className="style-shapes-7">
+            <img alt="dots1" src="assets/img/shap-5.png" />
+          </div>
+        </div>
+      </section>
+
+ 
+
+
+      <section
+        className="makes-us-different"
+        style={{ backgroundColor: "#f2edf5" }}
+      >
+        <div className="container">
+          <div className="heading">
+            <h6>How It Works?</h6>
+            <h2>What Makes Us Different?</h2>
+            <img alt="line" src="assets/img/headingline.png" />
+          </div>
+          <div className="row pt-lg-2 pb-lg-2 pt-2 pb-2">
+
+            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text1">
+            <HiOutlineLightBulb className="card-icons"/>
+                <h4>Where Innovation Meets Mobility </h4>
+                <p>
+                In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text1">
+           <GiArcheryTarget className="card-icons"/>
+                <h4>Your Success is Our Priority  </h4>
+                <p>
+                At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text1 mb-0">
+              <CgWebsite className="card-icons"/>
+                <h4>Redesign, Revamp, Reimagine </h4>
+                <p>
+                If your website needs a facelift, our website redesign services are here to breathe new life into your online presence. Stay ahead of the curve with a refreshed, modern website that engages your audience. </p>
+             
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text1 mb-0">
+             <BiCartAlt className="card-icons"/>
+                <h4>Elevate Your E-commerce Experience </h4>
+                <p>
+                Unlock the potential of online retail with our unparalleled e-commerce website design services. We empower your business with cutting-edge features and a seamless shopping experience that keeps customers returning for more.
+                </p>
+             
+              </div>
+            </div>
+
+          </div>
+
+          <div className="row pt-lg-2 pb-lg-2 pt-2 pb-2">
+
+          <div className="col-xl-4 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text2">
+            <MdOutlineEnergySavingsLeaf className="card-icons"/>
+                <h4>Amplify Your Digital Presence  </h4>
+                <p>
+                As a leading website design and development company in Australia, we understand the significance of digital marketing in today's competitive landscape. With our expert SEO, SMM, Google Ads PPC, and Facebook Ads & lead generation services, we ensure your business achieves the online visibility it deserves.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text2">
+            <GiTeamIdea className="card-icons"/>
+                <h4>Tailored Solutions for Every Business  </h4>
+                <p>
+                Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text2">
+            <GiCyberEye className="card-icons"/>
+                <h4>From Vision to Reality </h4>
+                <p>
+                Your business deserves a unique identity, and our services extend beyond website design. Our expert team crafts captivating logos and brochures that embody your brand's essence, leaving a lasting impression on your customers.</p>
+              </div>
+            </div>
+
+          </div>
+          <div className="counter-style gap">
+            <TerioCounter  className="card-icons"/>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="case-studies gap">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-4">
+              <div className="heading-boder">
+                <h2>
+                Recently
+Completed
+
+                  <span>Projects</span>
+                </h2>
+                <p>
+                We Help You Build An Online Brand
+                </p>
+                <a href="" className="themebtu full">
+                  View More Works
+                </a>
+              </div>
+            </div>
+            <div className="col-xl-8">
+              <Swiper
+                {...studiesswiper}
+                className="swiper-container studiesswiper"
+              >
+                <div className="swiper-wrapper">
+                  <SwiperSlide className="swiper-slide">
+                    <div className="case-studies-project">
+                      <a href="">
+                        <img alt="img" src="assets/img/project1.png" />
+                      </a>
+                      <h4>Amma Constructions</h4>
+                    
+                      <a href="#">View Project</a>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className="swiper-slide">
+                    <div className="case-studies-project">
+                      <a href="">
+                        <img alt="img" src="assets/img/project2.png" />
+                      </a>
+                      <h4>Campus Continents</h4>
+                 
+                      <a href="#">View Project</a>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className="swiper-slide">
+                    <div className="case-studies-project">
+                      <a href="">
+                        <img alt="img" src="assets/img/project3.png" />
+                      </a>
+                      <h4>Endo Medical System</h4>
+                     
+                      <a href="3">View Project</a>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className="swiper-slide">
+                    <div className="case-studies-project">
+                      <a href="">
+                        <img alt="img" src="assets/img/project4.png" />
+                      </a>
+                      <h4>Energy Tech World</h4>
+                    
+                      <a href="#">View Project</a>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className="swiper-slide">
+                    <div className="case-studies-project">
+                      <a href="">
+                        <img alt="img" src="assets/img/project5.png" />
+                      </a>
+                      <h4>Flow Tech Pumps & Motors</h4>
+                      <a href="#">View Project</a>
+                    </div>
+                  </SwiperSlide>
+
+                </div>
+                <div className="swiper-pagination" />
+              </Swiper>
+            </div>
+          </div>
+        </div>
+        <div className="tp-hero__shapes">
+          <div className="style-shapes-1"></div>
+          <div className="style-shapes-2">
+            <img alt="shap-4" src="assets/img/shap-b-2.png" />
+          </div>
+          <div className="style-shapes-3"></div>
+        </div>
+      </section>
+<hr /><br /><br />
+      {/* <section className="gap">
+        <div className="container">
+          <div className="our-clients">
+            <h4>
+            See the clients we've delivered experiences for and how we did it.
+            </h4>
+            <span>Pellentesque aliquet nibh nec urna.</span>
+            <ul>
+              <li>
+                <img alt="img" src="assets/img/brand-1.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-2.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-3.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-4.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-5.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-6.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-7.png" />
+              </li>
+              <li>
+                <img alt="img" src="assets/img/brand-8.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> */}
+      <section className="why-choose-us">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-5">
+              <div className="heading-boder">
+             
+              </div>
+
+              <div className="why-choose-text pt-4 pb-4">
+              <h3>
+                Seamless Communication,<br/> <span> Unmatched Support </span> 
+                </h3>
+
+                <p>At Web Universals, we prioritize clear and open communication with our clients. Our dedicated support team is always just a call or email away, ready to address your queries and provide timely assistance throughout the project.</p>
+              </div>
+
+              <div className="why-choose-text pt-4 pb-4">
+              <h3>
+               Embracing Diversity, <span> Delivering Globally </span> 
+                </h3>
+
+                <p>While we proudly call Australia our home, our reach extends far beyond. We serve clients from diverse industries and geographical locations, ensuring our expertise reaches every corner of the globe.</p>
+              </div>
+
+              <div className="why-choose-text pt-4 pb-4">
+              <h3>
+              Collaborate for <span> Success </span> 
+                </h3>
+
+                <p>We believe in the power of collaboration and view our clients as valued partners. By understanding your unique goals and challenges, we forge a strong partnership that fosters growth and success.</p>
+              </div>
+
+              <div className="why-choose-text pt-4 pb-4">
+              <h3>
+               Results-Driven <span> Approach  </span> 
+                </h3>
+
+                <p>With a laser focus on results, Web Universals employs data-driven strategies to optimize your online presence. We meticulously analyze performance metrics, allowing us to fine-tune our efforts for maximum impact.</p>
+              </div>
+
+            </div>
+            <div className="col-xl-4 col-sm-6">
+              <div className="choose-us-img">
+                <figure>
+                  <img alt="img" src="assets/img/choose-us-1.jpg" />
+                </figure>
+                <div className="choose-us-img-text">
+           
+                  <h5>
+                  Recognitions and
+                    <br />
+                    Accolades 
+                  </h5>
+                 <p className="card-text2">Our unwavering commitment to excellence has earned us numerous accolades and recognition in the industry. </p>
+                 {/* <p>We are humbled by the trust our clients place in us and continuously strive to raise the bar of excellence.</p> */}
+                </div>
+              </div>
+              <div className="choose-us-img">
+                <figure>
+                  <img alt="img" src="assets/img/choose-us-2.jpg" />
+                </figure>
+                <div className="choose-us-img-text">
+                {/* <MdOutlineBroadcastOnPersonal/> */}
+                  <h5>
+                  Decade of Expertise,<br/> Century of Creativity 
+                 
+                  </h5>
+                  <p className="card-text2">With over a decade of experience in website design and development, Web Universals brings a wealth of knowledge to every project. </p>
+                  {/* <p>We blend this expertise with boundless creativity to craft digital masterpieces.</p> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-sm-6">
+              <div className="choose-us-img">
+                <figure>
+                  <img alt="img" src="assets/img/choose-us-3.jpg" />
+                </figure>
+                <div className="choose-us-img-text">
+                {/* <SiAntdesign/> */}
+
+                  <h5>
+                  Growing with  
+                    <br />
+                    Technology
+                  </h5>
+                  <p className="card-text2">The digital landscape is ever-evolving, and we pride ourselves on staying ahead. </p>
+                  {/* <p>Our team has the latest tools and techniques to ensure your website is cutting-edge and future-proof.</p> */}
+                </div>
+              </div>
+              <div className="choose-us-img">
+                <figure>
+                  <img alt="img" src="assets/img/choose-us-4.jpg" />
+                </figure>
+                <div className="choose-us-img-text">
+                {/* <GiPayMoney/> */}
+                  <h5>
+                  Your Vision, Our Mission 
+                  </h5>
+                 <p className="card-text2">At Web Universals, we believe in transforming your vision into a reality. </p>
+                 {/* <p>We take the time to understand your aspirations and weave them into a digital masterpiece that exceeds your expectations.</p> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="discovery gap "
+        style={{ backgroundColor: "#f2edf5" }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+
+              <div className="heading">
+                {/* <h6>Web Design Sydney</h6> */}
+                <h5> Inspired by the Australian Spirit </h5>
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
+                <p>
+                Web Universals draws inspiration from the vast landscapes and rich culture of Australia. Our designs embody the essence of the land down under, creating websites that resonate with the Australian spirit.
+                </p>
+              </div>
+
+              <div className="heading">
+                {/* <h6>Web Design Sydney</h6> */}
+                <h5>Join Our Satisfied Clientele </h5>
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
+                <p>
+                Join the ranks of our satisfied clientele who have experienced the magic of Web Universals firsthand. Our success stories are a testament to our dedication and the value we deliver to businesses across Australia.
+                </p>
+              </div>
+
+              <div className="heading">
+                {/* <h6>Web Design Sydney</h6> */}
+                <h5>Embrace Limitless Possibilities </h5>
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
+                <p >
+                In the vast online realm, opportunities are boundless. Partner with Web Universals to unlock the full potential of your business and embark on a journey of growth and prosperity.
+                </p>
+              </div>
+
+                 
+              <Link href="contacts" className="themebtu full">
+                  Contact Us
+                </Link>
+            </div>
+            <div className="col-xl-6">
+              <div className="discovery-img hoverstyle">
+                <figure>
+                  <img
+                    className="w-100"
+                    alt="discovery"
+                    src="assets/img/newweb.jpg"
+                  />
+                </figure>
+                <div className="discovery-text">
+                  <i>
+                    <svg
+                      id="Layer_5"
+                      enableBackground="new 0 0 64 64"
+                      height={512}
+                      viewBox="0 0 64 64"
+                      width={512}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m33 19v-2h3v-3c0-1.654-1.346-3-3-3h-2c-.552 0-1-.449-1-1v-1h3c.552 0 1 .449 1 1h2c0-1.654-1.346-3-3-3v-2h-2v2h-3v3c0 1.654 1.346 3 3 3h2c.552 0 1 .449 1 1v1h-3c-.552 0-1-.449-1-1h-2c0 1.654 1.346 3 3 3v2z" />
+                      <path d="m62.618 47-5-10h-13.974c2.044-1.651 3.356-4.174 3.356-7v-1h-7c-2.826 0-5.349 1.312-7 3.356v-9.406c5.598-.508 10-5.222 10-10.95 0-6.065-4.935-11-11-11s-11 4.935-11 11c0 5.728 4.402 10.442 10 10.949v5.406c-1.651-2.043-4.174-3.355-7-3.355h-7v1c0 4.962 4.037 9 9 9h5v2h-1.382-3.236-20l-5 10h3.618v16h52v-16zm-36.618-14c-3.521 0-6.442-2.612-6.929-6h4.929c3.521 0 6.442 2.612 6.929 6zm14-2h4.929c-.486 3.388-3.408 6-6.929 6h-4.929c.487-3.388 3.408-6 6.929-6zm-17-19c0-4.962 4.037-9 9-9s9 4.038 9 9-4.037 9-9 9-9-4.038-9-9zm8 27h7 18.382l3 6h-26.764l-3-6zm-23.382 0h18.764l-3 6h-18.764zm-.618 8h17.618l2.382-4.764v18.764h-20zm48 14h-26v-18.764l2.382 4.764h23.618z" />
+                      <path d="m53 53h-15v6h15zm-2 4h-11v-2h11z" />
+                      <path d="m9 53h2v2h-2z" />
+                      <path d="m9 57h2v2h-2z" />
+                      <path d="m9 49h2v2h-2z" />
+                      <path d="m49 33h2v-19h-2.233l4.233-7.056 4.233 7.056h-2.233v9h2v-7h3.767l-7.767-12.944-7.767 12.944h3.767z" />
+                      <path d="m55 25h2v2h-2z" />
+                      <path d="m55 29h2v2h-2z" />
+                      <path d="m6 23h2v-9h-2.233l4.233-7.056 4.233 7.056h-2.233v19h2v-17h3.767l-7.767-12.944-7.767 12.944h3.767z" />
+                      <path d="m6 25h2v2h-2z" />
+                      <path d="m6 29h2v2h-2z" />
+                      <path d="m46 41h2v2h-2z" />
+                      <path d="m50 41h2v2h-2z" />
+                      <path d="m54 41h2v2h-2z" />
+                      <path d="m8 41h2v2h-2z" />
+                      <path d="m12 41h2v2h-2z" />
+                      <path d="m16 41h2v2h-2z" />
+                    </svg>
+                  </i>
+                  <a href="#">
+                    <h4>Get Started Today! </h4>
+                  </a>
+                  <p>
+                  Contact us now and take the first step toward digital excellence. Together, we'll craft a remarkable online experience that leaves a lasting impression on your customers.
+                 <br/>
+                 Experience the brilliance of Web Universals - Your Trusted Web Design Partner in Australia!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tp-hero__shapes">
+          <div className="style-shapes-4">
+            <img alt="dots1" src="assets/img/dots1.png" />
+          </div>
+          <div className="style-shapes-5">
+            <img alt="dots1" src="assets/img/shap-2.png" />
+          </div>
+          <div className="style-shapes-6">
+            <img alt="dots1" src="assets/img/shap-1.png" />
+          </div>
+          <div className="style-shapes-7">
+            <img alt="dots1" src="assets/img/shap-5.png" />
+          </div>
+        </div>
+      </section>
+      
+      <section className="satisfied-clients gap">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-4">
+              <div className="heading-boder">
+                <h2>
+                  Satisfied <span>Clients</span>
+                </h2>
+            
+                <a href="about.html" className="themebtu">
+                  More About Us
+                </a>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6">
+              <div className="client-review">
+                <i className="fa-solid fa-quote-left" />
+               
+                <p>
+                  " Mr Srinivas has given good service for the website, logo, company profile etc which I 
+                  have done with him and he is a good supportive person. I 
+                  liked his way of handling the customers,  overall  it's a good experience. “
+                </p>
+                <span>Irfan</span>
+              </div>
+              <div className="client-review mt-xl-5">
+                <i className="fa-solid fa-quote-left" />
+                <p>
+                  " Mr Srinivas has given good service for the website, logo, company profile etc which I 
+                  have done with him and he is a good supportive person. I 
+                  liked his way of handling the customers,  overall  it's a good experience. ”
+                </p>
+                <span>Puttayya Ip</span>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6">
+              <div className="client-review mb-xl-5">
+                <i className="fa-solid fa-quote-left" />
+                <p>
+                  "  Praesent elementum hendrerit tortor. Sed semper lorem at
+                  felis. Vestibulum volutpat, lacus a ultrices sagittismi neque
+                  euismod dui, eu pulvinar nunc sapien ornare nisl.”
+                </p>
+                <span>Susai S</span>
+              </div>
+              <div className="client-review">
+                <i className="fa-solid fa-quote-left" />
+                <p>
+                  " We love the service and the work of web universals such a wonderful experience with this company creative 
+                  designer with best quality service... we wish to assign few 
+                  more web projects to web universal in future too. “
+                </p>
+                <span>Irshad Siddiqui</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="gap map-three">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="heading">
+                <h6>Contact Us Today</h6>
+                <img alt="line" src="assets/img/headingline.png" />
+                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/>
+                Experience the magic of Web Universals - Your Trusted Web Design Partner in Australia!
+                </p>
+
+            
+              </div>
+              <form className="touch two">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <input type="text" name="name" placeholder="Your name *" />
+                  </div>
+                  <div className="col-lg-4">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email address *"
+                    />
+                  </div>
+                  <div className="col-lg-4">
+                    <input
+                      type="number"
+                      name="phone"
+                      placeholder="Your Phone (optional)"
+                    />
+                  </div>
+                  <div className="col-xl-12">
+                    <textarea placeholder="Your message *" defaultValue={""} />
+                  </div>
+                  <div className="btugap">
+                    <a href="#" className="themebtu full">
+                      Send Message
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="offset-xl-1 col-xl-5">
+              <div className="map">
+              <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13924197.196521623!2d124.37171398494617!3d-31.566370704618578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6aa7589e5be8c7f3%3A0xdb7e79993dfad0d8!2sSouth%20Australia%2C%20Australia!5e0!3m2!1sen!2sin!4v1690524409240!5m2!1sen!2sin"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+export default Index3;
