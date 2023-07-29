@@ -27,9 +27,7 @@ const SocialMediaMarketing = () => {
                 <div className="heading">
                   {/* <h6>We Turn Your Ideas Into Beautiful Feature Mobile Apps At Affordable Costs</h6> */}
                   <h2>
-                  Social Media 
-                    <br />
-                    Marketing
+                  Amplify Your Brand Presence, Engage,<br /> and Grow!
                   </h2>
                   <img alt="line" src="assets/img/headingline.png" />
                   <img alt="dots" className="dots" src="assets/img/dots.png" />
@@ -38,15 +36,15 @@ const SocialMediaMarketing = () => {
               <div className="col-xl-7">
                 <div className="signature">
                   <p>
-                  With the advancement of several social media platforms and forums of discussions, 
-                  this overall social media phenomenon has become really very vital in the lives of both 
-                  the entrepreneurs as well as the clients. The popularity behind these Social Media Marketing 
-                  strategies is nothing but the flexibility of media exposure and better advertising 
-                  platform creating maximum customer engagements with added promotional perks. <br/><br/> Thus, 
-                  Social Media Marketing in today’s date is creating quite a lot of successful activities using various
-                   social media platforms such as Facebook, Twitter, Goggle+ and many more.
+                  Are you looking to establish a solid social media presence for your business
+                   but need help figuring out where to start? Look no further! At Web Universals, 
+                   we offer comprehensive Social Media Marketing (SMM) solutions that will set your 
+                   business on the path to social media success.
                   </p>
-                 
+                  <br />
+                  <h4>Unlock the Power of Social Media</h4>
+Our Social Media Marketing services are tailored to meet the needs of businesses of all sizes, from startups to established enterprises. In today's digital age, social media has evolved into an essential marketing tool, with billions of active users across multiple platforms. It presents an unparalleled opportunity to engage with your target audience, boost brand recognition, and foster customer loyalty.
+
                 </div>
               </div>
             </div>
@@ -56,7 +54,10 @@ const SocialMediaMarketing = () => {
         <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
         <div className="heading pb-lg-4 pb-2">
-                
+        <h2> Your Key to Social Media Success
+                  </h2>
+                  
+                  <img alt="line" src="assets/img/headingline.png" />
                   <img alt="dots" className="dots" src="assets/img/dots.png" />
                 </div>
        
@@ -74,12 +75,16 @@ const SocialMediaMarketing = () => {
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
                   
-                   
-                      <p>
-                   
-                      We, here at our Web Universals, Australia, specializes in monitoring and carrying out such social media strategies in a cost effective way so that you can afford to stay in budget while availing our exclusive service. There are several clients, on being impressed with our timely delivery of a successfully completed project which has made them coming back to us every time.
+                     <h4>Account Creation</h4>
+                      <p> 
+                       If you still need social media accounts for your business, we'll create them for you. From Facebook and Instagram to Twitter and LinkedIn, we'll set up accounts on the platforms most relevant to your industry and target audience.
                       </p>
-                     
+                      <h4 className="pt-3">Tailored Content Creation</h4>
+                      <p>
+                      Our team of experts will skillfully create captivating and meaningful content
+                       that deeply connects with your audience. We will meticulously design striking
+                        posters  unique personality and align seamlessly with your business objectives.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -98,13 +103,21 @@ const SocialMediaMarketing = () => {
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
-                    
-                    
-                      <p>
-                      We do value your business and know how precious it is for you to get things done on time assuring cost effectiveness, good design quality, 100 % guaranteed satisfaction, no surprises and we always maintain a one point of contact.
-                      Our social media marketing service also includes social media audit, competitive analysis, community monitoring, media creation and lot more
+                    <h4>Customized Posting-Frequency</h4>
+                      <p> 
+                      You can choose the best posting frequency that suits your business.
+                       We offer three options - 3 posts weekly, five posts weekly, or seven
+                        posts weekly. This flexibility your social media presence
+                         remains active  keeping your audience engaged.
                       </p>
-                   
+                      <h4 className="pt-3">Targeted Audience Reach</h4>
+                      <p>
+                      We will conduct extensive research your target audience and identify
+                       to gain insights into their preferences. By gaining insights into their 
+                       interests, we will customize our content to resonate with them, 
+                       boosting and fostering brand loyalty.
+                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -123,18 +136,48 @@ const SocialMediaMarketing = () => {
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
-                    
-                    
-                      <p>
-                      We always maintain a one point of contact for your ease and convenience along with the best in class quality design and 100% satisfaction which is a guarantee from our side. Our clients here at Australia are extremely serious regarding such matters and we never had disappointed them with either of our services which we promise to cater and deliver timely maintain the quality of the task as well
+                    <h4>Brand Awareness & Credibility</h4>
+                      <p> 
+                      Having an active and engaging social media  When potential customers search for your business on 
+                       Google, they'll be delighted to find your social media accounts actively 
+                       connecting with your audience.
                       </p>
-                   
+                      <h4 className="pt-3">Ongoing Support & Insights</h4>
+                      <p>
+                      Our commitment to your success doesn't end with posting content. We'll provide regular 
+                      reports and insights on your social media performance,valuable data to fine-tune 
+                      your marketing strategy.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row align-items-center">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/socialMarketing3.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+                    <h4>Get Started Today</h4>
+                      <p> 
+                      Let Web Universals be your partner in crafting a dynamic and impactful social media presence. <br /><br />
+                      With our Social Media Marketing expertise, your business will thrive on social media, leaving 
+                      a lasting impression on your audience.
+                      </p>
+                     
 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
         
             <div className="swiper-button-next">
               <svg
@@ -176,11 +219,11 @@ const SocialMediaMarketing = () => {
 
 
 
-      <div className="container">
+      <div className="container  mt-5">
         <div className="awesome-project">
-          <h4>Your Gateway to Empowering SEO Services!</h4>
+          <h4>Your Gateway to Social Media Marketing Excellence!</h4>
           <a href="contacts.html" className="themebtu full">
-   Contact Us Now
+            Contact Us Now
           </a>
         </div>
       </div>
