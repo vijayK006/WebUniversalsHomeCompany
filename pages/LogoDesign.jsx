@@ -4,6 +4,14 @@ import Layout from "@/src/layout/Layout";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { RiLightbulbFlashLine } from 'react-icons/ri';
+import { LiaUserCogSolid, LiaUserGraduateSolid } from 'react-icons/lia';
+import { AiOutlineSolution } from 'react-icons/ai';
+import { MdImportantDevices } from 'react-icons/md';
+import { IoIosApps } from 'react-icons/io';
+import Link from "next/link";
+
+
 const LogoDesign = () => {
   return (
     <Layout noHeaderBg pageName={"Team3"}>
@@ -17,7 +25,7 @@ const LogoDesign = () => {
             <h2>
             Logo Design
             </h2>
-            <a href="#">The highest quality in design Within budget <br />and under the tightest deadline</a>
+            {/* <a href="#">The highest quality in design Within budget <br />and under the tightest deadline</a> */}
             </div>
           </div>
         </section>
@@ -26,7 +34,7 @@ const LogoDesign = () => {
             <div className="row">
               <div className="col-xl-5">
                 <div className="heading">
-                  <h6>web designers in Perth</h6>
+                  <h6>Distinctive, Timeless, and Memorable</h6>
                   <h2>
                   LOGO DESIGN 
                   <br />
@@ -37,19 +45,25 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-7">
                 <div className="signature">
+
+                <div className="pb-4">
+               <h3>Elevate Your Brand with a Captivating Logo</h3>
+                  <p>A well-designed logo can elevate your brand, leaving a lasting impression on your customers. Partner with Web Universals for 
+                  expert logo design services, and let us create a logo that sets your business apart from the competition.</p>
+</div>
+
                   <p>
-                  Creating and designing logos need quite a lot of creative concepts and ideas in order to make things look perfect in the eyes of
-                   the viewers. Thus considering such key points related to logo designing, Web Universals at Australia is having a 
-                   special team of experienced and well versed <b> web designers in Perth </b> who all are always ready with expert ideas and 
-                   concepts needed to be implemented in order to create some extremely eye catching and out of the box logos.<br />
-                    <br />
+                  Your logo is the face of your brand, and at Web Universals, we understand the power of a well-crafted logo. As a leading logo design company, 
+                  we specialize in creating distinctive, timeless, and memorable logos that make a lasting impression on your audience.
                     
                   </p>
+
+     
                   <div className="ceo">
                    
-                    <a href="tel:08 8121 7826" className="themebtu">
+                    <Link href="contacts" className="themebtu">
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -58,154 +72,146 @@ const LogoDesign = () => {
         </section>
   
 
+        <section
+          className="we-deliver-results gap"
+          style={{ backgroundColor: "#f2edf5" }}
+        >
+          <div className="container">
+            <div className="heading two  pb-5">
+              <h2>Why Choose Our Logo Design Services</h2>
+              {/* <img alt="line" src="assets/img/headingline.png" /> */}
+            </div>
+            <div className="row">
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                 <RiLightbulbFlashLine className="card-icons3"/>
+                  <h4>Brand Identity Redefined</h4>
+                  <p>
+                  We believe that a logo goes beyond just a graphic; it represents your brand's identity. 
+                  Our expert logo designers take the time to understand your 
+                  brand's values, personality, and target audience to create a logo that encapsulates the essence of your business.
+</p>     
+           </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                <LiaUserCogSolid className="card-icons3"/>
 
-<section>
-        <div className="container">
-          <div className="title-blog">
-            <h2>The Highest Quality Logo</h2>
-            {/* <a href="#">Blog Slider</a> */}
+                  <h4>Attention to Detail</h4>
+                  <p>
+                  Every element of your logo is meticulously crafted, from color choices to typography. We highlight the finest details to create a logo that exudes professionalism and craftsmanship.</p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                <LiaUserGraduateSolid className="card-icons3"/>
+                  <h4>Creativity & Innovation</h4>
+                  <p>
+                  Creativity and innovation drive our logo design process. We strive to design logos that stand out from the crowd, leaving a unique and impactful mark on your customers' minds.
+</p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                <AiOutlineSolution className="card-icons3"/>
+
+                  <h4>Timeless Designs</h4>
+                  <p>
+                  Trends come and go, but a timeless logo remains relevant for years. We create logos with enduring appeal, ensuring your brand image remains fresh and contemporary even as time passes.</p></div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                <MdImportantDevices className="card-icons3"/>
+
+                  <h4>Versatility & Scalability</h4>
+                  <p>
+                  Your logo needs to adapt to various applications, from business cards to billboards. Our logo designs are versatile and scalable, ensuring they look equally impressive in all sizes and formats. </p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text3">
+                <IoIosApps className="card-icons3"/>
+
+                  <h4>Client Collaboration</h4>
+                  <p>
+                  We believe in collaborative design processes. Our designers work closely with you, valuing your input and feedback to ensure your logo truly reflects your vision.</p> </div>
+              </div>
+            </div>
+           
           </div>
-          <Swiper {...blogswiper} className="swiper-container blogswiper">
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/logod1.jpg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                      {/* <a href="#">
-                        <i className="fa-regular fa-clock" />
-                        <span>August 10, 2023</span>
-                      </a> */}
-                      <a href="#">
-                        <h2>Unveiling Creativity with Utmost Precision</h2>
-                      </a>
-                      <p>
-                      In Australia, as logo designing is given utmost importance, 
-                      we at Web Universals are also of the same opinion, thus we 
-                      do stay extremely alert while designing logos keeping in 
-                      mind few points such as; proper and relevant text, sober
-                       color scheme, good quality and attractive logo designs,
-                        timely delivery, cost effectiveness, one point of contact
-                        , no surprises, no delay at work absolutely with hundred
-                         percent satisfaction guarantee.{" "}
-                      </p>
-                      {/* <span>by Jane Luna | Digital Strategy</span> */}
-                    </div>
-                  </div>
+        </section>
+        <section className="how-it-works gap ">
+        <div className="container">
+
+        <div className="heading design-enjoy">
+                <h2>Our Logo Design Process</h2>
+                <img alt="line" src="assets/img/headingline.png" />
+              </div>
+            
+        <img className="w-100" alt="line" src="assets/img/line.jpg" />
+
+        
+          <div className="row pt-4">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O1/</h2>
+                <div className="pl-80">
+                  <h4>Discovery & Briefing</h4>
+                  <p>
+                  We begin by understanding your brand's story, values, and goals. Our team collaborates with you to gather essential insights that guide the design process.</p>
                 </div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/logod2.jpg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                      {/* <a href="#">
-                        <i className="fa-regular fa-clock" />
-                        <span>August 10, 2023</span>
-                      </a> */}
-                      <a href="#">
-                        <h2>Web Universals logo designers Australia</h2>
-                      </a>
-                      <p>
-                      Our Web Universals logo designers Australia always provide some good quality graphic 
-                      representations so that the desired logo theme by a particular client gets its meaning 
-                      and relevancy in the eyes of the potential viewers and consume
-                      rs. We listen to our clients’ need and the actual brief quite carefully so that 
-                      we are able to deliver the exact logo as desired by the client.{" "}
-                      </p>
-                      {/* <span>by Jane Luna | Digital Strategy</span> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/logod3.jpg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                      {/* <a href="#">
-                        <i className="fa-regular fa-clock" />
-                        <span>August 10, 2023</span>
-                      </a> */}
-                      <a href="#">
-                        <h2>Elevating Success with Web Universals.</h2>
-                      </a>
-                      <p>
-                      Our precision and sincerity at work is something which has paved the way towards 
-                      success for us in each and every step.Web Universals creates no mystery or any such pace for surprise
-                       which would make their clients perplexed;instead we always maintain clarity in our work assuring utmost
-                        convenience and ease for our valuable customers in Australia.{" "}
-                      </p>
-                      {/* <span>by Jane Luna | Digital Strategy</span> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
             </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O2/</h2>
+                <div className="pl-80">
+                  <h4>Conceptualization</h4>
+                  <p>
+                  Armed with your brand insights, we start exploring creative concepts. Our designers tirelessly explore a multitude of ideas to create a diverse range of logo options exclusively for you.</p>
+                </div>
+              </div>
             </div>
-          </Swiper>
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O3/</h2>
+                <div className="pl-80">
+                  <h4>Design Development</h4>
+                  <p>
+                  We refine the chosen concept by creating a visually striking and meaningful logo. Every element is thoughtfully curated to ensure coherence and harmony in the design..</p>                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O4/</h2>
+                <div className="pl-80">
+                  <h4>Feedback & Revisions</h4>
+                  <p>
+                  Your feedback is crucial to the design process. We take your input seriously and make necessary revisions to perfect the logo until it aligns with your vision.</p>                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O5/</h2>
+                <div className="pl-80">
+                  <h4>Finalization & Delivery</h4>
+                  <p>
+                  Once completely satisfied with the design, we finalize the logo and deliver it to you in various formats for seamless integration across all your brand assets.</p>                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
+
+
         <div className="container">
         <div className="awesome-project">
-          <h4>Call us at present and talk directly to our web designer, to get a free quote</h4>
+          <h4>Your Gateway to Captivating Logo Design!</h4>
           <a href="tel:08 8121 7826" className="themebtu full">
-          Contact Us
+          Contact Us Now
           </a>
         </div>
       </div>

@@ -11,7 +11,7 @@ import { IoIosApps } from 'react-icons/io';
 // import { IoIosApps } from 'react-icons/io6';
 // import { IoIosApps } from 'react-icons/io6';
 
-const MobileAppDevelopment = () => {
+const FacebookAds = () => {
   return (
     <Layout noHeaderBg pageName={"About"}>
       <div>
@@ -22,7 +22,7 @@ const MobileAppDevelopment = () => {
           <div className="container">
             <div className="splash-area">
             <h2>
-            Mobile<br/> App Development
+            Facebook Ads 
             </h2>
             <a href="#"></a>
             </div>
@@ -45,14 +45,16 @@ const MobileAppDevelopment = () => {
             </div>
             <div className="col-xl-6 pl-75">
               <div className="heading design-enjoy">
-                <h6>Mobile Application Development</h6>
-                <h2>Pioneering the Future of Mobile Solutions</h2>
+                <h6>Facebook Ads &amp; Lead Generation</h6>
+                <h2>Unlock the Power of Social Media Marketing</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                We are at the forefront of mobile application development at Web Universals, creating innovative and user-centric apps that redefine the mobile experience. With the growing dependency on mobile devices, a well-crafted
-                 mobile app can be a game-changer for your business, enabling you to reach and engage your audience on the go.
+                Are you looking to harness the potential of Facebook&#39;s vast user base to generate leads and grow your
+business? Look no further than Web Universals for expert Facebook Ads and lead generation services.<br/><br/>
+With our strategic approach and creative expertise, we&#39;ll help you connect with your target audience
+and convert them into valuable leads.
                 </h6>
 {/*                 
                 <h5>User Experience</h5>
@@ -76,68 +78,75 @@ const MobileAppDevelopment = () => {
           style={{ backgroundColor: "#f2edf5" }}
         >
           <div className="container">
-            <div className="heading two pb-5">
-              <h2>Why Choose Our Mobile App Development Services</h2>
-           
+            <div className="heading two">
+              <h2>Why Choose Our Facebook Ads &amp; Lead Generation Services</h2>
+              <img alt="line" src="assets/img/headingline.png" />
             </div>
             <div className="row">
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                  <RiLightbulbFlashLine className="card-icons3"/>
-                  <h4>Innovation Redefined</h4>
+                  <h4>Strategic Targeting</h4>
                   <p>
-                  Our mobile app developers are visionaries who thrive on creativity and innovation. We transform life into your app ideas into functional and captivating realities.
-                  </p>
-                </div>
+                  Our Facebook Ads specialists meticulously analyze your target audience,
+allowing us to craft highly targeted campaigns that effectively reach the right people. By
+narrowing down demographics, interests, and behaviors, we ensure your ads appear before
+those most likely to engage with your business.
+</p>     
+           </div>
               </div>
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                 <LiaUserCogSolid className="card-icons3"/>
 
-                  <h4>User-Centric Approach</h4>
+                  <h4>Compelling Ad Creatives</h4>
                   <p>
-                  We prioritize the user experience above all else. Our Mobile Application Development process involves understanding your target audience's needs and preferences, ensuring your app delivers a seamless and delightful experience.
-                  </p>
+                   Visual storytelling is at the heart of successful Facebook Ads. Our team
+of creative designers crafts eye-catching ad creatives that convey your brand message and
+captivate the audience&#39;s attention.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                 <LiaUserGraduateSolid className="card-icons3"/>
-                  <h4>Platform Expertise</h4>
+                  <h4>Lead Generation Campaigns</h4>
                   <p>
-                  Whether you need an iOS or Android app, or even a cross-platform solution, our Mobile Application Development
-                  </p>
+                   We design lead generation campaigns that entice users to take
+action. With enticing offers, captivating visuals, and strategically placed call-to-action buttons,
+we make lead capture seamless and rewarding.
+</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                 <AiOutlineSolution className="card-icons3"/>
 
-                  <h4>Custom Solutions</h4>
+                  <h4>Landing Page Optimization</h4>
                   <p>
-                  We believe in tailored solutions that align perfectly with your business objectives. Our mobile app developers craft custom apps that revise your specific requirements and reflect your brand identity.
-                  </p>
-                </div>
+                  To maximize lead generation, we optimize your landing pages for
+conversions. Our experts ensure a smooth and intuitive user experience that encourages visitors
+to fill out lead forms.</p></div>
               </div>
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                 <MdImportantDevices className="card-icons3"/>
 
-                  <h4>UX &amp; UI Design &amp; Analysis</h4>
+                  <h4>Constant Monitoring &amp; Optimization</h4>
                   <p>
-                  The team has the expertise to create apps that perform flawlessly on any device.
-                  </p>
+                  We continuously monitor the performance of your
+Facebook Ads and lead generation campaigns. Analyzing data and tracking results, we make
+data-driven adjustments to improve your campaign&#39;s effectiveness. </p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text3">
+                <div className="makes-us-different-text4">
                 <IoIosApps className="card-icons3"/>
 
-                  <h4>Scalable & Future-Ready</h4>
+                  <h4>Remarketing Strategies</h4>
                   <p>
-                  We design mobile apps with scalability in mind, allowing your app to grow and evolve as your business expands. Our future-ready solutions ensure your app remains relevant and functional for years.
-                  </p>
-                </div>
+ We implement remarketing strategies to re-engage users who have
+previously shown interest in your business. This approach keeps your brand top-of-mind and
+boosts conversions.</p> </div>
               </div>
             </div>
            
@@ -145,26 +154,24 @@ const MobileAppDevelopment = () => {
         </section>
 
         <section
-        className="discovery gap no-bottom"
+        className="discovery pb-5"
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-xl-6">
               <div className="heading">
-                <h6>Mobile App Development</h6>
-                <h2>Our Mobile App Development Process</h2>
+                <h6>Experience the Power of  </h6>
+                <h2>Facebook Ads &amp; Lead Generation</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               
               <div className="content-para pt-2 pb-2">
-                <h5>Discovery & Planning</h5>
-                <p>We start by understanding your app idea, target audience, and business goals. Our team does competitor analysis & conducts in-depth market research to create a comprehensive development plan.</p>
+                <h5>With its vast user base of billions, Facebook presents an unparalleled opportunity for lead generation.
+Maximize the effectiveness of your marketing campaign with our powerful Facebook Ads and lead
+generation services. </h5>
+                
               </div>
 
-              <div className="content-para pt-2 pb-2">
-                <h5>Launch & Deployment</h5>
-                <p>We guide you through the app submission process and ensure your app meets all the requirements for a successful launch on app stores.</p>
-              </div>
 
               </div>
             </div>
@@ -178,13 +185,13 @@ const MobileAppDevelopment = () => {
                   />
                 </figure>
                 <div className="discovery-text">
-                <a href="#">
+                {/* <a href="#">
                     <h4>Transforming Ideas into Reality </h4>
-                  </a>
+                  </a> */}
                
                   <p>
-                  Whether you're an ambitious startup or an established enterprise, our mobile application development services have the power to transform your ideas into reality. From productivity apps to e-commerce solutions, we craft mobile experiences 
-                  that leave a lasting impression on users and drive your business forward.
+                  Tap into the platform&#39;s vast potential to connect your business with an enthusiastic
+and receptive audience, yielding significant and impactful outcomes.
                   </p>
                 </div>
               </div>
@@ -209,37 +216,75 @@ const MobileAppDevelopment = () => {
 
       <section className="how-it-works gap ">
         <div className="container">
+
+        <div className="heading design-enjoy">
+                <h6>Our Facebook Ads &amp; </h6>
+                <h2>Lead Generation Process</h2>
+                <img alt="line" src="assets/img/headingline.png" />
+              </div>
+            
         <img className="w-100" alt="line" src="assets/img/line.jpg" />
+
+        
           <div className="row pt-4">
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O1/</h2>
                 <div className="pl-80">
-                  <h4>Design & Prototyping</h4>
+                  <h4>Understanding Your Audience</h4>
                   <p>
-                  Our UI/UX designers create visually stunning and intuitive app designs. We develop interactive prototypes to give you a feel of the app's flow and gather valuable feedback before the development phase. </p>
+                  We start by understanding your target audience, their
+preferences, and their pain points. This knowledge informs the development of highly targeted
+ad campaigns.</p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O2/</h2>
                 <div className="pl-80">
-                  <h4>Development & Testing</h4>
+                  <h4>Ad Creation &amp; Copywriting</h4>
                   <p>
-                  Our experienced mobile app developers bring the designs to life with clean and efficient code. Rigorous testing ensures your app functions flawlessly across various devices and operating systems. </p>
+                  Our creative team designs visually compelling ad creatives with
+persuasive copy that resonates with your audience and compels them to take action.</p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O3/</h2>
                 <div className="pl-80">
-                  <h4>Post-Launch Support</h4>
+                  <h4>Lead Form Setup</h4>
                   <p>
-                  Our commitment doesn't end with the app launch. We provide ongoing support, updates, and maintenance to keep your app running smoothly and securely.</p>                </div>
+                 We create lead forms that capture essential customer information. Our
+arrangements are designed to be user-friendly, resulting in more quality leads.</p>                </div>
               </div>
             </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O4/</h2>
+                <div className="pl-80">
+                  <h4>Budget Management &amp; Optimization</h4>
+                  <p>
+               We manage your ad budget efficiently to maximize your
+investment. Our continuous optimization ensures you get the best possible results from your ad
+spend.</p>                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O5/</h2>
+                <div className="pl-80">
+                  <h4>Tracking &amp; Reporting</h4>
+                  <p>
+               We provide detailed reports on the performance of your Facebook Ads
+and lead generation campaigns. This data-driven approach allows us to refine your strategy for
+optimal results.</p>                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -248,7 +293,8 @@ const MobileAppDevelopment = () => {
 
       <div className="container">
         <div className="awesome-project">
-          <h4>Your Gateway to Pioneering Mobile App Development!</h4>
+          <h4>Your Gateway to Facebook Ads &amp; Lead Generation
+Excellence!</h4>
           <a href="contacts.html" className="themebtu full">
    Contact Us Now
           </a>
@@ -260,4 +306,4 @@ const MobileAppDevelopment = () => {
     </Layout>
   );
 };
-export default MobileAppDevelopment;
+export default FacebookAds;

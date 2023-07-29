@@ -154,7 +154,7 @@ extremely efficient in providing such effective services with precision just in 
           <div className="container">
             <div className="heading two">
               <h2>Why Choose Web Universals for E-commerce Website Design</h2>
-              <img alt="line" src="assets/img/headingline.png" />
+              {/* <img alt="line" src="assets/img/headingline.png" /> */}
             </div>
             <div className="row">
               <div className="col-xl-4 col-lg-6">

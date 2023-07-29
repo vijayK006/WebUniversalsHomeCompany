@@ -4,14 +4,14 @@ import { studiesswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { RiLightbulbFlashLine } from 'react-icons/ri';
-import { LiaUserCogSolid, LiaUserGraduateSolid } from 'react-icons/lia';
+import {  LuFileVideo2 } from 'react-icons/lu';
 import { AiOutlineSolution } from 'react-icons/ai';
 import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
-// import { IoIosApps } from 'react-icons/io6';
+import { BsPersonVideo2 } from 'react-icons/bs';
 // import { IoIosApps } from 'react-icons/io6';
 
-const MobileAppDevelopment = () => {
+const GoogleAds = () => {
   return (
     <Layout noHeaderBg pageName={"About"}>
       <div>
@@ -22,7 +22,7 @@ const MobileAppDevelopment = () => {
           <div className="container">
             <div className="splash-area">
             <h2>
-            Mobile<br/> App Development
+            Google Ads 
             </h2>
             <a href="#"></a>
             </div>
@@ -45,14 +45,15 @@ const MobileAppDevelopment = () => {
             </div>
             <div className="col-xl-6 pl-75">
               <div className="heading design-enjoy">
-                <h6>Mobile Application Development</h6>
-                <h2>Pioneering the Future of Mobile Solutions</h2>
+                <h6>Google Ads & PPC Management</h6>
+                <h2>Propel Your Business to New Heights with Targeted Advertising</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                We are at the forefront of mobile application development at Web Universals, creating innovative and user-centric apps that redefine the mobile experience. With the growing dependency on mobile devices, a well-crafted
-                 mobile app can be a game-changer for your business, enabling you to reach and engage your audience on the go.
+                Are you ready to take your online advertising efforts to the next level? Look no further than Web Universals for expert 
+                Google Ads and PPC management services. With our result-driven approach, 
+                we'll help you maximize your return on investment (ROI) and reach your target audience with precision.
                 </h6>
 {/*                 
                 <h5>User Experience</h5>
@@ -73,39 +74,37 @@ const MobileAppDevelopment = () => {
 
       <section
           className="we-deliver-results gap"
-          style={{ backgroundColor: "#f2edf5" }}
+          style={{ backgroundColor: "#f2edf5", paddingTop:"50px"}}
         >
           <div className="container">
-            <div className="heading two pb-5">
-              <h2>Why Choose Our Mobile App Development Services</h2>
-           
+            <div className="heading two">
+              <h2>Why Choose Our Google Ads & PPC Management Services</h2>
+              <img alt="line" src="assets/img/headingline.png" />
             </div>
             <div className="row">
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
                  <RiLightbulbFlashLine className="card-icons3"/>
-                  <h4>Innovation Redefined</h4>
+                  <h4>Strategic Campaign Planning</h4>
                   <p>
-                  Our mobile app developers are visionaries who thrive on creativity and innovation. We transform life into your app ideas into functional and captivating realities.
-                  </p>
+    and target audience. We create customized PPC campaigns tailored to your unique needs, ensuring that every dollar spent drives tangible results. </p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <LiaUserCogSolid className="card-icons3"/>
+                <BsPersonVideo2 className="card-icons3"/>
 
-                  <h4>User-Centric Approach</h4>
+                  <h4>Targeted & Relevant Ads</h4>
                   <p>
-                  We prioritize the user experience above all else. Our Mobile Application Development process involves understanding your target audience's needs and preferences, ensuring your app delivers a seamless and delightful experience.
-                  </p>
+                  By leveraging advanced targeting options and keyword research, we ensure your ads reach the right audience at the right time. Our strategic approach maximizes conversions and minimizes wasted ad spend. </p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <LiaUserGraduateSolid className="card-icons3"/>
-                  <h4>Platform Expertise</h4>
+                <LuFileVideo2 className="card-icons3"/>
+                  <h4>Ad Copy Optimization</h4>
                   <p>
-                  Whether you need an iOS or Android app, or even a cross-platform solution, our Mobile Application Development
+                  Captivating ad copies are crucial for PPC success. Our team of skilled copywriters crafts compelling and persuasive ad texts that entice potential customers to take action.
                   </p>
                 </div>
               </div>
@@ -113,19 +112,18 @@ const MobileAppDevelopment = () => {
                 <div className="makes-us-different-text3">
                 <AiOutlineSolution className="card-icons3"/>
 
-                  <h4>Custom Solutions</h4>
+                  <h4>Landing Page Optimization</h4>
                   <p>
-                  We believe in tailored solutions that align perfectly with your business objectives. Our mobile app developers craft custom apps that revise your specific requirements and reflect your brand identity.
-                  </p>
+                  Driving traffic to your website is just the beginning. We focus on optimizing your landing pages to create a seamless and engaging user experience, leading to higher conversion rates.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
                 <MdImportantDevices className="card-icons3"/>
 
-                  <h4>UX &amp; UI Design &amp; Analysis</h4>
+                  <h4>Constant Monitoring & Optimization</h4>
                   <p>
-                  The team has the expertise to create apps that perform flawlessly on any device.
+                  We continuously monitor the performance of your Google Ads and PPC campaigns. By analyzing data and identifying opportunities, we make real-time adjustments to ensure your ads deliver the best results.
                   </p>
                 </div>
               </div>
@@ -133,10 +131,9 @@ const MobileAppDevelopment = () => {
                 <div className="makes-us-different-text3">
                 <IoIosApps className="card-icons3"/>
 
-                  <h4>Scalable & Future-Ready</h4>
+                  <h4>Transparency & Reporting</h4>
                   <p>
-                  We design mobile apps with scalability in mind, allowing your app to grow and evolve as your business expands. Our future-ready solutions ensure your app remains relevant and functional for years.
-                  </p>
+                  Our commitment to transparency means you'll receive regular performance reports. We keep you informed about the progress of your campaigns, providing insights to help you make informed decisions.</p>
                 </div>
               </div>
             </div>
@@ -145,26 +142,22 @@ const MobileAppDevelopment = () => {
         </section>
 
         <section
-        className="discovery gap no-bottom"
+        className="discovery pb-5"
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-xl-6">
               <div className="heading">
-                <h6>Mobile App Development</h6>
-                <h2>Our Mobile App Development Process</h2>
+                <h6>Unleash the Power of </h6>
+                <h2>Google Ads & PPC</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               
               <div className="content-para pt-2 pb-2">
-                <h5>Discovery & Planning</h5>
-                <p>We start by understanding your app idea, target audience, and business goals. Our team does competitor analysis & conducts in-depth market research to create a comprehensive development plan.</p>
+                <h5>Google Ads and PPC management are essential tools for businesses aiming to broaden their online presence and accelerate growth. </h5>
+                
               </div>
 
-              <div className="content-para pt-2 pb-2">
-                <h5>Launch & Deployment</h5>
-                <p>We guide you through the app submission process and ensure your app meets all the requirements for a successful launch on app stores.</p>
-              </div>
 
               </div>
             </div>
@@ -178,13 +171,12 @@ const MobileAppDevelopment = () => {
                   />
                 </figure>
                 <div className="discovery-text">
-                <a href="#">
+                {/* <a href="#">
                     <h4>Transforming Ideas into Reality </h4>
-                  </a>
+                  </a> */}
                
                   <p>
-                  Whether you're an ambitious startup or an established enterprise, our mobile application development services have the power to transform your ideas into reality. From productivity apps to e-commerce solutions, we craft mobile experiences 
-                  that leave a lasting impression on users and drive your business forward.
+                  With Web Universals as your partner, you can rest assured that your ad campaigns are in expert hands, delivering unparalleled results.
                   </p>
                 </div>
               </div>
@@ -209,37 +201,67 @@ const MobileAppDevelopment = () => {
 
       <section className="how-it-works gap ">
         <div className="container">
+
+        <div className="heading design-enjoy">
+                <h6>Our Google Ads &</h6>
+                <h2> PPC Management Process</h2>
+                <img alt="line" src="assets/img/headingline.png" />
+              </div>
+            
         <img className="w-100" alt="line" src="assets/img/line.jpg" />
+
+        
           <div className="row pt-4">
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O1/</h2>
                 <div className="pl-80">
-                  <h4>Design & Prototyping</h4>
+                  <h4>Keyword Research & Targeting</h4>
                   <p>
-                  Our UI/UX designers create visually stunning and intuitive app designs. We develop interactive prototypes to give you a feel of the app's flow and gather valuable feedback before the development phase. </p>
+                  We conduct in-depth keyword research to identify your business's most relevant and high-converting keywords. This lays the foundation for successful ad targeting. </p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O2/</h2>
                 <div className="pl-80">
-                  <h4>Development & Testing</h4>
+                  <h4>Campaign Setup & Ad Creation</h4>
                   <p>
-                  Our experienced mobile app developers bring the designs to life with clean and efficient code. Rigorous testing ensures your app functions flawlessly across various devices and operating systems. </p>
+                  Our experts set up your Google Ads account and create captivating ad copies that align with your brand and drive clicks and conversions. </p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6">
+            <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O3/</h2>
                 <div className="pl-80">
-                  <h4>Post-Launch Support</h4>
+                  <h4>Bid Management & Budget Allocation</h4>
                   <p>
-                  Our commitment doesn't end with the app launch. We provide ongoing support, updates, and maintenance to keep your app running smoothly and securely.</p>                </div>
+                  We meticulously manage your bids and allocate your budget effectively to maximize the return on your ad spend.</p>                </div>
               </div>
             </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O4/</h2>
+                <div className="pl-80">
+                  <h4>A/B Testing & Optimization</h4>
+                  <p>
+                  To ensure optimal performance, we conduct A/B testing on various ad elements, such as headlines, images, and calls to action. This data-driven approach empowers us to optimize your ads precisely for maximum impact.</p>                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 col-lg-6 pt-4 pb-4">
+              <div className="strategic">
+                <h2>O5/</h2>
+                <div className="pl-80">
+                  <h4>Conversion Tracking & Analysis</h4>
+                  <p>
+                  We implement conversion tracking to measure your campaigns' success accurately. Our data analysis helps us identify opportunities for improvement and fine-tune your PPC strategy..</p>                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -248,7 +270,8 @@ const MobileAppDevelopment = () => {
 
       <div className="container">
         <div className="awesome-project">
-          <h4>Your Gateway to Pioneering Mobile App Development!</h4>
+          <h4>Your Gateway to Google Ads &amp; PPC Management
+Excellence!</h4>
           <a href="contacts.html" className="themebtu full">
    Contact Us Now
           </a>
@@ -260,4 +283,4 @@ const MobileAppDevelopment = () => {
     </Layout>
   );
 };
-export default MobileAppDevelopment;
+export default GoogleAds;

@@ -135,7 +135,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
                 <ul className="sub-menu">
                   <li>
-                    <Link legacyBehavior href="">
+                    <Link legacyBehavior href="BrochureDesign">
               Brochure Design
                     </Link>
                   </li>
@@ -268,7 +268,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
      <div className="col-lg-3">   
      <div className="mega-menu-card">
-<Link legacyBehavior href="">
+<Link legacyBehavior href="GoogleAds">
                <p className="mega-menu-items-list"><IoLogoGooglePlaystore className="mega_menu-icons"/>  Google Ads</p> 
                     </Link>
      </div>            
@@ -277,7 +277,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
      <div className="col-lg-3"> 
      <div className="mega-menu-card">
-  <Link legacyBehavior href="">
+  <Link legacyBehavior href="FacebookAds">
                <p className="mega-menu-items-list"><FiFacebook className="mega_menu-icons"/> Facebook Ads</p>  
                     </Link>
      </div>              

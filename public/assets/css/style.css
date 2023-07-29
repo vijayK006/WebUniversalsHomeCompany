@@ -131,7 +131,7 @@ h6{
     color: #222;
 }
 img{object-fit: cover;}
-.gap {padding: 120px 0;}
+.gap {padding: 70px 0;}
 .no-top{padding-top: 0;}
 .no-bottom{padding-bottom: 0;}
 ul{padding: 0;margin: 0;}
@@ -2898,6 +2898,10 @@ font-weight: 500;
  
 }
 
+.makes-us-different-text4 .card-icons3 {
+    width: 70px;
+    height: auto;
+}
 
 @media only screen and (max-width: 600px) {
     .logo-adjust{
@@ -2906,11 +2910,21 @@ font-weight: 500;
 
     }
 
+
+
     .content-para{
         width: 100%;
         }
 
     .makes-us-different-text3{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        margin: 10px 0px;
+    }
+
+    .makes-us-different-text4{
         background-color: white;
         padding: 20px;
         text-align: center;
@@ -2986,6 +3000,25 @@ font-weight: 500;
     width: 100%;
     }
 
+
+    .content-manage{
+        height: 200px;
+        margin: 10px 0;
+    
+    } 
+    .content-manage2{
+        height: 450px;
+        color: white;
+    }
+    
+.makes-us-different-text4{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+    margin: 10px 0px;
+}
+
   .makes-us-different-text3{
     background-color: white;
     padding: 20px;
@@ -3039,6 +3072,11 @@ width: auto;
 width: 80%;
 }
 
+.content-manage{
+height: 250px;
+
+}
+
 .makes-us-different-text3{
     background-color: white;
     padding: 20px;
@@ -3046,6 +3084,15 @@ width: 80%;
     height: 340px;
     margin: 10px 0px;
 }
+
+.makes-us-different-text4{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    margin: 10px 0px;
+}
+
 .auto-adj-img{
     width: 200px;
     height: auto;
@@ -3097,6 +3144,19 @@ border-radius: 10px;
     width: auto;
     }
 
+
+    
+    .content-manage{
+        height: 260px;
+        margin: 10px 0;
+    
+    }
+
+    .content-manage2{
+        height: 500px;
+        color: white;
+    }
+
     .content-para{
         width: 80%;
         }
@@ -3115,6 +3175,14 @@ border-radius: 10px;
         padding: 20px;
         text-align: center;
         height: 300px;
+        margin: 10px 0px;
+    }
+
+    .makes-us-different-text4{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        height: 330px;
         margin: 10px 0px;
     }
 
@@ -3264,3 +3332,27 @@ transition: all 0.3s ease-in-out;
     bottom: 10px;
 
 }
+
+.makes-us-different-text4{
+border-radius: 10px;
+}
+
+.makes-us-different-text3{
+    border-radius: 10px;
+    }
+
+    .makes-us-different-text2{
+        border-radius: 10px;
+        }
+
+        .makes-us-different-text1{
+            border-radius: 10px;
+            }
+
+            
+        .makes-us-different-text{
+            border-radius: 10px;
+            }
+
+
+         

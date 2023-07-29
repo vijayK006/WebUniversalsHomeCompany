@@ -49,9 +49,8 @@ const Contacts = () => {
                 <li>
                   <h4>Address : </h4>
                   <span>
-                  Ground floor, 8 Gowri Nivas, 13th Cross Rd,
-                    <br />
-                    1st K Block, Rajajinagar, Bengaluru, Karnataka 560010
+                 South Australia
+      
                   </span>
                 </li>
                 <li>
