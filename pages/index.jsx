@@ -599,9 +599,13 @@ Completed
 
       <section className="blog-posts gap no-top pt-5">
         <div className="container">
-          <div className="heading-boder two">
+
+        <div className="heading pt-5 pb-5">
+            <h6>What our client say?</h6>
             <h2>Our Testimonials</h2>
+            <img alt="line" src="assets/img/headingline.png" />
           </div>
+
           <Swiper {...partnerswiper} className="swiper-container partnerswiper">
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
@@ -620,7 +624,7 @@ Completed
 allowed me to get a professional website for my business without breaking the bank. The quality of their
 work is outstanding, and I couldn&#39;t be happier with the value I received.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>John Kaley</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">John Kaley</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
@@ -631,7 +635,7 @@ work is outstanding, and I couldn&#39;t be happier with the value I received.
 our website within the agreed-upon timeframe, but their customer support throughout the process was
 impeccable. They were always available to address our queries promptly.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Maree Moore</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Maree Moore</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
@@ -643,7 +647,7 @@ impeccable. They were always available to address our queries promptly.
 gladly accommodated our requests without any additional charges or hourly fees. Their willingness to
 make revisions until we were delighted was impressive.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Steve Schoclan</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Steve Schoclan</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
@@ -655,7 +659,7 @@ make revisions until we were delighted was impressive.
 Universals, that was never an issue. They provided a fixed price for the entire project, and their pricing
 was honest and transparent from start to finish.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Charles Cheel</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Charles Cheel</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
@@ -667,7 +671,7 @@ was honest and transparent from start to finish.
 questions and provide updates. The response time was remarkable, and they ensured our project
 moved forward seamlessly.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>John O&#39;Keefe</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">John O&#39;Keefe</span>
                 </div>
               </SwiperSlide>
 
@@ -680,7 +684,7 @@ moved forward seamlessly.
 creativity truly shines through in the final product. He has an eye for design, and it&#39;s evident in the way
 our website turned out.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Darren Portia</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Darren Portia</span>
                 </div>
               </SwiperSlide>
 
@@ -693,7 +697,7 @@ our website turned out.
 and translated our vision into a functional and visually appealing website. We couldn&#39;t be happier with
 the result!
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Sunny Ping Wang</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Sunny Ping Wang</span>
                 </div>
               </SwiperSlide>
 
@@ -706,7 +710,7 @@ the result!
 points we requested, and the best part was that there were no surprise charges. Web Universals truly
 goes the extra mile to ensure their clients&#39; satisfaction.
                   </p>
-                  <span style={{fontWeight:"500", marginTop:"10px"}}>Gary Metcalf</span>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Gary Metcalf</span>
                 </div>
               </SwiperSlide>
 
@@ -723,7 +727,7 @@ goes the extra mile to ensure their clients&#39; satisfaction.
               <div className="heading">
                 <h6>Contact Us Today</h6>
                 <img alt="line" src="assets/img/headingline.png" />
-                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/>
+                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/> <br/>
                 Experience the magic of Web Universals - Your Trusted Web Design Partner in Australia!
                 </p>
 

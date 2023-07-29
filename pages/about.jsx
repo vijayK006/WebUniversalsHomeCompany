@@ -71,133 +71,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
-        <div className="container pb-lg-5 pb-2">
-        <div className="heading pb-lg-4 pb-2">
-              
-                  <img alt="dots" className="dots" src="assets/img/dots.png" />
-                </div>
-       
-          <Swiper {...blogswiper} className="swiper-container blogswiper">
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-3.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                    
-                        <h2>Who We Are</h2>
-                        <p>
-                         Web Universals is a passionate team of creative minds, tech enthusiasts, and digital 
-                         strategists based in Who We Are Australia. Since our inception in 2010, we have been 
-                         on a relentless pursuit of excellence, crafting exceptional web solutions that blend 
-                         artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array 
-                         of industries, and our success stories speak volumes about the transformative power of 
-                         our services. 
-                         </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-4.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                  
-                <h2>Our Philosophy</h2>
-                <p>
-                  At the heart of our philosophy lies the belief that every business is unique and
-                   deserves a distinct online presence. We approach each project with a personalized touch, 
-                   investing time in understanding our client's goals, target audience, and brand identity. 
-                   This approach enables us to create tailor-made solutions that resonate with their vision
-                    and foster lasting connections with their customers.
-                </p>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-4.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                  
-                 <h2>Our Team</h2>
-               <p>Our team is our biggest asset. Comprising talented individuals from diverse
-                 backgrounds, we bring together a wealth of knowledge and expertise to every
-                  project. Collaboration is at the core of our work culture, fostering an environment 
-                  where creativity flourishes and ideas are nurtured.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-        
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-          </Swiper>
-        </div>
-      </section> */}
+      
  <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
         <div className="heading pb-lg-4 pb-2">
@@ -640,11 +514,135 @@ const About = () => {
         </div>
       </section>
        
+
+      <section className="blog-posts gap no-top ">
+        <div className="container">
+
+        <div className="heading  pb-5">
+            <h6>What our client say?</h6>
+            <h2>Our Testimonials</h2>
+            <img alt="line" src="assets/img/headingline.png" />
+          </div>
+
+          <Swiper {...partnerswiper} className="swiper-container partnerswiper">
+            <div className="swiper-wrapper">
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+                    {/* <a href="#">
+                      <i className="fa-regular fa-clock" />
+                      <span>August 10, 2023</span>
+                    </a> */}
+                  {/* <h4>
+                    <a href="blog-single-post.html">
+                      Suspendisse mauris. Fusce accumsan mollis eros.
+                    </a>
+                  </h4> */}
+                  <p>
+                  I am thrilled with the website design services offered by Web Universals! Their affordable packages
+allowed me to get a professional website for my business without breaking the bank. The quality of their
+work is outstanding, and I couldn&#39;t be happier with the value I received.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">John Kaley</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+            
+                  <p>
+                  Web Universals truly stands out in their commitment to delivering on time. Not only did they complete
+our website within the agreed-upon timeframe, but their customer support throughout the process was
+impeccable. They were always available to address our queries promptly.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Maree Moore</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+              
+               
+                  <p>
+                  Working with Web Universals was a breeze! We needed some changes to our website design, and they
+gladly accommodated our requests without any additional charges or hourly fees. Their willingness to
+make revisions until we were delighted was impressive.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Steve Schoclan</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+              
+                
+                  <p>
+                  I had my reservations about hidden costs and surprises during website development, but with Web
+Universals, that was never an issue. They provided a fixed price for the entire project, and their pricing
+was honest and transparent from start to finish.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Charles Cheel</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+                
+            
+                  <p>
+                  Web Universals made us feel like a priority from day one. Their team was always available to answer our
+questions and provide updates. The response time was remarkable, and they ensured our project
+moved forward seamlessly.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">John O&#39;Keefe</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  I am delighted with the website designed by Bronson from Web Universals. His attention to detail and
+creativity truly shines through in the final product. He has an eye for design, and it&#39;s evident in the way
+our website turned out.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Darren Portia</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  Bronson&#39;s expertise was pivotal in getting our website to meet our specific requirements. He understood
+and translated our vision into a functional and visually appealing website. We couldn&#39;t be happier with
+the result!
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Sunny Ping Wang</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  Bronson&#39;s cooperation during the project was exceptional. He accommodated additional modules and
+points we requested, and the best part was that there were no surprise charges. Web Universals truly
+goes the extra mile to ensure their clients&#39; satisfaction.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}} className="testimonials-names">Gary Metcalf</span>
+                </div>
+              </SwiperSlide>
+
+            </div>
+            <div className="swiper-pagination" />
+          </Swiper>
+        </div>
+      </section>
+
       <div className="container">
         <div className="awesome-project">
-          <h4>Let's Start An Awesome Project Now!</h4>
+          <h4>Your Gateway to Online Success!</h4>
           <a href="contacts.html" className="themebtu full">
-            Get Started
+   Contact Us Now
           </a>
         </div>
       </div>

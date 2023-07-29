@@ -1125,6 +1125,8 @@ form.touch .btugap {
 .strategic-sercives{
     display: flex;
 }
+
+
 .strategic-sercives h4{
     font-weight: 600;
 }
@@ -2904,6 +2906,18 @@ font-weight: 500;
 
     }
 
+    .content-para{
+        width: 100%;
+        }
+
+    .makes-us-different-text3{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        margin: 10px 0px;
+    }
+
     .logo-resp2{
         height:45px;
     width: auto;
@@ -2926,6 +2940,11 @@ font-weight: 500;
     
     .makes-us-different-text2{
     
+    }
+
+    .strategic-sercives{
+        display: flex;
+        width: 100%;
     }
 
  
@@ -2951,10 +2970,30 @@ font-weight: 500;
     text-align: center;
 }
 
+
+
+.makes-us-different-text3 .card-icons3{
+    width: 70px;
+    height: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .adj-all_screen{
 
   }
+
+  .content-para{
+    width: 100%;
+    }
+
+  .makes-us-different-text3{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    height: 340px;
+    margin: 10px 0px;
+}
+
   .logo-resp2{
     height:70px;
 width: auto;
@@ -2971,7 +3010,13 @@ width: auto;
 .blog-posts-text2{
     padding: 40px;
     border: 1px solid #ebebeb;
-    height: 320px;
+    height: 360px;
+}
+
+
+.strategic-sercives{
+    display: flex;
+    width: 80%;
 }
 
 }
@@ -2983,6 +3028,27 @@ padding: 0px 40px;
 .logo-resp2{
     height:70px;
 width: auto;
+}
+
+.strategic-sercives{
+    display: flex;
+    width: 90%;
+}
+
+.content-para{
+width: 80%;
+}
+
+.makes-us-different-text3{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    height: 340px;
+    margin: 10px 0px;
+}
+.auto-adj-img{
+    width: 200px;
+    height: auto;
 }
 
 .logo-adjust{
@@ -3018,6 +3084,10 @@ width: auto;
 
 }
 
+
+.makes-us-different-text3{
+border-radius: 10px;
+}
 @media only screen and (min-width: 1400px) {
     .adj-all_screen{
     padding: 0px 40px;
@@ -3026,6 +3096,10 @@ width: auto;
         height:70px;
     width: auto;
     }
+
+    .content-para{
+        width: 80%;
+        }
     
     .logo-adjust{
         width: max-content;
@@ -3033,6 +3107,25 @@ width: auto;
     height:120px;
 
     
+    }
+
+
+    .makes-us-different-text3{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        height: 300px;
+        margin: 10px 0px;
+    }
+
+    .auto-adj-img{
+        width: 300px;
+        height: auto;
+    }
+
+    .strategic-sercives{
+        display: flex;
+        width: 90%;
     }
 
 .makes-us-different-text1{
@@ -3160,4 +3253,14 @@ transition: all 0.3s ease-in-out;
 .counter-logo{
     font-size: 60px;
   margin-right: 20px;
+}
+
+.blog-posts-text2{
+    position: relative;
+}
+
+.testimonials-names{
+    position: absolute;
+    bottom: 10px;
+
 }

@@ -1,7 +1,10 @@
 import TerioCounter from "@/src/components/TerioCounter";
 import Layout from "@/src/layout/Layout";
-import { studiesswiper } from "@/src/sliderProps";
+import { blogswiper } from "@/src/sliderProps";
+
 import { Swiper, SwiperSlide } from "swiper/react";
+
+
 const SearchEngineOptimization = () => {
   return (
     <Layout noHeaderBg pageName={"About"}>
@@ -21,35 +24,27 @@ const SearchEngineOptimization = () => {
         </section>
         <section className="things-differently gap">
           <div className="container">
-            <div className="row">
-              <div className="col-xl-5">
+            <div className="row align-items-center">
+              <div className="col-xl-6">
                 <div className="heading">
-                  <h6>The Best</h6>
+                  <h6>SEO Services</h6>
 
                   <h2>
-               Search Engine Optimization  <br/>Company
+                  Empowering<br/> Your Online Success
                   </h2>
                
                   <img alt="line" src="assets/img/headingline.png" />
                   <img alt="dots" className="dots" src="assets/img/dots.png" />
                 </div>
               </div>
-              <div className="col-xl-7">
+
+              <div className="col-xl-6">
                 <div className="signature">
                   <p>
-                  We are perhaps the best web design company Australia, if you are looking for some reliable and 
-                  knowledgeable Best SEO Company Sydney in and around Australia; Web Universals is the answer for 
-                  you. Since, digitalization in today’s world has become as important as it is run a successful venture, 
-                  maintain websites with proper SEO services getting done has also become one of the most vital points which 
-                  is needed to be included every time. A well framed Search Engine optimisation Australia service shall 
-                  surely enhance the appearance of your website by making it visible to others with a promising Google 
-                  rank required to take your company website at a leading position.<br />
-                    <br />
-                    It even generates web traffic more which is really very essential to ensure the best 
-                    functionality of your website. We got some really co operative clients who all have made 
-                    us what we are today. And the reason why clients deal with us is nothing but because of our 
-                    timely delivery of project with 100% satisfaction guarantee, cost effective solutions 
-                    for each and every issue, no surprises at all and one point of contact.
+                  At Web Universals, we offer top-notch SEO services delivered by seasoned experts. As a leading SEO agency, 
+                  we understand the critical role of search engine optimization in improving your website's online visibility 
+                  and driving organic traffic.<br/><br/> Whether you're a local business or an international enterprise, our result-oriented SEO services 
+                  are designed to rank your website higher on the search engine results page, attract more customers, and achieve sustainable growth.
                   </p>
                  
                 </div>
@@ -59,28 +54,33 @@ const SearchEngineOptimization = () => {
         </section>
       
         <section
-        className="discovery gap no-bottom"
+        className="discovery  pt-5 pb-5"
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
               <div className="heading">
-                <h6>Specialized team</h6>
-                <h2> SEO experts Sydney</h2>
-                <img alt="line" src="assets/img/headingline.png" />
-                <p>
-          
-Our specialized team of SEO experts Sydney at Web Universals Australia shall always make sure that their 
-clients are being attended and provided with relevant keywords, well framed content, URLs which are search 
-friendly, proper image descriptions, sitemaps and overall social media 
-exposure and distribution required for an overall active involvement and existence of your website.
-We are quite cautious while a SEO job is on, because we do understand the importance of a good 
-                  SEO work and what ill consequences it can bring forth if the particular task is being delivered 
-                  in a reluctant way paying no heed to the important areas of concern.
-                </p>
-
+   {/* <h6>Specialized team</h6> */}
+   {/* <h4>Our Result-Oriented Approach</h4> */}
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
               </div>
+
+              <div className="content-para pt-5 pb-5">
+              <h4>Our Result-Oriented Approach</h4>
+                <p>
+                At Web Universals, we are driven by results. Our SEO experts work meticulously to boost your website's search engine rankings and organic traffic. We ensure your website's long-term success by conducting thorough keyword research, optimizing on-page elements, building high-quality backlinks, and implementing effective SEO strategies.
+                </p>
+              </div>
+
+              <div className="content-para pt-5 pb-5">
+              <h4>Transparency & Progress Tracking</h4>
+                <p>
+                We believe in transparent communication with our clients. Throughout the SEO process, we keep you informed about the progress and results achieved. Our detailed reports provide insights into your website's performance, allowing you to see the tangible impact of our SEO efforts. </p>
+              </div>
+
+              
+              
             </div>
             <div className="col-xl-6">
               <div className="discovery-img hoverstyle">
@@ -122,12 +122,10 @@ We are quite cautious while a SEO job is on, because we do understand the import
                     </svg>
                   </i>
                   <a href="#">
-                    <h4> SEO Packages Australia</h4>
+                    <h4> Unlock Your Online Potential</h4>
                   </a>
                   <p>
-                  So, as we have been handling 
-                  several websites of various clients in Australia, we shall deal with your project with the same amount of sincerity
-                   and dedication so that you can get a well provides SEO packages Australia by our end.
+                  SEO is the key to unlocking your online potential in the ever-evolving digital landscape. With our SEO services, you can stay ahead of the competition, reach your target audience effectively, and witness your business grow exponentially.
                   </p>
                 </div>
               </div>
@@ -442,11 +440,202 @@ Online Public Relations
       </div>
     </section>
 
-    <div className="container">
+    <img className="w-100" alt="line" src="assets/img/line.jpg" />
+
+    <section className="pt-lg-5 pb-lg-4 pt-5 pb-4 ">
+        <div className="container  pb-2">
+        <div className="heading pb-5">
+                  <h6>Why Choose </h6>
+
+                  <h2>
+                  Our SEO Services
+                  </h2>
+               
+                  <img alt="line" src="assets/img/headingline.png" />
+                  
+                </div>
+       
+          <Swiper {...blogswiper} className="swiper-container blogswiper">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row ">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign3.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+                  
+                   
+                      <h3 className="pb-5">
+                      Expert SEO Company
+                      </h3>
+
+                      <p>With years of experience in the industry, we have earned the reputation of being a trusted SEO company. Our expert SEO team stays updated with the latest SEO trends and algorithms to deliver the best results for your business.</p>                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign1.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+                    
+                    <h3 className="pb-5">Customized Strategies</h3>
+                      <p>
+                      We understand that every business is unique. Our SEO services experts create tailored strategies that align with your specific goals and target audience, ensuring maximum impact.  </p>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign2.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+<h3 className="pb-5">Local SEO Services</h3>                    
+                      <p>
+                      For businesses targeting a local audience, our local SEO services optimize your online presence for local searches, making you more visible to potential customers in your area.  </p>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign2.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+<h3 className="pb-5">Best & Top SEO Company</h3>                    
+                      <p>
+                      As a top SEO company, we take immense pride in our dedication to excellence. Our best-in-class SEO services have helped numerous businesses achieve top rankings and sustainable success. </p>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign2.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+<h3 className="pb-5">Australia-Focused SEO</h3>                    
+                      <p>
+                      Our SEO service in Australia caters to businesses nationwide, helping them reach their target market and dominate the local search landscape.</p>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-content">
+                <div className="row">
+                  <div className="col-xl-6">
+                    <img
+                      className="w-100"
+                      alt="img"
+                      src="assets/img/redesign2.jpg"
+                    />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="latest-blog-post">
+<h3 className="pb-5">Affordable SEO Solutions</h3>                    
+                      <p>
+                      We believe effective SEO should be accessible to businesses of all sizes. Our affordable SEO packages offer comprehensive services without compromising on quality. </p>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+        
+            <div className="swiper-button-next">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 476.213 476.213"
+                style={{ enableBackground: "new 0 0 476.213 476.213" }}
+                xmlSpace="preserve"
+              >
+                <polygon
+                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+    405.606,308.713 476.213,238.106 "
+                />
+              </svg>
+            </div>
+            <div className="swiper-button-prev">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 476.213 476.213"
+                style={{ enableBackground: "new 0 0 476.213 476.213" }}
+                xmlSpace="preserve"
+              >
+                <polygon
+                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+    405.606,308.713 476.213,238.106 "
+                />
+              </svg>
+            </div>
+          </Swiper>
+        </div>
+      </section>
+
+      <div className="container">
         <div className="awesome-project">
-          <h4>Let's Start an Awesome Project Now!</h4>
+          <h4>Your Gateway to Empowering SEO Services!</h4>
           <a href="contacts.html" className="themebtu full">
-            Get Started
+   Contact Us Now
           </a>
         </div>
       </div>
