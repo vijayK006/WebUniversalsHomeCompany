@@ -122,13 +122,9 @@ const Index3 = () => {
 
              
               </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
+
             </div>
             <div className="offset-xl-1 col-xl-5">
            
@@ -166,7 +162,7 @@ const Index3 = () => {
 
 
       <section
-        className="makes-us-different"
+        className="makes-us-different  mt-5"
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
@@ -599,65 +595,127 @@ Completed
           </div>
         </div>
       </section>
-      
-      <section className="satisfied-clients gap">
+
+
+      <section className="blog-posts gap no-top pt-5">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-4">
-              <div className="heading-boder">
-                <h2>
-                  Satisfied <span>Clients</span>
-                </h2>
-            
-                <a href="about.html" className="themebtu">
-                  More About Us
-                </a>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6">
-              <div className="client-review">
-                <i className="fa-solid fa-quote-left" />
-               
-                <p>
-                  " Mr Srinivas has given good service for the website, logo, company profile etc which I 
-                  have done with him and he is a good supportive person. I 
-                  liked his way of handling the customers,  overall  it's a good experience. “
-                </p>
-                <span>Irfan</span>
-              </div>
-              <div className="client-review mt-xl-5">
-                <i className="fa-solid fa-quote-left" />
-                <p>
-                  " Mr Srinivas has given good service for the website, logo, company profile etc which I 
-                  have done with him and he is a good supportive person. I 
-                  liked his way of handling the customers,  overall  it's a good experience. ”
-                </p>
-                <span>Puttayya Ip</span>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6">
-              <div className="client-review mb-xl-5">
-                <i className="fa-solid fa-quote-left" />
-                <p>
-                  "  Praesent elementum hendrerit tortor. Sed semper lorem at
-                  felis. Vestibulum volutpat, lacus a ultrices sagittismi neque
-                  euismod dui, eu pulvinar nunc sapien ornare nisl.”
-                </p>
-                <span>Susai S</span>
-              </div>
-              <div className="client-review">
-                <i className="fa-solid fa-quote-left" />
-                <p>
-                  " We love the service and the work of web universals such a wonderful experience with this company creative 
-                  designer with best quality service... we wish to assign few 
-                  more web projects to web universal in future too. “
-                </p>
-                <span>Irshad Siddiqui</span>
-              </div>
-            </div>
+          <div className="heading-boder two">
+            <h2>Our Testimonials</h2>
           </div>
+          <Swiper {...partnerswiper} className="swiper-container partnerswiper">
+            <div className="swiper-wrapper">
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+                    {/* <a href="#">
+                      <i className="fa-regular fa-clock" />
+                      <span>August 10, 2023</span>
+                    </a> */}
+                  {/* <h4>
+                    <a href="blog-single-post.html">
+                      Suspendisse mauris. Fusce accumsan mollis eros.
+                    </a>
+                  </h4> */}
+                  <p>
+                  I am thrilled with the website design services offered by Web Universals! Their affordable packages
+allowed me to get a professional website for my business without breaking the bank. The quality of their
+work is outstanding, and I couldn&#39;t be happier with the value I received.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>John Kaley</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+            
+                  <p>
+                  Web Universals truly stands out in their commitment to delivering on time. Not only did they complete
+our website within the agreed-upon timeframe, but their customer support throughout the process was
+impeccable. They were always available to address our queries promptly.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Maree Moore</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+              
+               
+                  <p>
+                  Working with Web Universals was a breeze! We needed some changes to our website design, and they
+gladly accommodated our requests without any additional charges or hourly fees. Their willingness to
+make revisions until we were delighted was impressive.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Steve Schoclan</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+              
+                
+                  <p>
+                  I had my reservations about hidden costs and surprises during website development, but with Web
+Universals, that was never an issue. They provided a fixed price for the entire project, and their pricing
+was honest and transparent from start to finish.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Charles Cheel</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+                
+            
+                  <p>
+                  Web Universals made us feel like a priority from day one. Their team was always available to answer our
+questions and provide updates. The response time was remarkable, and they ensured our project
+moved forward seamlessly.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>John O&#39;Keefe</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  I am delighted with the website designed by Bronson from Web Universals. His attention to detail and
+creativity truly shines through in the final product. He has an eye for design, and it&#39;s evident in the way
+our website turned out.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Darren Portia</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  Bronson&#39;s expertise was pivotal in getting our website to meet our specific requirements. He understood
+and translated our vision into a functional and visually appealing website. We couldn&#39;t be happier with
+the result!
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Sunny Ping Wang</span>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="blog-posts-text2">
+               
+        
+                  <p>
+                  Bronson&#39;s cooperation during the project was exceptional. He accommodated additional modules and
+points we requested, and the best part was that there were no surprise charges. Web Universals truly
+goes the extra mile to ensure their clients&#39; satisfaction.
+                  </p>
+                  <span style={{fontWeight:"500", marginTop:"10px"}}>Gary Metcalf</span>
+                </div>
+              </SwiperSlide>
+
+            </div>
+            <div className="swiper-pagination" />
+          </Swiper>
         </div>
       </section>
+
       <section className="gap map-three">
         <div className="container">
           <div className="row">

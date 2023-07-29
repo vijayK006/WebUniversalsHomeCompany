@@ -1326,6 +1326,9 @@ form.touch .btugap {
     padding: 40px;
     border: 1px solid #ebebeb;
 }
+
+
+
 .blog-posts{
     overflow: hidden;
 }
@@ -2905,6 +2908,12 @@ font-weight: 500;
         height:45px;
     width: auto;
     }
+    
+    .blog-posts-text2{
+        padding: 40px;
+        border: 1px solid #ebebeb;
+        height: max-content;
+    }
 
     .adj-all_screen{
 
@@ -2959,7 +2968,11 @@ width: auto;
 
 }
 
-
+.blog-posts-text2{
+    padding: 40px;
+    border: 1px solid #ebebeb;
+    height: 320px;
+}
 
 }
 
@@ -2973,8 +2986,9 @@ width: auto;
 }
 
 .logo-adjust{
-    width: 100%;
-margin-left: -40px;
+    width: max-content;
+    margin-left: -40px;
+    height: 100px;
 
 }
 
@@ -2988,7 +3002,11 @@ margin-left: -40px;
 
 }
 
-
+.blog-posts-text2{
+    padding: 40px;
+    border: 1px solid #ebebeb;
+    height: 350px;
+}
 
 }
 
@@ -3010,8 +3028,10 @@ margin-left: -40px;
     }
     
     .logo-adjust{
-        width: 100%;
+        width: max-content;
     margin-left: -40px;
+    height:120px;
+
     
     }
 
@@ -3022,6 +3042,12 @@ height: 420px;
 
 .makes-us-different-text2{
     height: 350px;
+    }
+
+    .blog-posts-text2{
+        padding: 40px;
+        border: 1px solid #ebebeb;
+        height: 300px;
     }
     
 
