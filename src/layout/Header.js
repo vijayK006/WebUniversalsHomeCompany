@@ -227,7 +227,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
      <div className="col-lg-3">  
      <div className="mega-menu-card">
   <Link legacyBehavior href="E-commerce">
-                      <p className="mega-menu-items-list"><CgWebsite className="mega_menu-icons"/> E-Commerce Website</p>
+                      <p className="mega-menu-items-list"><CgWebsite className="mega_menu-icons"/> e-Commerce Website</p>
                     </Link>
      </div>             
  

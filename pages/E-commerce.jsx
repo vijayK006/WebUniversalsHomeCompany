@@ -10,7 +10,7 @@ const Services = () => {
         <div className="container">
           <div className="splash-area">
             <h2>
-            E-Commerce  
+            e-Commerce  
             <br />Website
             </h2>
             {/* <a href="tel:08 8121 7826">CONTACT US TODAY</a> */}
@@ -23,7 +23,7 @@ const Services = () => {
             <div className="row">
               <div className="col-xl-5">
                 <div className="heading">
-                  <h6>E-Commerce Website</h6>
+                  <h6 style={{textTransform:"none"}}>e-Commerce Website</h6>
                   {/* <h2>
                   Development Company Australia
                   </h2> */}
@@ -35,10 +35,10 @@ const Services = () => {
               <div className="col-xl-7">
                 <div className="signature">
                   <p>
-                At Web Universals, we specialize in creating captivating and high-performing e-commerce 
-                websites that elevate your online retail experience. As a leading e-commerce web development
+                At Web Universals, we specialize in creating captivating and high-performing e-Commerce 
+                websites that elevate your online retail experience. As a leading e-Commerce web development
                  company, we offer many top-notch services to help businesses thrive in the competitive digital 
-                 landscape. Whether you're an established brand or a startup looking to venture into the world of e-commerce, our team of expert designers and developers is here to craft a custom solution tailored to your unique needs.
+                 landscape. Whether you're an established brand or a startup looking to venture into the world of e-Commerce, our team of expert designers and developers is here to craft a custom solution tailored to your unique needs.
                  </p>
                 </div>
               </div>
@@ -56,16 +56,16 @@ const Services = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="heading">
-                <h2>E-Commerce Website Designers</h2>
+                <h2>e-Commerce Website Designers</h2>
                 <img alt="line" src="assets/img/headingline.png" />
                 <p>
-                Our E-Commerce website designers always make sure that your website shall have its search 
+                Our e-Commerce website designers always make sure that your website shall have its search 
                 bar at a convenient position so that the visitors would not find it complicated to search 
                 for a particular service or product available from your business. Good quality high 
                 resolution photographs are used for the website so that the glossy feel and attractiveness 
                 of your website never gets fade away. Visibility of the shopping cart icon is also made visible 
                 efficiently by putting it at a convenient place. So these are few added perks one can simply in 
-                order to make his or her E-Commerce website most unique in 
+                order to make his or her e-Commerce website most unique in 
                 Australia while Web Universals takes charge of the project.
                 </p>
                 <a href="#" className="themebtu">
@@ -120,7 +120,7 @@ const Services = () => {
 With different businesses and trade practice comes different kinds of website themes and 
 designs to be implemented, thus Web Universals web developer in Australia is 
 extremely efficient in providing such effective services with precision just in order to make your
- E-Commerce website unique, with good and decent color schemes and designs.
+ e-Commerce website unique, with good and decent color schemes and designs.
                   </p>
                 </div>
               </div>
@@ -153,16 +153,16 @@ extremely efficient in providing such effective services with precision just in 
           <br />
           <div className="container">
             <div className="heading two">
-              <h2>Why Choose Web Universals for E-commerce Website Design</h2>
+              <h2>Why Choose Web Universals for e-Commerce Website Design</h2>
               {/* <img alt="line" src="assets/img/headingline.png" /> */}
             </div>
             <div className="row">
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text">
                   
-                <h4>Best-in-Class E-commerce Design</h4>
+                <h4>Best-in-Class e-Commerce Design</h4>
                   <p>
-                  We pride ourselves on being at the forefront of e-commerce website design
+                  We pride ourselves on being at the forefront of e-Commerce website design
                   . Our expert team incorporates the latest design trends and user
                    experience principles to create websites that engage and convert 
                    visitors into customers.
@@ -172,9 +172,9 @@ extremely efficient in providing such effective services with precision just in 
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text">
                   
-                <h4>Dedicated E-commerce Designers</h4>
+                <h4>Dedicated e-Commerce Designers</h4>
                   <p>
-                  Our talented e-commerce website designers are dedicated to bringing your vision to life. 
+                  Our talented e-Commerce website designers are dedicated to bringing your vision to life. 
                   They possess a keen eye for detail, ensuring your website reflects your brand identity 
                   and products in the best possible light.
                   </p>
@@ -184,9 +184,9 @@ extremely efficient in providing such effective services with precision just in 
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text">
                  
-                <h4>Comprehensive E-commerce Development Services</h4>
+                <h4>Comprehensive e-Commerce Development Services</h4>
                    <p>
-                   Our e-commerce website development company offers end-to-end solutions from
+                   Our e-Commerce website development company offers end-to-end solutions from
                     inception to launch. We handle everything from product catalog setup to secure
                      payment gateways, customers a seamless online shopping experience.
                      </p>
@@ -199,7 +199,7 @@ extremely efficient in providing such effective services with precision just in 
                 <h4>Transparent Pricing & Packages</h4>
                    <p>
                     We understand the importance 
-                   of business budget considerations. Our e-commerce website development
+                   of business budget considerations. Our e-Commerce website development
                     cost is competitive, and we offer transparent pricing with customizable 
                     packages to suit your requirements.
                      </p>
@@ -208,10 +208,10 @@ extremely efficient in providing such effective services with precision just in 
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text">
                  
-                <h4>E-commerce Experts Solutions</h4>
+                <h4>e-Commerce Experts Solutions</h4>
                    <p >
-                    As experienced e-commerce developers, we build feature-rich and scalable websites
-                    tailored to your business needs. Our e-commerce website development 
+                    As experienced e-Commerce developers, we build feature-rich and scalable websites
+                    tailored to your business needs. Our e-Commerce website development 
                     ensures your site has the flexibility to grow and evolve with your business.
                     </p>
                 </div>
@@ -221,8 +221,8 @@ extremely efficient in providing such effective services with precision just in 
                  
                 <h4>Shopify, Magento, and More</h4>
                    <p>
-                    Our expertise extends across various e-commerce platforms, including Shopify 
-                    and Magento. Whether you need a Shopify e-commerce website design or Magento development,
+                    Our expertise extends across various e-Commerce platforms, including Shopify 
+                    and Magento. Whether you need a Shopify e-Commerce website design or Magento development,
                      we have the proficiency to deliver exceptional results.
                      </p>
                 </div>
@@ -238,7 +238,7 @@ extremely efficient in providing such effective services with precision just in 
       <section className="how-it-works  no-top">
         <div className="container">
           {/* <div className="heading">
-            <h3> Why Choose Web Universals for <br />E-commerce Website Design</h3>
+            <h3> Why Choose Web Universals for <br />e-Commerce Website Design</h3>
             <img alt="line" src="assets/img/headingline.png" />
           </div> */}
           <div className="row pt-4">
@@ -254,7 +254,7 @@ extremely efficient in providing such effective services with precision just in 
                   </p> */}
                    <h4>Interactive & User-Centric</h4>
                    <p>
-                   We believe in creating interactive e-commerce websites that offer your
+                   We believe in creating interactive e-Commerce websites that offer your
                     customers a seamless and enjoyable shopping experience. Our user-centric 
                     approach ensures easy navigation, quick load times, and mobile responsiveness.
                      </p>
@@ -267,10 +267,10 @@ extremely efficient in providing such effective services with precision just in 
                 <div className="pl-80">
                 
                    
-                     <h4>E-commerce Website Redesign</h4>
+                     <h4>e-Commerce Website Redesign</h4>
                    <p>
-                  If you already have an e-commerce website that needs a fresh look or improved functionality, 
-                  our e-commerce website design services include redesign options to revamp your online store.
+                  If you already have an e-Commerce website that needs a fresh look or improved functionality, 
+                  our e-Commerce website design services include redesign options to revamp your online store.
                      </p>
                 </div>
               </div>
@@ -284,7 +284,7 @@ extremely efficient in providing such effective services with precision just in 
                 <h4>Your Success, Our Priority</h4>
                    <p>At Web Universals, your success is what drives us. We take the time
                      to understand your business goals and target audience, allowing us to
-                      design and develop an e-commerce website that meets and exceeds your 
+                      design and develop an e-Commerce website that meets and exceeds your 
                       expectations.
                      </p>
                 </div>

@@ -25,51 +25,119 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section className="things-differently gap">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-5">
-                <div className="heading">
-                  <h6>We Dream Digital</h6>
-                  <h2>
-              The Most 
-                    <br />
-           Creative Ideas
-                  </h2>
-                  <img alt="line" src="assets/img/headingline.png" />
-                  <img alt="dots" className="dots" src="assets/img/dots.png" />
+        <section className="digital-services">
+        <div className="container">
+          {/* <div className="heading">
+            <h6>Web Design Sydney</h6>
+            <h2>
+              {" "}
+              We Deliver a<br />
+              Full Agency Experience
+            </h2>
+            <img alt="line" src="assets/img/headingline.png" />
+          </div> */}
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="discovery-img hoverstyle">
+                <figure>
+                  <img
+                    style={{height: "250px"}}
+                    className="w-100"
+                    alt="discovery"
+                    src="assets/img/discovery-1(1)(1).jpg"
+                  />
+                </figure>
+                <div className="discovery-text two">
+                  <a href="#">
+                    <h4>Who We Are</h4>
+                  </a>
+                  <p>
+                Web Universals is a passionate team of creative minds, tech enthusiasts, and digital strategists based in 
+                Australia. Since our inception in 2010, we have been on a relentless pursuit of excellence, crafting exceptional
+                 web solutions that blend artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array of
+                  industries, and our success stories speak volumes about the transformative power of our services.
+                  </p>
                 </div>
               </div>
-              <div className="col-xl-7">
-                <div className="signature">
-                  <h2>Our Mission</h2>
+            </div>
+            <div className="col-xl-6">
+              <div className="discovery-img hoverstyle">
+                <figure>
+                  <img
+                  style={{height: "250px"}}
+                    className="w-100"
+                    alt="discovery"
+                    src="assets/img/discovery-2(2)(2).jpg"
+                  />
+                </figure>
+                <div className="discovery-text two">
+                  <a href="#">
+                    <h4>Our Philosophy</h4>
+                  </a>
                   <p>
-                 At Web Universals, we aim to empower businesses with cutting-edge digital solutions that transcend boundaries 
-                 and drive growth. We aim to guide enterprises in their digital journey, providing innovative website design, 
-                 development, and marketing services that deliver exceptional results. Through our expertise and commitment to 
-                 excellence, we strive to create a lasting impact on our clients' success and help them thrive in the ever-evolving 
-                 digital landscape.
-                 </p>
-                 <h2>Our Vision</h2>
-                 <p>
-                 Our vision is to be the most trusted and sought-after website design and 
-                 development company in Australia and globally. We envision being at the 
-                 forefront of digital innovation, shaping the future of web technologies and 
-                 digital marketing strategies. We aspire to be the driving force behind our 
-                 clients' digital success, consistently exceeding expectations and setting new 
-                 benchmarks for creativity, efficiency, and customer satisfaction.
-                 </p>
-                  <div className="ceo">
-                   
-                    <a href="team.html" className="themebtu">
-                      Contact us
-                    </a>
-                  </div>
+                  At the heart of our philosophy lies the belief that every business
+                   is unique and deserves a distinct online presence. We approach each
+                    project with a personalized touch, investing time in understanding 
+                    our client's goals, target audience, and brand identity. This approach 
+                    enables us to create tailor-made solutions that resonate with their vision
+                     and foster lasting connections with their customers.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="discovery-img hoverstyle">
+                <figure>
+                  <img
+                  style={{height: "250px"}}
+                    className="w-100"
+                    alt="discovery"
+                    src="assets/img/discovery-3(3)(3).jpg"
+                  />
+                </figure>
+                <div className="discovery-text two">
+                  <a href="#">
+                    <h4>Our Team</h4>
+                  </a>
+                  <p>
+                  Our team is our biggest asset. Comprising talented individuals from diverse 
+                  backgrounds, we bring together a wealth of knowledge and expertise to 
+                  every project. Collaboration is at the core of our work culture, fostering 
+                  an environment where creativity flourishes and ideas are nurtured.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="discovery-img hoverstyle">
+                <figure>
+                  <img
+                  style={{height: "250px"}}
+                    className="w-100"
+                    alt="discovery"
+                    src="assets/img/discovery-4(4)(4).jpg"
+                  />
+                </figure>
+                <div className="discovery-text two">
+                  <a href="#">
+                    <h4>Join Hands with Web Universals</h4>
+                  </a>
+                  <p>
+                  Whether you are a startup looking for a captivating website or an 
+                  established brand seeking to revamp your online presence, Web Universals
+                   is your ideal partner. We are committed to bringing your digital dreams 
+                   to life, armed with the latest tools and a passionate team driven to make
+                    a difference.
+                  </p>
+
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+       
 
         {/* <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
@@ -198,7 +266,139 @@ const About = () => {
           </Swiper>
         </div>
       </section> */}
- <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
+ 
+      <section
+          className="we-deliver-results"
+          style={{ backgroundColor: "#f2edf5" }}
+        >
+          <div className="container">
+            <br />
+            <br />
+            <div className="heading two">
+              <h2>Why Choose Web Universals</h2>
+              <img alt="line" src="assets/img/headingline.png" />
+            </div>
+            <div className="row">
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text content-manage">
+                  
+                  <h4>Expertise</h4>
+                  <p >
+                  With over a decade of experience, our team has honed their 
+                  skills to perfection. We stay ahead of the curve by continuously 
+                  upgrading our knowledge and techniques.
+                  </p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text content-manage">
+                  
+                  <h4>Innovative Approach</h4>
+                  <p>
+                  We thrive on creativity and innovation, consistently pushing boundaries 
+                  to deliver fresh and captivating digital experiences. Our approach is characterized by innovation
+                  </p>
+                  
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text content-manage">
+                 
+                  <h4>Client-Centric</h4>
+                 
+                  <p>
+                  {/* Our clients are our top priority, and we are dedicated to delivering
+                   services that align with their objectives and timelines  putting our 
+                   clients' needs and preferences at  heart of everything we do. */}
+                   Our clients are our top priority, and we are dedicated to delivering services 
+                   that align with their objectives and timelines.
+                  </p>
+              
+                  
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text content-manage">
+                  
+                  <h4>Result-Oriented</h4>
+                  <p> Data drives our strategies. We are committed to delivering tangible
+                     results that propel our clients' businesses toward success</p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6">
+                <div className="makes-us-different-text content-manage">
+                 
+                  <h4>End-to-End Solutions</h4>
+                  <p>
+                  We offer comprehensive services under one roof
+                  , from website design and development to digital marketing and app development.
+                  </p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 ">
+                <div className="makes-us-different-text content-manage">
+                 
+                  <h4>Transparency</h4>
+                  <p>
+                  {/* We believe in transparent communication and keep 
+                  our clients informed about every step of the process
+                   Transparent practices are trust in relationships. */}
+                   We believe in transparent communication and keep our clients 
+                   informed about every step of the process.
+                  </p>
+              
+                </div>
+              </div>
+            </div>
+            <div className="btugap">
+
+            <section className="things-differently gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-5">
+                <div className="heading">
+                  <h6>We Dream Digital</h6>
+                  <h2>
+              The Most 
+                    <br />
+           Creative Ideas
+                  </h2>
+                  <img alt="line" src="assets/img/headingline.png" />
+                  <img alt="dots" className="dots" src="assets/img/dots.png" />
+                </div>
+              </div>
+              <div className="col-xl-7">
+                <div className="signature">
+                  <h2>Our Mission</h2>
+                  <p>
+                 At Web Universals, we aim to empower businesses with cutting-edge digital solutions that transcend boundaries 
+                 and drive growth. We aim to guide enterprises in their digital journey, providing innovative website design, 
+                 development, and marketing services that deliver exceptional results. Through our expertise and commitment to 
+                 excellence, we strive to create a lasting impact on our clients' success and help them thrive in the ever-evolving 
+                 digital landscape.
+                 </p>
+                 <h2>Our Vision</h2>
+                 <p>
+                 Our vision is to be the most trusted and sought-after website design and 
+                 development company in Australia and globally. We envision being at the 
+                 forefront of digital innovation, shaping the future of web technologies and 
+                 digital marketing strategies. We aspire to be the driving force behind our 
+                 clients' digital success, consistently exceeding expectations and setting new 
+                 benchmarks for creativity, efficiency, and customer satisfaction.
+                 </p>
+                  <div className="ceo">
+                   
+                    <a href="team.html" className="themebtu">
+                      Contact us
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+            <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
         <div className="heading pb-lg-4 pb-2">
                 
@@ -360,91 +560,6 @@ const About = () => {
           </Swiper>
         </div>
       </section>
-      <section
-          className="we-deliver-results"
-          style={{ backgroundColor: "#f2edf5" }}
-        >
-          <div className="container">
-            <br />
-            <br />
-            <div className="heading two">
-              <h2>Why Choose Web Universals</h2>
-              <img alt="line" src="assets/img/headingline.png" />
-            </div>
-            <div className="row">
-              <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text content-manage">
-                  
-                  <h4>Expertise</h4>
-                  <p >
-                  With over a decade of experience, our team has honed their 
-                  skills to perfection. We stay ahead of the curve by continuously 
-                  upgrading our knowledge and techniques.
-                  </p>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text content-manage">
-                  
-                  <h4>Innovative Approach</h4>
-                  <p>
-                  We thrive on creativity and innovation, consistently pushing boundaries 
-                  to deliver fresh and captivating digital experiences. Our approach is characterized by innovation
-                  </p>
-                  
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text content-manage">
-                 
-                  <h4>Client-Centric</h4>
-                 
-                  <p>
-                  {/* Our clients are our top priority, and we are dedicated to delivering
-                   services that align with their objectives and timelines  putting our 
-                   clients' needs and preferences at  heart of everything we do. */}
-                   Our clients are our top priority, and we are dedicated to delivering services 
-                   that align with their objectives and timelines.
-                  </p>
-              
-                  
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text content-manage">
-                  
-                  <h4>Result-Oriented</h4>
-                  <p> Data drives our strategies. We are committed to delivering tangible
-                     results that propel our clients' businesses toward success</p>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="makes-us-different-text content-manage">
-                 
-                  <h4>End-to-End Solutions</h4>
-                  <p>
-                  We offer comprehensive services under one roof
-                  , from website design and development to digital marketing and app development.
-                  </p>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6 ">
-                <div className="makes-us-different-text content-manage">
-                 
-                  <h4>Transparency</h4>
-                  <p>
-                  {/* We believe in transparent communication and keep 
-                  our clients informed about every step of the process
-                   Transparent practices are trust in relationships. */}
-                   We believe in transparent communication and keep our clients 
-                   informed about every step of the process.
-                  </p>
-              
-                </div>
-              </div>
-            </div>
-            <div className="btugap">
-
             </div>
           </div>
           </section>
@@ -556,118 +671,7 @@ const About = () => {
           </Swiper>
         </div>
       </section> */}
-       <section className="digital-services">
-        <div className="container">
-          {/* <div className="heading">
-            <h6>Web Design Sydney</h6>
-            <h2>
-              {" "}
-              We Deliver a<br />
-              Full Agency Experience
-            </h2>
-            <img alt="line" src="assets/img/headingline.png" />
-          </div> */}
-          <div className="row">
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                    style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-1(1)(1).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Who We Are</h4>
-                  </a>
-                  <p>
-                Web Universals is a passionate team of creative minds, tech enthusiasts, and digital strategists based in 
-                Australia. Since our inception in 2010, we have been on a relentless pursuit of excellence, crafting exceptional
-                 web solutions that blend artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array of
-                  industries, and our success stories speak volumes about the transformative power of our services.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-2(2)(2).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Our Philosophy</h4>
-                  </a>
-                  <p>
-                  At the heart of our philosophy lies the belief that every business
-                   is unique and deserves a distinct online presence. We approach each
-                    project with a personalized touch, investing time in understanding 
-                    our client's goals, target audience, and brand identity. This approach 
-                    enables us to create tailor-made solutions that resonate with their vision
-                     and foster lasting connections with their customers.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-3(3)(3).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Our Team</h4>
-                  </a>
-                  <p>
-                  Our team is our biggest asset. Comprising talented individuals from diverse 
-                  backgrounds, we bring together a wealth of knowledge and expertise to 
-                  every project. Collaboration is at the core of our work culture, fostering 
-                  an environment where creativity flourishes and ideas are nurtured.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-4(4)(4).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Join Hands with Web Universals</h4>
-                  </a>
-                  <p>
-                  Whether you are a startup looking for a captivating website or an 
-                  established brand seeking to revamp your online presence, Web Universals
-                   is your ideal partner. We are committed to bringing your digital dreams 
-                   to life, armed with the latest tools and a passionate team driven to make
-                    a difference.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
       <div className="container">
         <div className="awesome-project">
           <h4>Let's Start An Awesome Project Now!</h4>

@@ -87,7 +87,9 @@ const GoogleAds = () => {
                  <RiLightbulbFlashLine className="card-icons3"/>
                   <h4>Strategic Campaign Planning</h4>
                   <p>
-    and target audience. We create customized PPC campaigns tailored to your unique needs, ensuring that every dollar spent drives tangible results. </p>
+                  Our team of Google Ads experts begins with a comprehensive
+analysis of your business goals and target audience. We create customized PPC campaigns
+tailored to your unique needs, ensuring that every dollar spent drives tangible results.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6">

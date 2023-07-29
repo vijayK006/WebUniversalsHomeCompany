@@ -15,7 +15,7 @@ const WebSiteRedesign = () => {
             <div className="splash-area">
 
             <h2>
-          Website Redesign
+          Website Redesign Service
             </h2>
     {/* <a href="#">Unlock the Potential of Your Business with Web Universals <br/> Website   Design Services</a> */}
      

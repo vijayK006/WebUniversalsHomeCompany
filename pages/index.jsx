@@ -95,12 +95,12 @@ const Index3 = () => {
 
             <div className="col-xl-6">
               <div className="heading">
-              <h6 className="">Different. Relevant. Focused.</h6>
-                <img
+              {/* <h6 className="">Different. Relevant. Focused.</h6> */}
+                {/* <img
                   alt="line"
                   className="mb-4"
                   src="assets/img/headingline.png"
-                />
+                /> */}
               </div>
               <div className="welcome-text">
                 <h2> Discover the Essence of <br/> Online Excellence</h2>
@@ -167,22 +167,14 @@ const Index3 = () => {
       >
         <div className="container">
           <div className="heading">
-            <h6>How It Works?</h6>
+            {/* <h6>How It Works?</h6> */}
             <h2>What Makes Us Different?</h2>
             <img alt="line" src="assets/img/headingline.png" />
           </div>
           <div className="row pt-lg-2 pb-lg-2 pt-2 pb-2">
 
-            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
-              <div className="makes-us-different-text1">
-            <HiOutlineLightBulb className="card-icons"/>
-                <h4>Where Innovation Meets Mobility </h4>
-                <p>
-                In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
-              </div>
-            </div>
 
-            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+          <div className="col-xl-3 col-lg-6 pt-1 pb-1">
               <div className="makes-us-different-text1">
            <GiArcheryTarget className="card-icons"/>
                 <h4>Your Success is Our Priority  </h4>
@@ -190,6 +182,20 @@ const Index3 = () => {
                 At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
               </div>
             </div>
+
+
+            <div className="col-xl-3 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text1">
+            <GiTeamIdea className="card-icons"/>
+                <h4>Tailored Solutions for Every Business  </h4>
+                <p>
+                Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
+              </div>
+            </div>
+
+         
+
+          
 
             <div className="col-xl-3 col-lg-6 pt-1 pb-1">
               <div className="makes-us-different-text1 mb-0">
@@ -225,14 +231,7 @@ const Index3 = () => {
               </div>
             </div>
 
-            <div className="col-xl-4 col-lg-6 pt-1 pb-1">
-              <div className="makes-us-different-text2">
-            <GiTeamIdea className="card-icons"/>
-                <h4>Tailored Solutions for Every Business  </h4>
-                <p>
-                Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
-              </div>
-            </div>
+          
 
             <div className="col-xl-4 col-lg-6 pt-1 pb-1">
               <div className="makes-us-different-text2">
@@ -240,6 +239,15 @@ const Index3 = () => {
                 <h4>From Vision to Reality </h4>
                 <p>
                 Your business deserves a unique identity, and our services extend beyond website design. Our expert team crafts captivating logos and brochures that embody your brand's essence, leaving a lasting impression on your customers.</p>
+              </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-6 pt-1 pb-1">
+              <div className="makes-us-different-text2">
+            <HiOutlineLightBulb className="card-icons"/>
+                <h4>Where Innovation Meets Mobility </h4>
+                <p>
+                In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
               </div>
             </div>
 
