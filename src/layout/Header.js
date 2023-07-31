@@ -89,6 +89,12 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                   </li>
 
                   <li>
+                    <Link legacyBehavior href="WebDesignOffer">
+                      Website Design Offer
+                    </Link>
+                  </li>
+
+                  <li>
                     <Link legacyBehavior href="E-commerce">
                       E-Commerce Website
                     </Link>
