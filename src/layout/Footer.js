@@ -25,7 +25,7 @@ const Footer = () => {
                   <a href="mailto:www.webuniversals.com" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</a>
                 </li>
                 <li className="mt-2 mb-2">
-                  <a href="" target="_blank" rel="noopener" className="footer-links"><i class="fa-solid fa-globe"></i> www.webuniversals.com</a>
+                  <a href="https://webuniversals.com/" target="_blank" rel="noopener" className="footer-links"><i class="fa-solid fa-globe"></i> www.webuniversals.com</a>
                 </li>
            
               </ul>
