@@ -16,15 +16,9 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
 
 
- const  clickService =()=>{
-    document.getElementById('megaMenu_items').classList.add("height-100");
-}
-
-
-const opacity0 = ()=>{
-    document.getElementById('megaMenu_items').classList.toggle("opacity_0");
-
-}
+//  const  clickService =()=>{
+//     document.getElementById('megaMenu_items').classList.toggle("height-100");
+// }
 
   return (
     <>
@@ -77,12 +71,12 @@ const opacity0 = ()=>{
 
               </li>
 
-              <li onMouseOver={clickService}>
+              <li >
                 <Link legacyBehavior href="">
       Our Services
                 </Link>
 
-                {/* <ul className="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <Link legacyBehavior href="NewWebDesign">
               Website Design
@@ -95,13 +89,19 @@ const opacity0 = ()=>{
                   </li>
 
                   <li>
+                    <Link legacyBehavior href="WebDesignOffer">
+                      Website Design Offer
+                    </Link>
+                  </li>
+
+                  <li>
                     <Link legacyBehavior href="E-commerce">
                       E-Commerce Website
                     </Link>
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="">
+                    <Link legacyBehavior href="MobileAppDevelopment">
                     Mobile App
                     </Link>
                   </li>
@@ -113,24 +113,24 @@ const opacity0 = ()=>{
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="">
+                    <Link legacyBehavior href="SocialMediaMarketing">
                    Social Media Marketing
                     </Link>
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="">
+                    <Link legacyBehavior href="GoogleAds">
                  Google Ads
                     </Link>
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="">
+                    <Link legacyBehavior href="FacebookAds">
                  Facebook Ads
                     </Link>
                   </li>
 
-                </ul> */}
+                </ul>
               </li>
 
 
@@ -159,6 +159,14 @@ const opacity0 = ()=>{
               <li>
                 <Link legacyBehavior href="blog">
                   Blog
+                </Link>
+              
+              </li>
+
+              
+              <li>
+                <Link legacyBehavior href="contacts">
+                  Contact Us
                 </Link>
               
               </li>
@@ -194,9 +202,9 @@ const opacity0 = ()=>{
           </div>
           <div>
       
-            <Link legacyBehavior href="/contacts">
-              <a className="themebtu">Contact Us</a>
-            </Link>
+
+              <a href="tel:+61 08 7200 7227" className="themebtu">Call Now</a>
+       
           </div>
           <div className="bar-menu" onClick={() => setToggle(true)}>
             <i className="fa-solid fa-bars" />
@@ -208,7 +216,7 @@ const opacity0 = ()=>{
 
     </header>
 
-<div className="mega-menu-items" id="megaMenu_items" onMouseLeave={opacity0}>
+{/* <div className="mega-menu-items" id="megaMenu_items">
 <div className="container">
   <div className="row">
 
@@ -293,7 +301,7 @@ const opacity0 = ()=>{
 
   </div>
 </div>
-</div>
+</div> */}
     </>
    
 

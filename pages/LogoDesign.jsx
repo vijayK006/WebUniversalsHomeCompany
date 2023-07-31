@@ -10,11 +10,21 @@ import { AiOutlineSolution } from 'react-icons/ai';
 import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
 import Link from "next/link";
+import Head from 'next/head';
 
 
 const LogoDesign = () => {
   return (
-    <Layout noHeaderBg pageName={"Team3"}>
+    <>
+    <Head>
+
+    <title> Distinctive & Timeless Logos | Web Universals</title>
+
+<meta name="description" content="Distinctive, Timeless, and Memorable Logos - Your Brand's Identity Redefined"/>
+<meta name="keywords" content="logo design, logo design company, professional logo design, business logo design, creative logo design, custom logo design, company logo design, modern logo design, minimalist logo design, logo design services, logo designer, brand logo design, unique logo design, best logo design, affordable logo design, logo design agency"/>
+
+    </Head>
+   <Layout noHeaderBg pageName={"Team3"}>
       <div>
         <section
           className="splash-area-section"
@@ -218,6 +228,9 @@ const LogoDesign = () => {
 
       </div>
     </Layout>
+
+    </>
+ 
   );
 };
 export default LogoDesign ;

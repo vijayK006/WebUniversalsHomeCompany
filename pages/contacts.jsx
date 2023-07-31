@@ -1,7 +1,29 @@
 import Layout from "@/src/layout/Layout";
 import { studiesswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
+import  React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 const Contacts = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_33d2bgh', 'template_i07hxug', form.current, '0qpfXzVciq8YilctV')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message Sent successfully :)")
+      }, (error) => {
+          console.log(error.text);
+          console.log("message not sent email failed :(")
+
+      });
+  };
+
   return (
     <Layout noHeaderBg pageName={"Contact"}>
       <section
@@ -24,22 +46,22 @@ const Contacts = () => {
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6">
-              <form className="content-form">
+              <form className="content-form" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-6">
-                    <input type="text" name="name" placeholder="Your Name *" />
+                    <input type="text" name="from_name" placeholder="Your Name *" />
                   </div>
                   <div className="col-lg-6">
                     <input
                       type="text"
-                      name="name"
+                      name="user_subject"
                       placeholder="Subject *"
                     />
                   </div>
                 </div>
-                <input type="text" name="name" placeholder="Your Email *" />
-                <textarea placeholder="Your Message " defaultValue={""} />
-                <button className="themebtu">Submit</button>
+                <input type="text" name="user_email" placeholder="Your Email *" />
+                <textarea placeholder="Your Message " name="message" defaultValue={""} />
+                <input type="submit" className="themebtu" value="Submit"/>
               </form>
             </div>
             <div className="offset-lg-1 col-xl-5 col-lg-5">
@@ -55,15 +77,14 @@ const Contacts = () => {
                 </li>
                 <li>
                   <h4>Phone :</h4>
-                  <a href="callto:+61 8 7200 7227">
+                  <a href="tel:+61 8 7200 7227">
                     <span>08 7200 7227</span>
                   </a>
                 </li>
                 <li>
                   <h4>Email :</h4>
-                  <a href="mailto:info@webuniversals.com">
-                    <span>info@webuniversals.com</span>
-                  </a>
+                  <a href="mailto:www.webuniversals.com" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</a>
+
                 </li>
                 <li>
                   <h4>Find us :</h4>

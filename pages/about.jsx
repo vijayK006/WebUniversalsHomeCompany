@@ -5,11 +5,22 @@ import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
 
 
 import { blogswiper } from "@/src/sliderProps";
+import Head from 'next/head';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 const About = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+
+    <>
+
+    <Head>
+<title>Timely & Cost-effective Web Solutions | Web Universals</title>
+
+<meta name="description" content="Our Mission & Vision - Delivering Timely & Cost-effective Web Solutions"/>
+<meta name="keywords" content="website design company, website design services, website designer, website development, affordable website design, website design agency, creative website design, website design and development, web design company, professional website design, website design packages, web design services, custom website design, modern website design, minimalist website design, responsive web design, business website design, e-commerce website design, website redesign, mobile app development, logo design, social media marketing, SEO services, Google Ads PPCa"/>
+
+</Head>
+       <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -18,255 +29,119 @@ const About = () => {
           <div className="container">
             <div className="splash-area">
             <h2>
-            Unleashing Digital 
-              <br /> Excellence
+            About Us
             </h2>
-            <a href="#">About Us</a>
+          
             </div>
           </div>
         </section>
-        <section className="digital-services">
-        <div className="container">
-          {/* <div className="heading">
-            <h6>Web Design Sydney</h6>
-            <h2>
-              {" "}
-              We Deliver a<br />
-              Full Agency Experience
-            </h2>
-            <img alt="line" src="assets/img/headingline.png" />
-          </div> */}
-          <div className="row">
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                    style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-1(1)(1).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
+
+
+    <section className="cross-over pt-lg-5 pb-lg-5 pt-2 pb-2">
+      <div className="container">
+      <h2 className="text-center">Unleashing Digital Excellence</h2>
+
+        <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+          <div className="col-lg-6 col-md-12">
+          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-1(1)(1).jpg" />
+          </div>
+
+          <div className="col-lg-6 col-md-12">
+
+    <div className="cross-card-text pt-4">
                   <a href="#">
-                    <h4>Who We Are</h4>
+                    <h3>Who We Are</h3>
                   </a>
-                  <p>
+                  <p className="pt-5">
                 Web Universals is a passionate team of creative minds, tech enthusiasts, and digital strategists based in 
                 Australia. Since our inception in 2010, we have been on a relentless pursuit of excellence, crafting exceptional
-                 web solutions that blend artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array of
+                 web solutions that blend artistry and functionality seamlessly. <br/><br/>Our diverse portfolio encompasses a wide array of
                   industries, and our success stories speak volumes about the transformative power of our services.
                   </p>
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-2(2)(2).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
+              
+
+</div>
+        </div>
+
+        <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+          <div className="col-lg-6 col-md-12">
+    <div className="cross-card-text pt-4">
                   <a href="#">
-                    <h4>Our Philosophy</h4>
+                    <h3>Our Philosophy</h3>
                   </a>
-                  <p>
+                  <p className="pt-5">
                   At the heart of our philosophy lies the belief that every business
                    is unique and deserves a distinct online presence. We approach each
                     project with a personalized touch, investing time in understanding 
-                    our client's goals, target audience, and brand identity. This approach 
+                    our client's goals, target audience, and brand identity.<br/><br/> This approach 
                     enables us to create tailor-made solutions that resonate with their vision
                      and foster lasting connections with their customers.
                   </p>
-
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-3(3)(3).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
+              
+
+</div>
+
+   <div className="col-lg-6 col-md-6">
+          <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-2(2)(2).jpg" />
+          </div>
+        </div>
+ 
+
+        <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+          <div className="col-lg-6 col-md-12">
+          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-4(4)(4).jpg" />
+          </div>
+
+          <div className="col-lg-6 col-md-12">
+
+    <div className="cross-card-text pt-4">
                   <a href="#">
-                    <h4>Our Team</h4>
+                    <h3>Our Team</h3>
                   </a>
-                  <p>
+                  <p className="pt-5">
                   Our team is our biggest asset. Comprising talented individuals from diverse 
                   backgrounds, we bring together a wealth of knowledge and expertise to 
                   every project. Collaboration is at the core of our work culture, fostering 
                   an environment where creativity flourishes and ideas are nurtured.
                   </p>
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="discovery-img hoverstyle">
-                <figure>
-                  <img
-                  style={{height: "250px"}}
-                    className="w-100"
-                    alt="discovery"
-                    src="assets/img/discovery-4(4)(4).jpg"
-                  />
-                </figure>
-                <div className="discovery-text two">
-                  <a href="#">
-                    <h4>Join Hands with Web Universals</h4>
-                  </a>
-                  <p>
-                  Whether you are a startup looking for a captivating website or an 
-                  established brand seeking to revamp your online presence, Web Universals
-                   is your ideal partner. We are committed to bringing your digital dreams 
-                   to life, armed with the latest tools and a passionate team driven to make
-                    a difference.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-       
-
-        {/* <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
-        <div className="container pb-lg-5 pb-2">
-        <div className="heading pb-lg-4 pb-2">
               
-                  <img alt="dots" className="dots" src="assets/img/dots.png" />
-                </div>
-       
-          <Swiper {...blogswiper} className="swiper-container blogswiper">
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-3.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                    
-                        <h2>Who We Are</h2>
-                        <p>
-                         Web Universals is a passionate team of creative minds, tech enthusiasts, and digital 
-                         strategists based in Who We Are Australia. Since our inception in 2010, we have been 
-                         on a relentless pursuit of excellence, crafting exceptional web solutions that blend 
-                         artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array 
-                         of industries, and our success stories speak volumes about the transformative power of 
-                         our services. 
-                         </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
 
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-4.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                  
-                <h2>Our Philosophy</h2>
-                <p>
-                  At the heart of our philosophy lies the belief that every business is unique and
-                   deserves a distinct online presence. We approach each project with a personalized touch, 
-                   investing time in understanding our client's goals, target audience, and brand identity. 
-                   This approach enables us to create tailor-made solutions that resonate with their vision
-                    and foster lasting connections with their customers.
-                </p>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide">
-              <div className="blog-content">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img
-                      className="w-100"
-                      alt="img"
-                      src="assets/img/blog-4.jpeg"
-                    />
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="latest-blog-post">
-                  
-                 <h2>Our Team</h2>
-               <p>Our team is our biggest asset. Comprising talented individuals from diverse
-                 backgrounds, we bring together a wealth of knowledge and expertise to every
-                  project. Collaboration is at the core of our work culture, fostering an environment 
-                  where creativity flourishes and ideas are nurtured.</p>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-        
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-          </Swiper>
+</div>
         </div>
-      </section> */}
- 
+
+        <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-12">
+
+ <div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Join Hands with Web Universals</h3>
+               </a>
+               <p className="pt-5">
+               At the heart of our philosophy lies the belief that every business
+                is unique and deserves a distinct online presence. We approach each
+                 project with a personalized touch, investing time in understanding 
+                 our client's goals, target audience, and brand identity.<br/><br/> This approach 
+                 enables us to create tailor-made solutions that resonate with their vision
+                  and foster lasting connections with their customers.
+               </p>
+             </div>
+           
+
+</div>
+
+<div className="col-lg-6 col-md-12">
+       <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-4(4).jpg" />
+       </div>
+     </div>
+
+      </div>
+    </section>
+
+       
+
       <section
           className="we-deliver-results"
           style={{ backgroundColor: "#f2edf5" }}
@@ -307,9 +182,7 @@ const About = () => {
                   <h4>Client-Centric</h4>
                  
                   <p>
-                  {/* Our clients are our top priority, and we are dedicated to delivering
-                   services that align with their objectives and timelines  putting our 
-                   clients' needs and preferences at  heart of everything we do. */}
+       
                    Our clients are our top priority, and we are dedicated to delivering services 
                    that align with their objectives and timelines.
                   </p>
@@ -340,9 +213,7 @@ const About = () => {
                  
                   <h4>Transparency</h4>
                   <p>
-                  {/* We believe in transparent communication and keep 
-                  our clients informed about every step of the process
-                   Transparent practices are trust in relationships. */}
+         
                    We believe in transparent communication and keep our clients 
                    informed about every step of the process.
                   </p>
@@ -352,24 +223,28 @@ const About = () => {
             </div>
             <div className="btugap">
 
-            <section className="things-differently gap">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-5">
-                <div className="heading">
-                  <h6>We Dream Digital</h6>
-                  <h2>
-              The Most 
-                    <br />
-           Creative Ideas
-                  </h2>
-                  <img alt="line" src="assets/img/headingline.png" />
-                  <img alt="dots" className="dots" src="assets/img/dots.png" />
-                </div>
+            <section className="gap no-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="welcome">
+                <img alt="img" src="assets/img/choose-us-3.jpg" />
+                <img
+                  alt="img"
+                  className="img-welcome auto-adj-img"
+                  src="assets/img/welcome-3.jpg"
+                />
+                <img alt="dots" className="dots" src="assets/img/dots.png" />
               </div>
-              <div className="col-xl-7">
-                <div className="signature">
-                  <h2>Our Mission</h2>
+            </div>
+            <div className="col-xl-6 pl-75">
+              <div className="heading design-enjoy">
+                <h6>We Dream Digital</h6>
+                <h2>The Most Creative Ideas</h2>
+                <img alt="line" src="assets/img/headingline.png" />
+              </div>
+              <div className="welcome-text">
+                  <h2 style={{textAlign:"left", margin:"10px 0px"}}>Our Mission</h2>
                   <p>
                  At Web Universals, we aim to empower businesses with cutting-edge digital solutions that transcend boundaries 
                  and drive growth. We aim to guide enterprises in their digital journey, providing innovative website design, 
@@ -377,7 +252,7 @@ const About = () => {
                  excellence, we strive to create a lasting impact on our clients' success and help them thrive in the ever-evolving 
                  digital landscape.
                  </p>
-                 <h2>Our Vision</h2>
+                 <h2 style={{textAlign:"left", margin:"10px 0px"}}>Our Vision</h2>
                  <p>
                  Our vision is to be the most trusted and sought-after website design and 
                  development company in Australia and globally. We envision being at the 
@@ -392,11 +267,14 @@ const About = () => {
                       Contact us
                     </a>
                   </div>
-                </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      
+      </section>
+
+     
         <hr />
             <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
@@ -423,15 +301,7 @@ const About = () => {
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
-                      {/* <p>Web Universals</p>
-                     <h2>Services for Australian Clients</h2>
-                      <p>
                    
-                      Whether it’s a website design, re design, SEO service, E-Commerce Website design and maintenance, 
-                      proper implementation of info graphics,
-                       hosting services, Social Media Marketing; 
-                      Web Universals does it all for their most valuable Australian clients.
-                      </p> */}
                  
                    <Link href="NewWebDesign"><h2>Website Design</h2></Link>  
 
@@ -461,16 +331,7 @@ const About = () => {
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
-                    {/* <p>Critical Elements of a Good Design</p>
-                    <h2>
-                     
-                     Texts, Active Links, Unique Look and Feel</h2>
-                      <p>
-                      A good web design should consists of proper and relevant texts, good content quality, 
-                      proper navigation, actively working links and a unique look and feel 
-                      in order to make the website look elegant.
-                      </p> */}
-                   {/* <h2>E-commerce</h2> */}
+                
                    <Link href="E-commerce"><h2>E-commerce</h2></Link>  
                 
                 <p>
@@ -499,15 +360,8 @@ const About = () => {
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
-                    {/* <p>Your One-Stop Solution</p> */}
-                    {/* <h2>Website Development and Business Growth</h2>
-                      <p>
-                      So, this service agency is basically a one stop solution for you where you can find an answer each 
-                      and every quarry and an effective solution for each and every dilemma of yours. Do feel free to give us a 
-                      call in case you want your website to be made live with the most happening themes 
-                      and conceptual inputs required to take your business to the next level.
-                      </p> */}
-                 <Link href="SearchEngineOptimization"><h2>Search Engine Optimization</h2></Link>  
+                 
+                 <Link href="SearchEngineOptimization"><h2 style={{textAlign:"left"}}>Search Engine Optimization</h2></Link>  
                
                <p>Is the process of affecting the visibility of a website or a web page in a search
                   engine’s unpaid results—often referred to as “natural,” “organic,” or “earned” 
@@ -565,112 +419,7 @@ const About = () => {
           </section>
          
         
-      {/* <section className="gap reaview-section">
-        <div className="container">
-          <div className="heading">
-            <h6>Why Partner With Us?</h6>
-            <h2>We Love  What We Do</h2>
-            <img alt="line" src="assets/img/headingline.png" />
-          </div>
-          <Swiper {...partnerswiper} className="swiper-container partnerswiper">
-            <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview content-manage2">
-               
-                  <h4>Who We Are</h4>
-                  <div className="boder" />
-                  <p>
-                  Web Universals is a passionate team of creative minds, tech enthusiasts, and digital strategists based in 
-                  Australia. Since our inception in 2010, we have been on a relentless pursuit of excellence, crafting exceptional
-                   web solutions that blend artistry and functionality seamlessly. Our diverse portfolio encompasses a wide array 
-                   of industries, and our success stories speak volumes about the transformative power of our services.
-                    </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview content-manage2">
-                 
-                  <h4>Our Philosophy</h4>
-                  <div className="boder" />
-
-                  <p>At the heart of our philosophy lies the belief that every business is unique
-                     and deserves a distinct online presence. We approach each project with a 
-                     personalized touch, investing time in understanding our client's goals, 
-                     target audience, and brand identity. This approach enables us to create
-                      tailor-made solutions that resonate with their vision and foster lasting 
-                      connections with their customers.</p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview content-manage2">
-                 
-                  <h4>Our Team</h4>
-                  <div className="boder" />
-
-                  <p>
-               
-                  Our team is our biggest asset. Comprising talented individuals from diverse backgrounds,
-                   we bring together a wealth of knowledge and expertise to every project. Collaboration 
-                   is at the core of our work culture, fostering an environment where creativity flourishes
-                    and ideas are nurtured.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview content-manage2">
-               
-                  <h4>Join Hands with Web Universals</h4>
-                  <div className="boder" />
-
-                  <p>
-                  Whether you are a startup looking for a captivating website or an established brand 
-                  seeking to revamp your online presence, Web Universals is your ideal partner.
-                   We are committed to bringing your digital dreams to life, armed with the latest
-                    tools and a passionate team driven to make a difference.
-
-                  </p>
-                </div>
-              </SwiperSlide>
-            
-            </div>
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-pagination" />
-          </Swiper>
-        </div>
-      </section> */}
+    
      
       <div className="container">
         <div className="awesome-project">
@@ -682,6 +431,8 @@ const About = () => {
       </div>
       </div>
     </Layout>
+    </>
+   
   );
 };
 export default About;

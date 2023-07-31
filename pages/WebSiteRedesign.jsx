@@ -3,9 +3,21 @@ import Layout from "@/src/layout/Layout";
 
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Head from 'next/head';
+
 const WebSiteRedesign = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+    <>
+<Head>
+<title>Professional Website Redesign Services</title>
+
+<meta name="description" content="Enhance Your Online Presence"/>
+<meta name="keywords" content="website redesign service, website redesign company, website revamp, website makeover, responsive web redesign"/>
+
+</Head>
+
+
+      <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -291,6 +303,8 @@ Development!</h4>
        
       </div>
     </Layout>
+    </>
+    
   );
 };
 export default WebSiteRedesign;

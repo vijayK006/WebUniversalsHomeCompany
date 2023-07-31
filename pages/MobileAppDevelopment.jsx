@@ -11,8 +11,19 @@ import { IoIosApps } from 'react-icons/io';
 // import { IoIosApps } from 'react-icons/io6';
 // import { IoIosApps } from 'react-icons/io6';
 
+import Head from 'next/head';
+
 const MobileAppDevelopment = () => {
   return (
+    <>
+        <Head>
+
+        <title>Innovative Mobile App Development | Web Universals</title>
+
+<meta name="description" content="Innovate and Redefine User Experience - Mobile Apps that Shape the Future"/>
+<meta name="keywords" content="mobile application development, mobile app development, mobile app development company, mobile app development services, mobile app development agency, mobile app developers, app development, mobile app design, app development services, android app development, iOS app development, cross-platform app development, mobile app development solutions, mobile app development process, mobile app development cost, mobile app development company near me, mobile app development agency near me"/>
+
+    </Head>
     <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
@@ -258,6 +269,8 @@ const MobileAppDevelopment = () => {
         
       </div>
     </Layout>
+    </>
+  
   );
 };
 export default MobileAppDevelopment;

@@ -8,40 +8,54 @@ import {CgWebsite} from 'react-icons/cg';
 import {BiCartAlt} from 'react-icons/bi';
 import {MdOutlineEnergySavingsLeaf} from 'react-icons/md';
 // import {GiCyberEye} from 'react-icons/md';
-
+import  React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { Swiper, SwiperSlide } from "swiper/react";
-// import { SlSettings } from 'react-icons/sl';
-// import { MdOutlineBroadcastOnPersonal } from 'react-icons/md';
-// import { SiAntdesign } from 'react-icons/si';
-// import { GiPayMoney } from 'react-icons/gi';
+import Head from 'next/head';
+
 
 const Index3 = () => {
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('service_33d2bgh', 'template_i07hxug', form.current, '0qpfXzVciq8YilctV')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message Sent successfully :)")
+      }, (error) => {
+          console.log(error.text);
+          console.log("message not sent email failed :(")
 
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read More";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read Less";
-      moreText.style.display = "inline";
-    }
-  }
+      });
+  };
 
   return (
+
+  <>
+<Head>
+<title>Web Design Company - Affordable & Creative Services | Web Universals</title>
+
+<meta name="description" content="Empowering Your Online Journey - Web Design, SEO, Social Media, & More"/>
+<meta name="keywords" content="website design company, top website design company in Australia, best website design company in Australia, website design company Australia, website design companies Australia, website designing company in Australia, website design and development company in Australia, website designing company Australia, website design companies in Australia, website designing companies in Australia, website design company in Australia"/>
+
+</Head>
+
     <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
         <section>
-        <Swiper className="swiper-container herotwoswiper">
+
+        <Swiper className="swiper-container herotwoswiper"
+          loop={true}
+                autoplay={{
+                    delay: 4500,
+                    disableOnInteraction: false 
+                }}
+        >
           <div className="swiper-wrapper">
-            <SwiperSlide className="swiper-slide">
+
+          <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
                 style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
@@ -49,9 +63,11 @@ const Index3 = () => {
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    Welcome to <span>Web Universals </span>
+                    Welcome To <span>Web Universals </span>
                     </h2>
-                    <p>Your Trusted Australian Website Design & Development Company! </p>
+                
+                    <br/>
+                    <br/>
                     <Link href="contacts" className="themebtu full">
                       Contact Us 
                     </Link>
@@ -59,26 +75,112 @@ const Index3 = () => {
                 </div>
               </div>
             </SwiperSlide>
-            {/* <SwiperSlide className="swiper-slide">
+
+            <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ backgroundImage: "url(assets/img/hero-img-2.jpg)" }}
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner1.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken"  }}
               >
                 <div className="container">
                   <div className="heading-boder">
-                    <h2>
-                    Start up & <span>Never stop </span>
+                    <h2 >
+                    Website Redesign <span>Services </span>
                     </h2>
-                    <p>We are a creative agency with a passion for design. Our methodical approach is focused on 
-                    revealing the essence of each design challenge to allow us 
-                    to create holistic and durable solutions. </p>
+                    <p >Revamp. Refresh. Reignite. Unleashing the Power of Renewed Online Presence</p>
+                    <br/>
+                    <br/>
                     <Link href="contacts" className="themebtu full">
-                      More Services
+                      Contact Us 
                     </Link>
                   </div>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner2.jpg)", position:"relative", backgroundBlendMode:"darken" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    From Vision to <br/><span>Viral</span>
+                    </h2>
+                    <p> Elevating Your Brand with Strategic Digital Magic</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner3.jpg)", position:"relative", backgroundBlendMode:"darken"  }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Branding & Identity <span>Development</span>
+                    </h2>
+                    <p>Shaping Brands That Speak Stand Out, and Stay in Hearts Forever</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ backgroundImage: "url(assets/img/banner4.jpg)" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    UI/UX Design <span>Services </span>
+                    </h2>
+                    <p>User-Centric Experiences That Leave a Lasting Impression</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Experience the Brilliance of <span>Web Universals </span>
+                    </h2>
+                    <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+       
           </div>
           <div className="swiper-pagination" />
         </Swiper>
@@ -103,17 +205,20 @@ const Index3 = () => {
                 /> */}
               </div>
               <div className="welcome-text">
-                <h2> Discover the Essence of <br/> Online Excellence</h2>
+<h2>Your Trusted Australian Website Design & Development Company! </h2> 
+<br/>
+
+                <h3> Discover the Essence of Online Excellence</h3>
                 <p>
                 Are you looking for a website that reflects the true spirit of your business and captures the hearts of your Australian audience? Look no further! Since 2010, Web Universals has been crafting awe-inspiring web solutions with an Australian touch that resonates with businesses and their customers..
                 </p>
 
-                <h2>Australia's Premier <br/> Website Design Company </h2>
+                <h3>Australia's Premier <br/> Website Design Company </h3>
                 <p>
                 At Web Universals, we take immense pride in being a trailblazer in Australia's website design and development. Our passion for crafting visually stunning, highly functional, and user-friendly websites has earned us the reputation of being Australia's top website design company.
                 </p>
 
-                <h2>Best in Class Web Solutions </h2>
+                <h3>Best in Class Web Solutions </h3>
                 <p>
                 Being Australia's best website design company comes with great responsibility, and we deliver excellence on every front. From bespoke website designs that align with your brand identity to seamless e-commerce platforms that drive sales, our services cater to every business need.
                 </p>
@@ -180,8 +285,15 @@ const Index3 = () => {
                 <h4>Your Success is Our Priority  </h4>
                 <p>
                 At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
+            
+                <div className="card-btn">
+  <Link href="SearchEngineOptimization" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
+            
               </div>
-            </div>
+              </div>
 
 
             <div className="col-xl-3 col-lg-6 pt-1 pb-1">
@@ -190,6 +302,12 @@ const Index3 = () => {
                 <h4>Tailored Solutions for Every Business  </h4>
                 <p>
                 Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
+              
+                <div className="card-btn">
+  <Link href="NewWebDesign" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -204,6 +322,11 @@ const Index3 = () => {
                 <p>
                 If your website needs a facelift, our website redesign services are here to breathe new life into your online presence. Stay ahead of the curve with a refreshed, modern website that engages your audience. </p>
              
+                <div className="card-btn">
+  <Link href="WebSiteRedesign" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -215,6 +338,11 @@ const Index3 = () => {
                 Unlock the potential of online retail with our unparalleled e-commerce website design services. We empower your business with cutting-edge features and a seamless shopping experience that keeps customers returning for more.
                 </p>
              
+                <div className="card-btn">
+  <Link href="E-commerce" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -228,6 +356,12 @@ const Index3 = () => {
                 <h4>Amplify Your Digital Presence  </h4>
                 <p>
                 As a leading website design and development company in Australia, we understand the significance of digital marketing in today's competitive landscape. With our expert SEO, SMM, Google Ads PPC, and Facebook Ads & lead generation services, we ensure your business achieves the online visibility it deserves.</p>
+             
+                <div className="card-btn">
+  <Link href="SocialMediaMarketing" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -239,6 +373,12 @@ const Index3 = () => {
                 <h4>From Vision to Reality </h4>
                 <p>
                 Your business deserves a unique identity, and our services extend beyond website design. Our expert team crafts captivating logos and brochures that embody your brand's essence, leaving a lasting impression on your customers.</p>
+             
+                <div className="card-btn">
+  <Link href="LogoDesign" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -248,6 +388,12 @@ const Index3 = () => {
                 <h4>Where Innovation Meets Mobility </h4>
                 <p>
                 In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
+              
+                <div className="card-btn">
+  <Link href="MobileAppDevelopment" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -728,45 +874,45 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
 
-      <section className="gap map-three">
+      <section className=" map-three">
         <div className="container">
+             
+        <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>
           <div className="row">
             <div className="col-xl-6">
               <div className="heading">
                 <h6>Contact Us Today</h6>
                 <img alt="line" src="assets/img/headingline.png" />
                 <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/> <br/>
-                Experience the magic of Web Universals - Your Trusted Web Design Partner in Australia!
                 </p>
 
             
               </div>
-              <form className="touch two">
+              <form className="touch two" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-4">
-                    <input type="text" name="name" placeholder="Your name *" />
+                    <input type="text" name="from_name" placeholder="Your name *" />
                   </div>
                   <div className="col-lg-4">
                     <input
                       type="text"
-                      name="email"
+                      name="user_email"
                       placeholder="Email address *"
                     />
                   </div>
                   <div className="col-lg-4">
                     <input
-                      type="number"
-                      name="phone"
-                      placeholder="Your Phone (optional)"
+                      type="text"
+                      name="user_subject"
+                      placeholder="Subject"
                     />
                   </div>
                   <div className="col-xl-12">
-                    <textarea placeholder="Your message *" defaultValue={""} />
+                    <textarea placeholder="Your message *" name="message" defaultValue={""} />
                   </div>
-                  <div className="btugap">
-                    <a href="#" className="themebtu full">
-                      Send Message
-                    </a>
+                  <div className="btugap pb-5">
+                    <input type="submit" value="Send Message" className="themebtu full" style={{color:"white", width:"200px" , backgroundColor:"blue"}}/>
+                  
                   </div>
                 </div>
               </form>
@@ -786,6 +932,9 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
     </Layout>
+
+  </>
+
   );
 };
 export default Index3;

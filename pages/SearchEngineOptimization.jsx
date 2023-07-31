@@ -7,6 +7,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const SearchEngineOptimization = () => {
   return (
+    <>
+    <head>
+<title>Result-Oriented SEO Experts | Web Universals</title>
+
+<meta name="description" content="Skyrocket Your Visibility with Result-Oriented SEO Strategies"/>
+<meta name="keywords" content="seo agency, seo company, seo services experts, local seo services, best seo company, top seo company, seo service Australia, affordable seo, result-oriented seo services"/>
+
+</head>
+
     <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
@@ -426,7 +435,7 @@ Online Public Relations
                     </figure>
                     <h3>
                       <p className="card-text">
-                      Account Management and much more
+                      Account Management
                       </p>
                     </h3>
              
@@ -643,6 +652,9 @@ Online Public Relations
         
       </div>
     </Layout>
+
+    </>
+
   );
 };
 export default SearchEngineOptimization;

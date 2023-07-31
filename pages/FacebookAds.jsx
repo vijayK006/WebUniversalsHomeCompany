@@ -10,10 +10,20 @@ import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
 // import { IoIosApps } from 'react-icons/io6';
 // import { IoIosApps } from 'react-icons/io6';
+import Head from 'next/head';
 
 const FacebookAds = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+    <>
+
+<Head>
+<title>Engaging Facebook Ads & Lead Generation</title>
+
+<meta name="description" content="Connect with Your Audience on Social Media"/>
+<meta name="keywords" content="Facebook ads, lead generation, social media marketing, Facebook advertising, targeted ads"/>
+
+</Head>
+          <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -304,6 +314,8 @@ Excellence!</h4>
         
       </div>
     </Layout>
+    </>
+
   );
 };
 export default FacebookAds;

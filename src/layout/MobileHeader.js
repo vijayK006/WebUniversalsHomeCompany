@@ -60,6 +60,12 @@ const MobileHeader = ({ toggle, close }) => {
                   </li>
 
                   <li>
+                    <Link legacyBehavior href="WebDesignOffer">
+                      Website Design Offer
+                    </Link>
+                  </li>
+
+                  <li>
                     <Link legacyBehavior href="MobileAppDevelopment">
                     Mobile App
                     </Link>

@@ -1,23 +1,39 @@
 // import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 const Team = () => {
   return (
-    <Layout noHeaderBg pageName={"Team"}>
+<>
+<Head>
+<title>Custom Website Design Services | Web Universals</title>
+
+<meta name="description" content="Craft Your Digital Masterpiece - Custom, Responsive, and User-centric Designs"/>
+<meta name="keywords" content="website design, wordpress website designer, best website design, website design company, website designer near me, website design agency, portfolio website design, website design for small business, website design cost, website design services, website design near me, good website design, custom website design, cheap website design, modern website design, simple website design, creative website design, business website design, minimalist website design, website design and development, affordable website design, website design packages"/>
+
+</Head>
+
+
+   <Layout noHeaderBg pageName={"Team"}>
       <section
         className="splash-area-section"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
       >
         <div className="container">
           <div className="splash-area">
-            <h2>
-          Website 
+            {/* <h2>
+           Website 
             <br/>
-            Design Service
-            </h2>
+            Design
+            </h2> */}
             {/* <h2>Crafting Your <br />Digital Identity</h2> */}
             {/* <a href="#">Meet The Team</a> */}
+            <h2>
+                  {" "}
+                  Crafting Your Digital Identity
+                </h2>
           </div>
         </div>
       </section>
@@ -26,12 +42,13 @@ const Team = () => {
           <div className="row">
             <div className="col-xl-5">
               <div className="heading">
-                <h6>Affordable</h6>
-                <h2>
+                <h6>Responsive Website Design</h6>
+                
+                <h3>
                   {" "}
-                  Crafting YourDigital Identity
-                </h2>
-                <img alt="line" src="assets/img/headingline.png" />
+                  Adapt. Engage. Impress. Crafting Websites that Look Stunning on Any Device
+                </h3>
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
 
               </div>
@@ -69,12 +86,12 @@ const Team = () => {
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-xl-6">
-              <div className="heading">
+              <div className="heading heading1">
                 {/* <h6>Web Design Sydney</h6> */}
                 {/* <h2> 100% Satisfaction<br/> Guarantee</h2> */}
-                <h2>Why Choose Us for <br /> Website Design</h2>
+                <h2>Why Choose Us for Website Design</h2>
                 <img alt="line" src="assets/img/headingline.png" />
                 {/* <p>
                 Our web design sydney and techies know some efficient remedial measures for such pain points. We here 
@@ -83,6 +100,16 @@ const Team = () => {
                 mainly deal with such for several reasons such as timely delivery of job, 
                 cost effective website works, 100% satisfaction guarantee, one point of contact and no surprises.
                 </p> */}
+<br/>
+<br/>
+
+                <h4>Website Design & Development</h4>
+                    <p>
+                    We don't just stop at design; our team of skilled developers complements our
+                     services with seamless website development, ensuring your website performs as
+                      brilliantly as it looks.
+                      </p>
+
                <h4>Expertise in WordPress</h4>
                <p>
               Our skilled WordPress website designers have mastered the art of creating visually 
@@ -111,19 +138,13 @@ const Team = () => {
               We understand the importance of showcasing your work. Our portfolio website design
                services enable you to present your projects visually, compellingly, and organized.
                </p>
-                <h4>Website Design & Development</h4>
-                    <p>
-                    We don't just stop at design; our team of skilled developers complements our
-                     services with seamless website development, ensuring your website performs as
-                      brilliantly as it looks.
-                      </p>
+              
                 {/* <Link href="contacts" className="themebtu full">
                   Contact Us
                 </Link> */}
               <br />
               <br />
-              <br />
-              <br />
+             
           
               </div>
             </div>
@@ -175,35 +196,35 @@ const Team = () => {
                   is really something annoying. So as we know such unfortunate consequences that 
                   cause quite a lot of trouble, thus never let any of our website design task meet such a fate in future.
                   </p> */}
-                    <h4>Tailored Solutions for Small Businesses</h4>
+                    <h4 className="head">Tailored Solutions for Small Businesses</h4>
                     <p>
                     We believe in empowering small businesses with an impactful online presence. Our 
                     website design for small business owners is affordable yet powerful enough to make a solid digital statement.
                     </p>
-                   <br />
+                   
 
-                    <h4>Transparent Pricing</h4>
+                    <h4 className="head">Transparent Pricing</h4>
                     <p>
                     We believe in transparent communication, and our website design cost is competitive without 
                     compromising quality. Our website design packages are designed to suit various budgets and
                     requirements.
                     </p>
-                   <br />
+                   
  
-                    <h4>Comprehensive Design Services</h4>
+                    <h4 className="head">Comprehensive Design Services</h4>
                     <p>
                      We cover all design styles, from creative website design to minimalist and 
                      modern aesthetics. Our custom website design services ensure your website
                       truly represents your brand essence.
                     </p>
-                   <br />
+                   
 
-                    <h4>Affordable & High-Quality</h4>
+                    <h4 className="head">Affordable & High-Quality</h4>
                     <p>
                     Quality web design shouldn't break the bank. Our cheap website design services offer 
                     exceptional value without compromising the final product's quality.
                     </p>
-                    <br />
+                    
                    
                 </div>
               </div>
@@ -225,9 +246,6 @@ const Team = () => {
           </div>
         </div>
       </section>
-     <br />
-     <br />
-     <br />
 
 
 
@@ -247,6 +265,9 @@ const Team = () => {
       </div> */}
       
     </Layout>
+</>
+
+   
   );
 };
 export default Team;

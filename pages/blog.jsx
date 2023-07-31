@@ -491,83 +491,15 @@ So by doing the above mention steps you can easily choose the best web designing
           <a href="contacts.html" className="themebtu full">
             Get Started
           </a>
+&nbsp; &nbsp; &nbsp;
+          <Link href="BlogApi" className="themebtu full">
+      Blog
+          </Link>
         </div>
       </div>
-      {/* <section className="gap blog-recent-posts">
-        <div className="container">
-          <h4 className="mb-5">Recent Posts</h4>
-          <div className="row">
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="latest-blog-post">
-                <img
-                  alt="img"
-                  className="w-100"
-                  src="assets/img/latest-blog-1.jpg"
-                />
-                <a href="#">
-                  <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
-                </a>
-                <a href="#">
-                  <h4>Class aptent taciti sociosqu ad litora torquent per.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="latest-blog-post">
-                <img
-                  alt="img"
-                  className="w-100"
-                  src="assets/img/latest-blog-2.jpg"
-                />
-                <a href="#">
-                  <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
-                </a>
-                <a href="#">
-                  <h4>Pellentesque odionisi euismod in,pharetra ultricies.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="latest-blog-post">
-                <img
-                  alt="img"
-                  className="w-100"
-                  src="assets/img/latest-blog-3.jpg"
-                />
-                <a href="#">
-                  <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
-                </a>
-                <a href="#">
-                  <h4>Nam nulla quam, gravida non.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="latest-blog-post mb-0">
-                <img
-                  alt="img"
-                  className="w-100"
-                  src="assets/img/latest-blog-4.jpg"
-                />
-                <a href="#">
-                  <i className="fa-regular fa-clock" />
-                  <span>August 10, 2023</span>
-                </a>
-                <a href="#">
-                  <h4>Donec nec justo eget felis facilisis fermentum.</h4>
-                </a>
-                <span>by Jane Luna | Digital Strategy</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+
+
+
     </Layout>
   );
 };
