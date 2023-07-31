@@ -886,7 +886,7 @@ goes the extra mile to ensure their clients&#39; satisfaction.
                   <div className="col-xl-12">
                     <textarea placeholder="Your message *" defaultValue={""} />
                   </div>
-                  <div className="btugap">
+                  <div className="btugap pb-5">
                     <a href="#" className="themebtu full">
                       Send Message
                     </a>
