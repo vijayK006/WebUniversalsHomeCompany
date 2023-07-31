@@ -55,7 +55,7 @@ const Contacts = () => {
                 </li>
                 <li>
                   <h4>Phone :</h4>
-                  <a href="callto:+61 8 7200 7227">
+                  <a href="tel:+61 8 7200 7227">
                     <span>08 7200 7227</span>
                   </a>
                 </li>
