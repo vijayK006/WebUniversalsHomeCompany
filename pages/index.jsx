@@ -18,30 +18,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Index3 = () => {
 
-
-
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read More";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read Less";
-      moreText.style.display = "inline";
-    }
-  }
-
   return (
     <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
         <section>
-        <Swiper className="swiper-container herotwoswiper">
+
+        <Swiper className="swiper-container herotwoswiper"
+          loop={true}
+                autoplay={{
+                    delay: 4500,
+                    disableOnInteraction: false 
+                }}
+        >
           <div className="swiper-wrapper">
-            <SwiperSlide className="swiper-slide">
+
+          <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
                 style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
@@ -49,9 +39,9 @@ const Index3 = () => {
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    Welcome to <span>Web Universals </span>
+                    Welcome To <span>Web Universals </span>
                     </h2>
-                    {/* <p>Your Trusted Australian Website Design & Development Company! </p> */}
+                
                     <br/>
                     <br/>
                     <Link href="contacts" className="themebtu full">
@@ -65,14 +55,98 @@ const Index3 = () => {
             <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner1.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken"  }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2 >
+                    Website Redesign <span>Services </span>
+                    </h2>
+                    <p >Revamp. Refresh. Reignite. Unleashing the Power of Renewed Online Presence</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner2.jpg)", position:"relative", backgroundBlendMode:"darken" }}
               >
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    Welcome to <span>Web Universals </span>
+                    From Vision to <br/><span>Viral</span>
                     </h2>
-                    {/* <p>Your Trusted Australian Website Design & Development Company! </p> */}
+                    <p> Elevating Your Brand with Strategic Digital Magic</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner3.jpg)", position:"relative", backgroundBlendMode:"darken"  }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Branding & Identity <span>Development</span>
+                    </h2>
+                    <p>Shaping Brands That Speak Stand Out, and Stay in Hearts Forever</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ backgroundImage: "url(assets/img/banner4.jpg)" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    UI/UX Design <span>Services </span>
+                    </h2>
+                    <p>User-Centric Experiences That Leave a Lasting Impression</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    Experience the Brilliance of <span>Web Universals </span>
+                    </h2>
+                    <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
                     <br/>
                     <br/>
                     <Link href="contacts" className="themebtu full">
