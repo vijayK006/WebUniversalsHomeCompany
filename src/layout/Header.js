@@ -17,7 +17,13 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
 
  const  clickService =()=>{
-    document.getElementById('megaMenu_items').classList.toggle("height-100");
+    document.getElementById('megaMenu_items').classList.add("height-100");
+}
+
+
+const opacity0 = ()=>{
+    document.getElementById('megaMenu_items').classList.toggle("opacity_0");
+
 }
 
   return (
@@ -26,7 +32,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
       className={headerExtraClass ? headerExtraClass : ""}
       style={
         !noHeaderBg
-          ? { backgroundImage: `url(assets/img/header.jpg)` }
+          ? { backgroundColor: "black" }
           : { backgroundColor: "transparent" }
       }
     >
@@ -71,7 +77,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
               </li>
 
-              <li onClick={clickService}>
+              <li onMouseOver={clickService}>
                 <Link legacyBehavior href="">
       Our Services
                 </Link>
@@ -202,7 +208,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
     </header>
 
-<div className="mega-menu-items" id="megaMenu_items">
+<div className="mega-menu-items" id="megaMenu_items" onMouseLeave={opacity0}>
 <div className="container">
   <div className="row">
 
