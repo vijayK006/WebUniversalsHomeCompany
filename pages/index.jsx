@@ -103,17 +103,20 @@ const Index3 = () => {
                 /> */}
               </div>
               <div className="welcome-text">
-                <h2> Discover the Essence of <br/> Online Excellence</h2>
+<h2>Your Trusted Australian Website Design & Development Company! </h2> 
+<br/>
+
+                <h3> Discover the Essence of Online Excellence</h3>
                 <p>
                 Are you looking for a website that reflects the true spirit of your business and captures the hearts of your Australian audience? Look no further! Since 2010, Web Universals has been crafting awe-inspiring web solutions with an Australian touch that resonates with businesses and their customers..
                 </p>
 
-                <h2>Australia's Premier <br/> Website Design Company </h2>
+                <h3>Australia's Premier <br/> Website Design Company </h3>
                 <p>
                 At Web Universals, we take immense pride in being a trailblazer in Australia's website design and development. Our passion for crafting visually stunning, highly functional, and user-friendly websites has earned us the reputation of being Australia's top website design company.
                 </p>
 
-                <h2>Best in Class Web Solutions </h2>
+                <h3>Best in Class Web Solutions </h3>
                 <p>
                 Being Australia's best website design company comes with great responsibility, and we deliver excellence on every front. From bespoke website designs that align with your brand identity to seamless e-commerce platforms that drive sales, our services cater to every business need.
                 </p>
@@ -180,8 +183,15 @@ const Index3 = () => {
                 <h4>Your Success is Our Priority  </h4>
                 <p>
                 At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
+            
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
+            
               </div>
-            </div>
+              </div>
 
 
             <div className="col-xl-3 col-lg-6 pt-1 pb-1">
@@ -190,6 +200,12 @@ const Index3 = () => {
                 <h4>Tailored Solutions for Every Business  </h4>
                 <p>
                 Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
+              
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -204,6 +220,11 @@ const Index3 = () => {
                 <p>
                 If your website needs a facelift, our website redesign services are here to breathe new life into your online presence. Stay ahead of the curve with a refreshed, modern website that engages your audience. </p>
              
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -215,6 +236,11 @@ const Index3 = () => {
                 Unlock the potential of online retail with our unparalleled e-commerce website design services. We empower your business with cutting-edge features and a seamless shopping experience that keeps customers returning for more.
                 </p>
              
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -228,6 +254,12 @@ const Index3 = () => {
                 <h4>Amplify Your Digital Presence  </h4>
                 <p>
                 As a leading website design and development company in Australia, we understand the significance of digital marketing in today's competitive landscape. With our expert SEO, SMM, Google Ads PPC, and Facebook Ads & lead generation services, we ensure your business achieves the online visibility it deserves.</p>
+             
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -239,6 +271,12 @@ const Index3 = () => {
                 <h4>From Vision to Reality </h4>
                 <p>
                 Your business deserves a unique identity, and our services extend beyond website design. Our expert team crafts captivating logos and brochures that embody your brand's essence, leaving a lasting impression on your customers.</p>
+             
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -248,6 +286,12 @@ const Index3 = () => {
                 <h4>Where Innovation Meets Mobility </h4>
                 <p>
                 In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
+              
+                <div className="card-btn">
+  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+                  Know More
+                </Link>
+</div>
               </div>
             </div>
 
@@ -728,15 +772,16 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
 
-      <section className="gap map-three">
+      <section className=" map-three">
         <div className="container">
+             
+        <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>
           <div className="row">
             <div className="col-xl-6">
               <div className="heading">
                 <h6>Contact Us Today</h6>
                 <img alt="line" src="assets/img/headingline.png" />
                 <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/> <br/>
-                Experience the magic of Web Universals - Your Trusted Web Design Partner in Australia!
                 </p>
 
             

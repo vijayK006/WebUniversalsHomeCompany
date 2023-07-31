@@ -11,13 +11,17 @@ const Team = () => {
       >
         <div className="container">
           <div className="splash-area">
-            <h2>
-          Website 
+            {/* <h2>
+           Website 
             <br/>
-            Design Service
-            </h2>
+            Design
+            </h2> */}
             {/* <h2>Crafting Your <br />Digital Identity</h2> */}
             {/* <a href="#">Meet The Team</a> */}
+            <h2>
+                  {" "}
+                  Crafting Your Digital Identity
+                </h2>
           </div>
         </div>
       </section>
@@ -26,12 +30,13 @@ const Team = () => {
           <div className="row">
             <div className="col-xl-5">
               <div className="heading">
-                <h6>Affordable</h6>
-                <h2>
+                <h6>Responsive Website Design</h6>
+                
+                <h3>
                   {" "}
-                  Crafting YourDigital Identity
-                </h2>
-                <img alt="line" src="assets/img/headingline.png" />
+                  Adapt. Engage. Impress. Crafting Websites that Look Stunning on Any Device
+                </h3>
+                {/* <img alt="line" src="assets/img/headingline.png" /> */}
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
 
               </div>
@@ -69,12 +74,12 @@ const Team = () => {
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-xl-6">
-              <div className="heading">
+              <div className="heading heading1">
                 {/* <h6>Web Design Sydney</h6> */}
                 {/* <h2> 100% Satisfaction<br/> Guarantee</h2> */}
-                <h2>Why Choose Us for <br /> Website Design</h2>
+                <h2>Why Choose Us for Website Design</h2>
                 <img alt="line" src="assets/img/headingline.png" />
                 {/* <p>
                 Our web design sydney and techies know some efficient remedial measures for such pain points. We here 
@@ -83,6 +88,16 @@ const Team = () => {
                 mainly deal with such for several reasons such as timely delivery of job, 
                 cost effective website works, 100% satisfaction guarantee, one point of contact and no surprises.
                 </p> */}
+<br/>
+<br/>
+
+                <h4>Website Design & Development</h4>
+                    <p>
+                    We don't just stop at design; our team of skilled developers complements our
+                     services with seamless website development, ensuring your website performs as
+                      brilliantly as it looks.
+                      </p>
+
                <h4>Expertise in WordPress</h4>
                <p>
               Our skilled WordPress website designers have mastered the art of creating visually 
@@ -111,19 +126,13 @@ const Team = () => {
               We understand the importance of showcasing your work. Our portfolio website design
                services enable you to present your projects visually, compellingly, and organized.
                </p>
-                <h4>Website Design & Development</h4>
-                    <p>
-                    We don't just stop at design; our team of skilled developers complements our
-                     services with seamless website development, ensuring your website performs as
-                      brilliantly as it looks.
-                      </p>
+              
                 {/* <Link href="contacts" className="themebtu full">
                   Contact Us
                 </Link> */}
               <br />
               <br />
-              <br />
-              <br />
+             
           
               </div>
             </div>
@@ -175,35 +184,35 @@ const Team = () => {
                   is really something annoying. So as we know such unfortunate consequences that 
                   cause quite a lot of trouble, thus never let any of our website design task meet such a fate in future.
                   </p> */}
-                    <h4>Tailored Solutions for Small Businesses</h4>
+                    <h4 className="head">Tailored Solutions for Small Businesses</h4>
                     <p>
                     We believe in empowering small businesses with an impactful online presence. Our 
                     website design for small business owners is affordable yet powerful enough to make a solid digital statement.
                     </p>
-                   <br />
+                   
 
-                    <h4>Transparent Pricing</h4>
+                    <h4 className="head">Transparent Pricing</h4>
                     <p>
                     We believe in transparent communication, and our website design cost is competitive without 
                     compromising quality. Our website design packages are designed to suit various budgets and
                     requirements.
                     </p>
-                   <br />
+                   
  
-                    <h4>Comprehensive Design Services</h4>
+                    <h4 className="head">Comprehensive Design Services</h4>
                     <p>
                      We cover all design styles, from creative website design to minimalist and 
                      modern aesthetics. Our custom website design services ensure your website
                       truly represents your brand essence.
                     </p>
-                   <br />
+                   
 
-                    <h4>Affordable & High-Quality</h4>
+                    <h4 className="head">Affordable & High-Quality</h4>
                     <p>
                     Quality web design shouldn't break the bank. Our cheap website design services offer 
                     exceptional value without compromising the final product's quality.
                     </p>
-                    <br />
+                    
                    
                 </div>
               </div>
@@ -228,8 +237,60 @@ const Team = () => {
      <br />
      <br />
      <br />
-
-
+      <section className=" map-three">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="heading">
+                <h6>Contact Us Today</h6>
+                <img alt="line" src="assets/img/headingline.png" />
+                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together!
+                </p>      
+             </div>
+              <form className="touch two">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <input type="text" name="name" placeholder="Your name *" />
+                  </div>
+                  <div className="col-lg-4">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email address *"
+                    />
+                  </div>
+                  <div className="col-lg-4">
+                    <input
+                      type="number"
+                      name="phone"
+                      placeholder="Your Phone (optional)"
+                    />
+                  </div>
+                  <div className="col-xl-12">
+                    <textarea placeholder="Your message *" defaultValue={""} />
+                  </div>
+                  <div className="btugap">
+                    <a href="#" className="themebtu full">
+                      Send Message
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="offset-xl-1 col-xl-5">
+              <div className="map">
+              <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13924197.196521623!2d124.37171398494617!3d-31.566370704618578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6aa7589e5be8c7f3%3A0xdb7e79993dfad0d8!2sSouth%20Australia%2C%20Australia!5e0!3m2!1sen!2sin!4v1690524409240!5m2!1sen!2sin"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="container  mt-5">
         <div className="awesome-project">

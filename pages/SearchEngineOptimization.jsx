@@ -426,7 +426,7 @@ Online Public Relations
                     </figure>
                     <h3>
                       <p className="card-text">
-                      Account Management and much more
+                      Account Management
                       </p>
                     </h3>
              
