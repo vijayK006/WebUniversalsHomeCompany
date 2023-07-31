@@ -51,7 +51,7 @@ Our Social Media Marketing services are tailored to meet the needs of businesses
           </div>
         </section>
    
-        <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
+        {/* <section className="pt-lg-5 pb-lg-4 pt-2 pb-4 ">
         <div className="container pb-lg-5 pb-2">
         <div className="heading pb-lg-4 pb-2">
         <h2> Your Key to Social Media Success
@@ -167,9 +167,10 @@ Our Social Media Marketing services are tailored to meet the needs of businesses
                     <div className="latest-blog-post">
                     <h4>Get Started Today</h4>
                       <p> 
-                      Let Web Universals be your partner in crafting a dynamic and impactful social media presence. <br /><br />
-                      With our Social Media Marketing expertise, your business will thrive on social media, leaving 
-                      a lasting impression on your audience.
+                      If you still need social media accounts for your business, we'll
+                       create them for you. From Facebook and Instagram to Twitter and
+                        LinkedIn, we'll set up accounts on the platforms most relevant to your 
+                        industry and target audience.
                       </p>
                      
 
@@ -215,10 +216,156 @@ Our Social Media Marketing services are tailored to meet the needs of businesses
             </div>
           </Swiper>
         </div>
-      </section>
+      </section> */}
+  {/* <hr /> */}
+
+ <section className="container">
+  <h2 className="text-center pt-2 pb-2">Amplify Your Brand Presence, Engage, and Grow!</h2>
+      <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+        
+       <div className="col-lg-6 col-md-6">
+
+       <div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Account Creation</h3>
+               </a>
+               <p className="pt-5">
+               At the heart of our philosophy lies the belief that every business
+                is unique and deserves a distinct online presence. We approach each
+                 project with a personalized touch, investing time in understanding 
+                 our client's goals, target audience, and brand identity.<br/><br/> This approach 
+                 enables us to create tailor-made solutions that resonate with their vision
+                  and foster lasting connections with their customers.
+               </p>
+             </div>
+           
+
+       </div>
+
+<div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-4(4).jpg" />
+       </div>  
+     </div>
+
+     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-3(3)(3).jpg" />
+     
+       
+
+       </div>
+
+<div className="col-lg-6 col-md-6">
+<div className="cross-card-text pt-2">
+               <a href="#">
+                 <h3>Tailored Content Creation</h3>
+               </a>
+               <p className="pt-5">
+               Our team of experts will skillfully create captivating and meaningful content that 
+               deeply connects with your audience. We will meticulously design striking posters <br />
+                and write attention-grabbing captions that effortlessly reflect your brand's
+                 unique personality and align seamlessly with your business objectives.
+               </p>
+             </div>
+       </div>
+       
+     </div>
+     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-6">
+
+       <div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Customized Posting-Frequency</h3>
+               </a>
+               <p className="pt-5">
+               You can choose the best posting frequency that suits your business.
+                We offer three options - 3 posts weekly, five posts weekly, or seven <br /><br />
+                 posts weekly. This flexibility ensures that your social media presence 
+                 remains active and vibrant, keeping your audience engaged.
+               </p>
+             </div>
+           
+
+       </div>
+
+<div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-2(2).jpg" />
+       </div>  
+     </div>
+
+     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-1(1).jpg" />
+     
+       
+
+       </div>
+
+<div className="col-lg-6 col-md-6">
+<div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Targeted Audience Reach</h3>
+               </a>
+               <p className="pt-5">
+               We will conduct extensive research your target audience and 
+               identify to gain insights into their preferences. By <br /><br />
+               gaining insights into their interests, we will customize 
+               our content to resonate with them, boosting engagement and 
+               fostering brand loyalty.
+               </p>
+             </div>
+       </div>
+     </div>
+
+     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-6">
+
+       <div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Brand Awareness & Credibility</h3>
+               </a>
+               <p className="pt-5">
+               Having an active and engaging social media presence boosts brand awareness 
+               and establishes credibility. When potential customers search for your business <br /><br />
+                on Google, they'll be delighted to find your social media accounts actively 
+                connecting with your audience.
+               </p>
+
+             </div>
+           
+
+       </div>
+
+<div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-2(2)(2).jpg" />
+       </div>  
+     </div>
 
 
+     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+       <div className="col-lg-6 col-md-6">
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-1(1)(1).jpg" />
+     
+       
 
+       </div>
+
+<div className="col-lg-6 col-md-6">
+<div className="cross-card-text pt-4">
+               <a href="#">
+                 <h3>Ongoing Support & Insights</h3>
+               </a>
+               <p className="pt-5">
+               Our commitment to your success doesn't end with posting content.
+                We'll provide regular reports and insights on your social media
+                <br /><br />
+                 performance, giving you valuable data to fine-tune your marketing strategy.
+               </p>
+             </div>
+       </div>
+     </div>
+
+</section>
       <div className="container  mt-5">
         <div className="awesome-project">
           <h4>Your Gateway to Social Media Marketing Excellence!</h4>

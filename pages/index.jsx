@@ -51,7 +51,9 @@ const Index3 = () => {
                     <h2>
                     Welcome to <span>Web Universals </span>
                     </h2>
-                    <p>Your Trusted Australian Website Design & Development Company! </p>
+                    {/* <p>Your Trusted Australian Website Design & Development Company! </p> */}
+                    <br/>
+                    <br/>
                     <Link href="contacts" className="themebtu full">
                       Contact Us 
                     </Link>
@@ -59,26 +61,28 @@ const Index3 = () => {
                 </div>
               </div>
             </SwiperSlide>
-            {/* <SwiperSlide className="swiper-slide">
+
+            <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ backgroundImage: "url(assets/img/hero-img-2.jpg)" }}
+                style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
               >
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    Start up & <span>Never stop </span>
+                    Welcome to <span>Web Universals </span>
                     </h2>
-                    <p>We are a creative agency with a passion for design. Our methodical approach is focused on 
-                    revealing the essence of each design challenge to allow us 
-                    to create holistic and durable solutions. </p>
+                    {/* <p>Your Trusted Australian Website Design & Development Company! </p> */}
+                    <br/>
+                    <br/>
                     <Link href="contacts" className="themebtu full">
-                      More Services
+                      Contact Us 
                     </Link>
                   </div>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
+       
           </div>
           <div className="swiper-pagination" />
         </Swiper>
@@ -185,7 +189,7 @@ const Index3 = () => {
                 At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
             
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="SearchEngineOptimization" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -202,7 +206,7 @@ const Index3 = () => {
                 Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
               
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="NewWebDesign" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -221,7 +225,7 @@ const Index3 = () => {
                 If your website needs a facelift, our website redesign services are here to breathe new life into your online presence. Stay ahead of the curve with a refreshed, modern website that engages your audience. </p>
              
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="WebSiteRedesign" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -237,7 +241,7 @@ const Index3 = () => {
                 </p>
              
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="E-commerce" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -256,7 +260,7 @@ const Index3 = () => {
                 As a leading website design and development company in Australia, we understand the significance of digital marketing in today's competitive landscape. With our expert SEO, SMM, Google Ads PPC, and Facebook Ads & lead generation services, we ensure your business achieves the online visibility it deserves.</p>
              
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="SocialMediaMarketing" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -273,7 +277,7 @@ const Index3 = () => {
                 Your business deserves a unique identity, and our services extend beyond website design. Our expert team crafts captivating logos and brochures that embody your brand's essence, leaving a lasting impression on your customers.</p>
              
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="LogoDesign" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
@@ -288,7 +292,7 @@ const Index3 = () => {
                 In the fast-paced digital age, a mobile app is essential for connecting with your audience on the go—partner with our proficient mobile app development team to transform your ideas into innovative and engaging apps.</p>
               
                 <div className="card-btn">
-  <Link href="" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="MobileAppDevelopment" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>
