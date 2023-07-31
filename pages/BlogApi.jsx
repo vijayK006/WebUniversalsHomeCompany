@@ -25,7 +25,7 @@ const BlogApi = ({data}) => {
 
      <h1 className="pt-5 mt-5">Hellow I am fetching Api</h1>
       
-     {data.slice(0,5).map((curElem) => {
+     {data.map((curElem) => {
         return (
 
             <div className="container">

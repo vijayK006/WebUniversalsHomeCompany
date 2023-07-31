@@ -5,11 +5,22 @@ import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
 
 
 import { blogswiper } from "@/src/sliderProps";
+import Head from 'next/head';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 const About = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+
+    <>
+
+    <Head>
+<title>Timely & Cost-effective Web Solutions | Web Universals</title>
+
+<meta name="description" content="Our Mission & Vision - Delivering Timely & Cost-effective Web Solutions"/>
+<meta name="keywords" content="website design company, website design services, website designer, website development, affordable website design, website design agency, creative website design, website design and development, web design company, professional website design, website design packages, web design services, custom website design, modern website design, minimalist website design, responsive web design, business website design, e-commerce website design, website redesign, mobile app development, logo design, social media marketing, SEO services, Google Ads PPCa"/>
+
+</Head>
+       <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -420,6 +431,8 @@ const About = () => {
       </div>
       </div>
     </Layout>
+    </>
+   
   );
 };
 export default About;

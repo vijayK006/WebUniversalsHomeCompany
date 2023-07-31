@@ -11,8 +11,21 @@ import { AiOutlinePrinter } from 'react-icons/ai';
 
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-const LogoDesign = () => {
+import Head from 'next/head';
+
+const BrochureDesign = () => {
   return (
+    <>
+
+<Head>
+<title>Captivating Marketing Designs | Web Universals</title>
+
+<meta name="description" content="Captivating Visual Communication - Stunning Designs for Effective Marketing"/>
+<meta name="keywords" content="brochure design, leaflet design, tri-fold design, brochure design services, leaflet design services, tri-fold design services, brochure designer, leaflet designer, tri-fold designer, professional brochure design, creative brochure design, custom brochure design, brochure design agency, leaflet design agency, tri-fold design agency, brochure design company, leaflet design company, tri-fold design company, brochure design near me, leaflet design near me, tri-fold design near me, brochure printing, leaflet printing"/>
+
+</Head>
+
+
     <Layout noHeaderBg pageName={"Team3"}>
       <div>
         <section
@@ -226,6 +239,9 @@ const LogoDesign = () => {
 
       </div>
     </Layout>
+
+    </>
+
   );
 };
-export default LogoDesign ;
+export default BrochureDesign ;

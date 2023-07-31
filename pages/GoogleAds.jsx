@@ -10,10 +10,21 @@ import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
 import { BsPersonVideo2 } from 'react-icons/bs';
 // import { IoIosApps } from 'react-icons/io6';
+import Head from 'next/head';
 
 const GoogleAds = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+    <>
+<Head>
+<title>Effective Google Ads Management</title>
+
+<meta name="description" content="Drive Conversions with Targeted Campaigns"/>
+<meta name="keywords" content="Google ads, PPC management, online advertising, ad campaigns, Google ads agency"/>
+
+</Head>
+
+
+ <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -283,6 +294,9 @@ Excellence!</h4>
         
       </div>
     </Layout>
+
+    </>
+   
   );
 };
 export default GoogleAds;

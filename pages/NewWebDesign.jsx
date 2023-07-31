@@ -1,10 +1,22 @@
 // import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 const Team = () => {
   return (
-    <Layout noHeaderBg pageName={"Team"}>
+<>
+<Head>
+<title>Custom Website Design Services | Web Universals</title>
+
+<meta name="description" content="Craft Your Digital Masterpiece - Custom, Responsive, and User-centric Designs"/>
+<meta name="keywords" content="website design, wordpress website designer, best website design, website design company, website designer near me, website design agency, portfolio website design, website design for small business, website design cost, website design services, website design near me, good website design, custom website design, cheap website design, modern website design, simple website design, creative website design, business website design, minimalist website design, website design and development, affordable website design, website design packages"/>
+
+</Head>
+
+
+   <Layout noHeaderBg pageName={"Team"}>
       <section
         className="splash-area-section"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
@@ -253,6 +265,9 @@ const Team = () => {
       </div> */}
       
     </Layout>
+</>
+
+   
   );
 };
 export default Team;

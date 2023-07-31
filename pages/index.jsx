@@ -8,17 +8,41 @@ import {CgWebsite} from 'react-icons/cg';
 import {BiCartAlt} from 'react-icons/bi';
 import {MdOutlineEnergySavingsLeaf} from 'react-icons/md';
 // import {GiCyberEye} from 'react-icons/md';
-
+import  React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { Swiper, SwiperSlide } from "swiper/react";
-// import { SlSettings } from 'react-icons/sl';
-// import { MdOutlineBroadcastOnPersonal } from 'react-icons/md';
-// import { SiAntdesign } from 'react-icons/si';
-// import { GiPayMoney } from 'react-icons/gi';
+import Head from 'next/head';
+
 
 const Index3 = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_33d2bgh', 'template_i07hxug', form.current, '0qpfXzVciq8YilctV')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message Sent successfully :)")
+      }, (error) => {
+          console.log(error.text);
+          console.log("message not sent email failed :(")
+
+      });
+  };
 
   return (
+
+  <>
+<Head>
+<title>Web Design Company - Affordable & Creative Services | Web Universals</title>
+
+<meta name="description" content="Empowering Your Online Journey - Web Design, SEO, Social Media, & More"/>
+<meta name="keywords" content="website design company, top website design company in Australia, best website design company in Australia, website design company Australia, website design companies Australia, website designing company in Australia, website design and development company in Australia, website designing company Australia, website design companies in Australia, website designing companies in Australia, website design company in Australia"/>
+
+</Head>
+
     <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
         <section>
 
@@ -864,32 +888,31 @@ goes the extra mile to ensure their clients&#39; satisfaction.
 
             
               </div>
-              <form className="touch two">
+              <form className="touch two" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-4">
-                    <input type="text" name="name" placeholder="Your name *" />
+                    <input type="text" name="from_name" placeholder="Your name *" />
                   </div>
                   <div className="col-lg-4">
                     <input
                       type="text"
-                      name="email"
+                      name="user_email"
                       placeholder="Email address *"
                     />
                   </div>
                   <div className="col-lg-4">
                     <input
-                      type="number"
-                      name="phone"
-                      placeholder="Your Phone (optional)"
+                      type="text"
+                      name="user_subject"
+                      placeholder="Subject"
                     />
                   </div>
                   <div className="col-xl-12">
-                    <textarea placeholder="Your message *" defaultValue={""} />
+                    <textarea placeholder="Your message *" name="message" defaultValue={""} />
                   </div>
                   <div className="btugap pb-5">
-                    <a href="#" className="themebtu full">
-                      Send Message
-                    </a>
+                    <input type="submit" value="Send Message" className="themebtu full" style={{color:"white", width:"200px" , backgroundColor:"blue"}}/>
+                  
                   </div>
                 </div>
               </form>
@@ -909,6 +932,9 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
     </Layout>
+
+  </>
+
   );
 };
 export default Index3;

@@ -3,9 +3,20 @@ import Layout from "@/src/layout/Layout";
 import { blogswiper } from "@/src/sliderProps";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import Head from 'next/head';
+
 const SocialMediaMarketing = () => {
   return (
-    <Layout noHeaderBg pageName={"About"}>
+    <>
+<Head>
+<title>Strategic Social Media Marketing</title>
+
+<meta name="description" content="Boost Brand Awareness & Engagement"/>
+<meta name="keywords" content="Social media marketing, SMM agency, social media management, social media campaigns, brand promotion"/>
+
+</Head>
+
+        <Layout noHeaderBg pageName={"About"}>
       <div>
         <section
           className="splash-area-section"
@@ -378,6 +389,8 @@ Our Social Media Marketing services are tailored to meet the needs of businesses
        
       </div>
     </Layout>
+    </>
+  
   );
 };
 export default SocialMediaMarketing;
