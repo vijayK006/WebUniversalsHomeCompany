@@ -96,7 +96,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
                   <li>
                     <Link legacyBehavior href="E-commerce">
-                      E-Commerce Website
+                      e-Commerce Website
                     </Link>
                   </li>
 
