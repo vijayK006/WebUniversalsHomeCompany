@@ -13,7 +13,7 @@ import { PiNewspaperLight } from 'react-icons/pi';
 import {  SlTarget } from 'react-icons/sl';
 import { IoTrendingUpSharp } from 'react-icons/io5';
 import { DiCodeBadge } from 'react-icons/di';
-import { CiMonitor } from 'react-icons/Ci';
+import { CiMonitor } from 'react-icons/ci';
 import { PiCubeTransparentThin } from 'react-icons/pi';
 // import { IoIosApps } from 'react-icons/io6';
 import Head from 'next/head';
