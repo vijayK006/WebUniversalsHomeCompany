@@ -56,7 +56,7 @@ const Team = () => {
                  of in-house developers strive to bring a ripple in the ocean of business ecosystems with a robustly developed program.
                  </p>
              
-                <a href="tel:08 8121 7826" className="themebtu">
+                <a href="tel:08 8121 7826" className="themebtu mb-5">
                   Contact Us
                 </a>
               </div>
@@ -105,26 +105,17 @@ const Team = () => {
 
 
       <section
-        className="discovery  gap no-bottom"
+        className="discovery  gap"
         style={{ backgroundColor: "#f2edf5" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
               <div className="heading heading1">
-                {/* <h6>Web Design Sydney</h6> */}
-                {/* <h2> 100% Satisfaction<br/> Guarantee</h2> */}
+          
                 <h2>
-                    {/* Why Choose Us for  */}
                     <br /> Website Design offer</h2>
-                {/* <img alt="line" src="assets/img/headingline.png" /> */}
-                {/* <p>
-                Our web design sydney and techies know some efficient remedial measures for such pain points. We here 
-                at Web Universals Australia, concentrates on designing websites in such a way which shall ensure faster 
-                loading, better display, look and feel and the way it works, which shall be responsive enough. Clients 
-                mainly deal with such for several reasons such as timely delivery of job, 
-                cost effective website works, 100% satisfaction guarantee, one point of contact and no surprises.
-                </p> */}
+             
                <h4>Custom web development and SEO</h4>
                <p>
                We provide flexible and versatile web development services that are based upon our client’s 
@@ -185,60 +176,7 @@ const Team = () => {
         </div>
       </section>
      
-      {/* <section className=" map-three gap">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6">
-              <div className="heading">
-                <h6>Contact Us Today</h6>
-                <img alt="line" src="assets/img/headingline.png" />
-                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together!
-                </p>      
-             </div>
-              <form className="touch two">
-                <div className="row">
-                  <div className="col-lg-4">
-                    <input type="text" name="name" placeholder="Your name *" />
-                  </div>
-                  <div className="col-lg-4">
-                    <input
-                      type="text"
-                      name="email"
-                      placeholder="Email address *"
-                    />
-                  </div>
-                  <div className="col-lg-4">
-                    <input
-                      type="number"
-                      name="phone"
-                      placeholder="Your Phone (optional)"
-                    />
-                  </div>
-                  <div className="col-xl-12">
-                    <textarea placeholder="Your message *" defaultValue={""} />
-                  </div>
-                  <div className="btugap">
-                    <a href="#" className="themebtu full">
-                      Send Message
-                    </a>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div className="offset-xl-1 col-xl-5">
-              <div className="map">
-              <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13924197.196521623!2d124.37171398494617!3d-31.566370704618578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6aa7589e5be8c7f3%3A0xdb7e79993dfad0d8!2sSouth%20Australia%2C%20Australia!5e0!3m2!1sen!2sin!4v1690524409240!5m2!1sen!2sin"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+     
         <br /><br />
         <section className="container">
   {/* <h2 className="text-center pt-2 pb-2">The team that envisions the digital version of your brand as a stunning piece of art!</h2> */}
@@ -293,18 +231,18 @@ const Team = () => {
 
      <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
        <div className="col-lg-6 col-md-6">
-       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-1(1).jpg" />
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/weboffer4th.png" />
      
        
 
        </div>
 
 <div className="col-lg-6 col-md-6">
-<div className="cross-card-text pt-2">
+<div className="cross-card-text ">
                <a href="#">
                  <h3>iOS or Android : You name it, we do it</h3>
                </a>
-               <p className="pt-5">
+               <p className="pt-3">
                Whether you want to launch your app on the Apple App Store, the Google Play Store,
                 or both, our experts have combined their years of experience with the intricacies
                 of <br /> <br />
@@ -337,14 +275,14 @@ const Team = () => {
        </div>
 
 <div className="col-lg-6 col-md-6">
-       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-2(2)(2).jpg" />
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/weboffer5th.png" />
        </div>  
      </div>
 
 
-     <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
+     <div className="row pt-lg-5 pb-lg-5 pt-5 pb-3">
        <div className="col-lg-6 col-md-6">
-       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/discovery-1(1)(1).jpg" />
+       <img className="w-100 cross-over-img"   alt="discovery"   src="assets/img/weboffer6th.png" />
      
        
 
@@ -361,10 +299,10 @@ const Team = () => {
                 interfaces. At Web Universals we make your dream website come to life through
                </p>
                <ul className="pt-1">
-                    <li><GoCheck style={{fontSize:"20px"}}/> Passionate and creative ideas</li>
-                    <li><GoCheck style={{fontSize:"20px"}}/> The expertise of our complete in-house development team</li>
-                    <li><GoCheck style={{fontSize:"20px"}}/> More than a decade of experience</li>
-                    <li><GoCheck style={{fontSize:"20px"}}/> Versatile services ranging from SEO to other digital marketing  endeavours</li>
+                    <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> Passionate and creative ideas</li>
+                    <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> The expertise of our complete in-house development team</li>
+                    <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> More than a decade of experience</li>
+                    <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> Versatile services ranging from SEO to other digital marketing  endeavours</li>
                </ul>
              </div>
        </div>

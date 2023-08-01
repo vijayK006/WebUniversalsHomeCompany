@@ -45,11 +45,11 @@ const MobileAppDevelopment = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="welcome">
-                <img alt="img" src="assets/img/choose-us-3.jpg" />
+                <img alt="img" src="assets/img/mobileSolution.jpg" />
                 <img
                   alt="img"
                   className="img-welcome auto-adj-img"
-                  src="assets/img/welcome-3.jpg"
+                  src="assets/img/mobile2.jpg"
                 />
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
               </div>

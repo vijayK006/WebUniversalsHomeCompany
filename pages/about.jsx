@@ -228,11 +228,11 @@ const About = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="welcome">
-                <img alt="img" src="assets/img/choose-us-3.jpg" />
+                <img alt="img" src="assets/img/mission.jpg" />
                 <img
                   alt="img"
                   className="img-welcome auto-adj-img"
-                  src="assets/img/welcome-3.jpg"
+                  src="assets/img/vission.jpg"
                 />
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
               </div>
@@ -293,17 +293,17 @@ const About = () => {
               <div className="blog-content">
                 <div className="row">
                   <div className="col-xl-6">
-                    <img
+                  <Link href="NewWebDesign">    <img
                       className="w-100"
                       alt="img"
                       src="assets/img/blog-3.jpeg"
-                    />
-                  </div>
+                    /></Link> 
+                  </div> 
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
                    
                  
-                   <Link href="NewWebDesign"><h2>Website Design</h2></Link>  
+                   <Link href="NewWebDesign"><h2>Website Design</h2></Link> 
 
 
                     <p>For each and every other company In Australia, the most important thing to
@@ -323,11 +323,11 @@ const About = () => {
               <div className="blog-content">
                 <div className="row">
                   <div className="col-xl-6">
-                    <img
+                  <Link href="E-commerce">   <img
                       className="w-100"
                       alt="img"
                       src="assets/img/blog-4.jpeg"
-                    />
+                    /></Link>
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
@@ -352,11 +352,11 @@ const About = () => {
               <div className="blog-content">
                 <div className="row">
                   <div className="col-xl-6">
-                    <img
+                  <Link href="SearchEngineOptimization">  <img
                       className="w-100"
                       alt="img"
                       src="assets/img/blog-4.jpeg"
-                    />
+                    /></Link>
                   </div>
                   <div className="col-xl-6">
                     <div className="latest-blog-post">
