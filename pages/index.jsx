@@ -13,6 +13,7 @@ import emailjs from '@emailjs/browser';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import Head from 'next/head';
+import FormHome from "./FormHome";
 
 
 const Index3 = () => {
@@ -25,6 +26,8 @@ const Index3 = () => {
       .then((result) => {
           console.log(result.text);
           console.log("message Sent successfully :)")
+
+
       }, (error) => {
           console.log(error.text);
           console.log("message not sent email failed :(")
@@ -874,7 +877,7 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
 
-      <section className=" map-three">
+      {/* <section className=" map-three">
         <div className="container">
              
         <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>
@@ -891,13 +894,16 @@ goes the extra mile to ensure their clients&#39; satisfaction.
               <form className="touch two" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-4">
-                    <input type="text" name="from_name" placeholder="Your name *" />
+                    <input type="text" name="from_name" placeholder="Your name *" 
+                      required
+                    />
                   </div>
                   <div className="col-lg-4">
                     <input
                       type="text"
                       name="user_email"
                       placeholder="Email address *"
+                      required
                     />
                   </div>
                   <div className="col-lg-4">
@@ -905,13 +911,14 @@ goes the extra mile to ensure their clients&#39; satisfaction.
                       type="text"
                       name="user_subject"
                       placeholder="Subject"
+                      required
                     />
                   </div>
                   <div className="col-xl-12">
-                    <textarea placeholder="Your message *" name="message" defaultValue={""} />
+                    <textarea placeholder="Your message *" name="message" defaultValue={""} required/>
                   </div>
                   <div className="btugap pb-5">
-                    <input type="submit" value="Send Message" className="themebtu full" style={{color:"white", width:"200px" , backgroundColor:"blue"}}/>
+                    <input type="submit" value="Send Message" className="themebtu full" style={{color:"white", width:"200px" , backgroundColor:"blue"}} required/>
                   
                   </div>
                 </div>
@@ -930,7 +937,10 @@ goes the extra mile to ensure their clients&#39; satisfaction.
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<FormHome/>
+
     </Layout>
 
   </>

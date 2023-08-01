@@ -472,7 +472,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign3.jpg"
+                      src="assets/img/expertseo6.jpg"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -497,7 +497,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign1.jpg"
+                      src="assets/img/seo1.jpg"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -520,7 +520,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign2.jpg"
+                      src="assets/img/seo2.jpg"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -542,7 +542,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign2.jpg"
+                      src="assets/img/topseo3.jpg"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -564,7 +564,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign2.jpg"
+                      src="assets/img/focusedseo4.jpg"
                     />
                   </div>
                   <div className="col-xl-6">
@@ -586,7 +586,7 @@ Online Public Relations
                     <img
                       className="w-100"
                       alt="img"
-                      src="assets/img/redesign2.jpg"
+                      src="assets/img/affordseo5.jpg"
                     />
                   </div>
                   <div className="col-xl-6">

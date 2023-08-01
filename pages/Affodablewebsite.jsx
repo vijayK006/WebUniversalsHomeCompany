@@ -2,11 +2,16 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
+import Head from 'next/head';
 
 
 const Affodablewebsite = () => {
   return (
-    <Layout headerExtraClass={"three"} pageName={"Blog Single Post"}>
+
+  <>
+
+
+        <Layout headerExtraClass={"three"} pageName={"Blog Single Post"}>
       <section>
         <div className="container">
           <div className="title-blog">
@@ -164,6 +169,8 @@ const Affodablewebsite = () => {
       <br />
       <br />
     </Layout>
+  </>
+
   );
 };
 export default Affodablewebsite;

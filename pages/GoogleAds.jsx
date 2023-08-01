@@ -45,11 +45,11 @@ const GoogleAds = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="welcome">
-                <img alt="img" src="assets/img/choose-us-3.jpg" />
+                <img alt="img" src="assets/img/googleads2.jpg" />
                 <img
                   alt="img"
                   className="img-welcome auto-adj-img"
-                  src="assets/img/welcome-3.jpg"
+                  src="assets/img/googleads.jpg"
                 />
                 <img alt="dots" className="dots" src="assets/img/dots.png" />
               </div>
@@ -180,7 +180,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
                   <img
                     className="w-100"
                     alt="discovery"
-                    src="assets/img/appDevelopment.jpg"
+                    src="assets/img/ppc.jpg"
                   />
                 </figure>
                 <div className="discovery-text">
