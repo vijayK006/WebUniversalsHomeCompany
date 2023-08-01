@@ -4,7 +4,7 @@ import Link from "next/link";
 import Head from 'next/head';
 
 
-const Team = () => {
+const WebDesignService = () => {
   return (
 <>
 <Head>
@@ -253,7 +253,7 @@ const Team = () => {
         <div className="awesome-project">
           <h4>Your Gateway to Captivating Website Design & Development!</h4>
           <a href="contacts.html" className="themebtu full">
-            Contact us now
+            Contact Us 
           </a>
         </div>
       </div>
@@ -270,4 +270,4 @@ const Team = () => {
    
   );
 };
-export default Team;
+export default WebDesignService;
