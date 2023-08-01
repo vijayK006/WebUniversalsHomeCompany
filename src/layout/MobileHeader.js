@@ -12,14 +12,9 @@ const MobileHeader = ({ toggle, close }) => {
     >
       <div className="res-log">
         <Link href="/">
-          <img src="assets/img/logo/WebUniversalslogo-animated-2.gif" alt="Responsive Logo" style={{height:"40px",width:"auto"}}/>
+          <img src="assets/img/logo/white.gif" alt="Responsive Logo" style={{height:"50px",width:"auto", marginLeft:"-25px"}}/>
         </Link>
-        <p className="" style={{fontSize: '9px',
-    color: 'white',
-    margin: '0px',
-    lineHeight:"3",
-    marginLeft:"10px",
-    fontWeight: "800"}}>Web Design - Logo - SEO & SMM - Mobile App</p>
+
       </div>
       <ul>
         <li>

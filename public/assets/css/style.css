@@ -2649,7 +2649,7 @@ i#nav-icon4 {
     left: -13px;
 }
 .res-log {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .mobile-nav .donation {
     display: flex;
@@ -2946,8 +2946,9 @@ font-weight: 500;
     }
 
     .logo-resp2{
-        height:45px;
+        height:55px;
     width: auto;
+    margin-left: -22px;
     }
     
     .blog-posts-text2{
