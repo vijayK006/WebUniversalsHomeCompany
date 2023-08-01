@@ -9,6 +9,12 @@ import { AiOutlineSolution } from 'react-icons/ai';
 import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
 import { BsPersonVideo2 } from 'react-icons/bs';
+import { PiNewspaperLight } from 'react-icons/pi';
+import {  SlTarget } from 'react-icons/sl';
+import { IoTrendingUpSharp } from 'react-icons/io5';
+import { DiCodeBadge } from 'react-icons/di';
+import { CiMonitor } from 'react-icons/Ci';
+import { PiCubeTransparentThin } from 'react-icons/pi';
 // import { IoIosApps } from 'react-icons/io6';
 import Head from 'next/head';
 
@@ -95,7 +101,7 @@ const GoogleAds = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                 <RiLightbulbFlashLine className="card-icons3"/>
+                 <PiNewspaperLight className="card-icons3"/>
                   <h4>Strategic Campaign Planning</h4>
                   <p>
                   Our team of Google Ads experts begins with a comprehensive
@@ -105,7 +111,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <BsPersonVideo2 className="card-icons3"/>
+                <SlTarget className="card-icons3"/>
 
                   <h4>Targeted & Relevant Ads</h4>
                   <p>
@@ -114,7 +120,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <LuFileVideo2 className="card-icons3"/>
+                <IoTrendingUpSharp className="card-icons3"/>
                   <h4>Ad Copy Optimization</h4>
                   <p>
                   Captivating ad copies are crucial for PPC success. Our team of skilled copywriters crafts compelling and persuasive ad texts that entice potential customers to take action.
@@ -123,7 +129,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <AiOutlineSolution className="card-icons3"/>
+                <DiCodeBadge className="card-icons3"/>
 
                   <h4>Landing Page Optimization</h4>
                   <p>
@@ -132,7 +138,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <MdImportantDevices className="card-icons3"/>
+                <CiMonitor className="card-icons3"/>
 
                   <h4>Constant Monitoring & Optimization</h4>
                   <p>
@@ -142,7 +148,7 @@ tailored to your unique needs, ensuring that every dollar spent drives tangible 
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <IoIosApps className="card-icons3"/>
+                <PiCubeTransparentThin className="card-icons3"/>
 
                   <h4>Transparency & Reporting</h4>
                   <p>

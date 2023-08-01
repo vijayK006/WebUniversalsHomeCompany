@@ -25,7 +25,7 @@ const Team = () => {
             {/* <a href="#">Meet The Team</a> */}
             <h2>
                   {" "}
-                  Website Design <br /> Offer
+                  Unlock Success with Our Website Design Package
                 </h2>
           </div>
         </div>
@@ -194,7 +194,7 @@ const Team = () => {
 <a href="#">
                  <h3>Compatible and better-looking designs that work flawlessly on multiple devices</h3>
                </a>
-               <p className="pt-5">
+               <p className="pt-3">
                When we develop apps and websites, making them responsive is our first and foremost 
                concern. Whether it is your PC, Mac, iPad, iPhone or Android device, we make sure 
                that our program glides effortlessly on all platforms and operating systems. Also 
@@ -261,7 +261,7 @@ const Team = () => {
                <a href="#">
                  <h3>Keep it simply silly</h3>
                </a>
-               <p className="pt-5">
+               <p className="pt-2">
                No beauty meets the eye better than simplicity. This is why we develop websites
                 and applications that are simple, responsive, and effective. Keeping all your
                 <br /><br />
@@ -298,7 +298,7 @@ const Team = () => {
                that stand apart from the crowd with their unbelievably smart design and optimized
                 interfaces. At Web Universals we make your dream website come to life through
                </p>
-               <ul className="pt-1">
+               <ul className="">
                     <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> Passionate and creative ideas</li>
                     <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> The expertise of our complete in-house development team</li>
                     <li className="pt-2 pb-2"><GoCheck style={{fontSize:"20px"}}/> More than a decade of experience</li>

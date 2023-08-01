@@ -61,14 +61,35 @@ const Index3 = () => {
           <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ backgroundImage: "url(assets/img/hero-img-1.jpg)" }}
+                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken" }}
               >
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    Welcome To <span>Web Universals </span>
+                    Experience the Brilliance of <span>Web Universals </span>
                     </h2>
-                
+                    <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
+                    <br/>
+                    <br/>
+                    <Link href="contacts" className="themebtu full">
+                      Contact Us 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="hero-section-one two"
+                style={{ backgroundImage: "url(assets/img/banner4.jpg)" }}
+              >
+                <div className="container">
+                  <div className="heading-boder">
+                    <h2>
+                    UI/UX Design <span>Services </span>
+                    </h2>
+                    <p>User-Centric Experiences That Leave a Lasting Impression</p>
                     <br/>
                     <br/>
                     <Link href="contacts" className="themebtu full">
@@ -142,47 +163,9 @@ const Index3 = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="hero-section-one two"
-                style={{ backgroundImage: "url(assets/img/banner4.jpg)" }}
-              >
-                <div className="container">
-                  <div className="heading-boder">
-                    <h2>
-                    UI/UX Design <span>Services </span>
-                    </h2>
-                    <p>User-Centric Experiences That Leave a Lasting Impression</p>
-                    <br/>
-                    <br/>
-                    <Link href="contacts" className="themebtu full">
-                      Contact Us 
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
+      
 
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="hero-section-one two"
-                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken" }}
-              >
-                <div className="container">
-                  <div className="heading-boder">
-                    <h2>
-                    Experience the Brilliance of <span>Web Universals </span>
-                    </h2>
-                    <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
-                    <br/>
-                    <br/>
-                    <Link href="contacts" className="themebtu full">
-                      Contact Us 
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
+       
        
           </div>
           <div className="swiper-pagination" />

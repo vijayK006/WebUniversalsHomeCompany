@@ -19,7 +19,6 @@ const About = () => {
 <meta name="description" content="Our Mission & Vision - Delivering Timely & Cost-effective Web Solutions"/>
 <meta name="keywords" content="website design company, website design services, website designer, website development, affordable website design, website design agency, creative website design, website design and development, web design company, professional website design, website design packages, web design services, custom website design, modern website design, minimalist website design, responsive web design, business website design, e-commerce website design, website redesign, mobile app development, logo design, social media marketing, SEO services, Google Ads PPCa"/>
 
-
 </Head>
        <Layout noHeaderBg pageName={"About"}>
       <div>
@@ -49,11 +48,11 @@ const About = () => {
 
           <div className="col-lg-6 col-md-12">
 
-    <div className="cross-card-text pt-4">
+    <div className="cross-card-text ">
                   <a href="#">
                     <h3>Who We Are</h3>
                   </a>
-                  <p className="pt-5">
+                  <p className="pt-2">
                 Web Universals is a passionate team of creative minds, tech enthusiasts, and digital strategists based in 
                 Australia. Since our inception in 2010, we have been on a relentless pursuit of excellence, crafting exceptional
                  web solutions that blend artistry and functionality seamlessly. <br/><br/>Our diverse portfolio encompasses a wide array of
@@ -67,11 +66,11 @@ const About = () => {
 
         <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
           <div className="col-lg-6 col-md-12">
-    <div className="cross-card-text pt-4">
+    <div className="cross-card-text">
                   <a href="#">
                     <h3>Our Philosophy</h3>
                   </a>
-                  <p className="pt-5">
+                  <p className="pt-3">
                   At the heart of our philosophy lies the belief that every business
                    is unique and deserves a distinct online presence. We approach each
                     project with a personalized touch, investing time in understanding 
@@ -85,19 +84,19 @@ const About = () => {
 </div>
 
    <div className="col-lg-6 col-md-6">
-          <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-2(2)(2).jpg" />
+          <img className="w-100 cross-over-img-b"   alt="discovery"   src=" assets/img/discovery-4(4).jpg" />
           </div>
         </div>
  
 
         <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
           <div className="col-lg-6 col-md-12">
-          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-4(4)(4).jpg" />
+          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-2(2)(2).jpg" />
           </div>
 
           <div className="col-lg-6 col-md-12">
 
-    <div className="cross-card-text pt-4">
+    <div className="cross-card-text">
                   <a href="#">
                     <h3>Our Team</h3>
                   </a>
@@ -116,7 +115,7 @@ const About = () => {
         <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
        <div className="col-lg-6 col-md-12">
 
- <div className="cross-card-text pt-4">
+ <div className="cross-card-text">
                <a href="#">
                  <h3>Join Hands with Web Universals</h3>
                </a>
@@ -134,7 +133,7 @@ const About = () => {
 </div>
 
 <div className="col-lg-6 col-md-12">
-       <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-4(4).jpg" />
+       <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-4(4)(4).jpg" />
        </div>
      </div>
 

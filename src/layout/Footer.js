@@ -138,6 +138,11 @@ const Footer = () => {
         <div className="footer-bottom text-center">
           <p>© 2011-23 All Rights Reserved | Web Universals</p>
           <ul>
+          <li>
+              <Link legacyBehavior href="WebsiteDesignOffer">
+                Website Design Offer
+              </Link>
+          </li>
             <li>
               <Link legacyBehavior href="PrivacyAndPolicy">
                 Privacy Policy
@@ -158,6 +163,9 @@ const Footer = () => {
         
         </div>
       </div>
+
+      
+
     </footer>
   );
 };

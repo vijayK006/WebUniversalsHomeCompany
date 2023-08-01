@@ -30,6 +30,10 @@ document.getElementById('successMsg').classList.add('popupvisiable');
       });
   };
 
+  const hidePop = ()=>{
+document.getElementById("successMsg").classList.add('popuphidden');
+  }
+
   return (
 
   <>
@@ -41,7 +45,7 @@ document.getElementById('successMsg').classList.add('popupvisiable');
 
 </Head>
 
-      <section className=" map-three position-relative" style={{height:"100vh", width:"100%"}}>
+      <section className=" position-relative" style={{height:"100vh", width:"100%"}}>
         <div className="container">
              
         <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>
@@ -103,7 +107,7 @@ document.getElementById('successMsg').classList.add('popupvisiable');
         </div>
 
 
-{/* <div className="message-sent" id="successMsg">
+<div className="message-sent" id="successMsg">
 
 <div className="card-message">
 
@@ -114,14 +118,14 @@ document.getElementById('successMsg').classList.add('popupvisiable');
   <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
   Your inquiry is valuable to us, and our team shall get back to you soon.</p>
 
-  <div className="d-flex justify-content-center">
-    <button type="button" className="btn btn-primary" onClick="">Go Back</button>
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-primary" onClick={hidePop}>Go Back</button>
   </div>
 
 </div>
 
 
-</div> */}
+</div>
       </section>
 
   </>

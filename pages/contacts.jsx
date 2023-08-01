@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import  React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import {TiTickOutline} from 'react-icons/ti';
+
 
 
 const Contacts = () => {
@@ -17,6 +19,9 @@ const Contacts = () => {
       .then((result) => {
           console.log(result.text);
           console.log("message Sent successfully :)")
+          
+document.getElementById('successMsg').classList.add('popupvisiable');
+
       }, (error) => {
           console.log(error.text);
           console.log("message not sent email failed :(")
@@ -24,10 +29,15 @@ const Contacts = () => {
       });
   };
 
+  
+  const hidePop = ()=>{
+    document.getElementById("successMsg").classList.add('popuphidden');
+      }
+
   return (
     <Layout noHeaderBg pageName={"Contact"}>
       <section
-        className="splash-area-section"
+        className="splash-area-section position-relative"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
       >
         <div className="container">
@@ -49,18 +59,19 @@ const Contacts = () => {
               <form className="content-form" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="col-lg-6">
-                    <input type="text" name="from_name" placeholder="Your Name *" />
+                    <input type="text" name="from_name" placeholder="Your Name *" required/>
                   </div>
                   <div className="col-lg-6">
                     <input
                       type="text"
                       name="user_subject"
                       placeholder="Subject *"
+                      required
                     />
                   </div>
                 </div>
-                <input type="text" name="user_email" placeholder="Your Email *" />
-                <textarea placeholder="Your Message " name="message" defaultValue={""} />
+                <input type="text" name="user_email" placeholder="Your Email *" required/>
+                <textarea placeholder="Your Message " name="message" defaultValue={""} required/>
                 <input type="submit" className="themebtu" value="Submit"/>
               </form>
             </div>
@@ -125,97 +136,28 @@ const Contacts = () => {
           referrerPolicy="no-referrer-when-downgrade"
         />
         
+        <div className="message-sent" id="successMsg">
+
+<div className="card-message">
+
+  <div className="d-flex justify-content-center">
+<TiTickOutline className="messagetick-mark"/>
+</div>
+
+  <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
+  Your inquiry is valuable to us, and our team shall get back to you soon.</p>
+
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-primary" onClick={hidePop}>Go Back</button>
+  </div>
+
+</div>
+
+
+</div>
+
       </div>
-      {/* <section className="offices gap" style={{ backgroundColor: "#f3f8fb" }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-4">
-              <div className="heading">
-                <h2>Offices</h2>
-                <p>
-                  Donec nec justo eget felis facilisis fermentum. Aliquam
-                  porttitor mauris sit amet orci. Aenean dignissim pellentesque
-                  felis.
-                </p>
-              </div>
-            </div>
-            <div className="col-xl-8">
-              <Swiper
-                {...studiesswiper}
-                className="swiper-container studiesswiper"
-              >
-                <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
-                    <div className="view-map hoverstyle">
-                      <figure>
-                        <img
-                          alt="img"
-                          className="w-100"
-                          src="assets/img/view-map-1.jpg"
-                        />
-                      </figure>
-                      <div className="view-map-data">
-                        <i className="fa-solid fa-user" />
-                        <h5>New York</h5>
-                        <p>
-                          92 Greenwich St, New York, NY 10006, United States
-                        </p>
-                        <a href="#">view map</a>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="view-map hoverstyle">
-                      <figure>
-                        <img
-                          alt="img"
-                          className="w-100"
-                          src="assets/img/view-map-2.jpg"
-                        />
-                      </figure>
-                      <div className="view-map-data">
-                        <i className="fa-solid fa-user" />
-                        <h5>Roma</h5>
-                        <p>Via Carlo Alberto, 26a, 00185 Roma RM, Italy</p>
-                        <a href="#">view map</a>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="view-map hoverstyle">
-                      <figure>
-                        <img
-                          alt="img"
-                          className="w-100"
-                          src="assets/img/view-map-3.jpg"
-                        />
-                      </figure>
-                      <div className="view-map-data">
-                        <i className="fa-solid fa-user" />
-                        <h5>Barcelona</h5>
-                        <p>d'Aragó, 284, 08009 Barcelona, Spain</p>
-                        <a href="#">view map</a>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </div>
-                <div className="swiper-pagination" />
-              </Swiper>
-            </div>
-          </div>
-        </div>
-        <div className="tp-hero__shapes">
-          <div className="style-shapes-5">
-            <img alt="dots1" src="assets/img/shap-2.png" />
-          </div>
-          <div className="style-shapes-6">
-            <img alt="dots1" src="assets/img/shap-2.png" />
-          </div>
-          <div className="style-shapes-7">
-            <img alt="dots1" src="assets/img/shap-5.png" />
-          </div>
-        </div>
-      </section> */}
+
     </Layout>
   );
 };

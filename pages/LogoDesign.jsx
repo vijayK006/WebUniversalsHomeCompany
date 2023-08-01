@@ -4,11 +4,12 @@ import Layout from "@/src/layout/Layout";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { RiLightbulbFlashLine } from 'react-icons/ri';
-import { LiaUserCogSolid, LiaUserGraduateSolid } from 'react-icons/lia';
-import { AiOutlineSolution } from 'react-icons/ai';
-import { MdImportantDevices } from 'react-icons/md';
-import { IoIosApps } from 'react-icons/io';
+import { MdLocationSearching } from 'react-icons/md';
+import { TbListDetails } from 'react-icons/tb';
+import { PiSirenLight } from 'react-icons/pi';
+import { PiTimerLight } from 'react-icons/pi';
+import { TbSettingsBolt } from 'react-icons/tb';
+import { BsPeople } from 'react-icons/bs';
 import Link from "next/link";
 import Head from 'next/head';
 
@@ -94,7 +95,7 @@ const LogoDesign = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                 <RiLightbulbFlashLine className="card-icons3"/>
+                 <MdLocationSearching className="card-icons3"/>
                   <h4>Brand Identity Redefined</h4>
                   <p>
                   We believe that a logo goes beyond just a graphic; it represents your brand's identity. 
@@ -105,7 +106,7 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <LiaUserCogSolid className="card-icons3"/>
+                <TbListDetails className="card-icons3"/>
 
                   <h4>Attention to Detail</h4>
                   <p>
@@ -114,7 +115,7 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <LiaUserGraduateSolid className="card-icons3"/>
+                <PiSirenLight className="card-icons3"/>
                   <h4>Creativity & Innovation</h4>
                   <p>
                   Creativity and innovation drive our logo design process. We strive to design logos that stand out from the crowd, leaving a unique and impactful mark on your customers' minds.
@@ -123,7 +124,7 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <AiOutlineSolution className="card-icons3"/>
+                <PiTimerLight className="card-icons3"/>
 
                   <h4>Timeless Designs</h4>
                   <p>
@@ -131,7 +132,7 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <MdImportantDevices className="card-icons3"/>
+                <TbSettingsBolt className="card-icons3"/>
 
                   <h4>Versatility & Scalability</h4>
                   <p>
@@ -140,7 +141,7 @@ const LogoDesign = () => {
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text3">
-                <IoIosApps className="card-icons3"/>
+                <BsPeople className="card-icons3"/>
 
                   <h4>Client Collaboration</h4>
                   <p>
@@ -161,7 +162,7 @@ const LogoDesign = () => {
         <img className="w-100" alt="line" src="assets/img/line.jpg" />
 
         
-          <div className="row pt-4">
+          <div className="row">
             <div className="col-xl-4 col-lg-6 pt-4 pb-4">
               <div className="strategic">
                 <h2>O1/</h2>

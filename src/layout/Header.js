@@ -7,7 +7,7 @@ import  { FiSearch, FiFacebook } from "react-icons/fi";
 import  { MdSendToMobile } from "react-icons/md";
 import  { IoShareSocialOutline, IoLogoGooglePlaystore } from "react-icons/io5";
 
-import  { CgWebsite } from "react-icons/cg";
+import  { BsFillTelephoneFill } from "react-icons/bs";
 // import  { FiFacebook } from "react-icons/io";
 
 const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
@@ -78,8 +78,8 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
                 <ul className="sub-menu">
                   <li>
-                    <Link legacyBehavior href="WebDesignService">
-              Website Design
+                    <Link legacyBehavior href="WebsiteDesignServices">
+              Website Design Service
                     </Link>
                   </li>
                   <li>
@@ -88,11 +88,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                     </Link>
                   </li>
 
-                  <li>
-                    <Link legacyBehavior href="WebDesignOffer">
-                      Website Design Offer
-                    </Link>
-                  </li>
+                 
 
                   <li>
                     <Link legacyBehavior href="E-commerce">
@@ -203,7 +199,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
           <div>
       
 
-              <a href="tel:+61 08 7200 7227" className="themebtu">Call Now</a>
+              <a href="tel:+61 08 7200 7227" className="themebtu"> <BsFillTelephoneFill style={{fontSize:"18px"}} className="mb-1"/> &nbsp;08 7200 7227 </a>
        
           </div>
           <div className="bar-menu" onClick={() => setToggle(true)}>
@@ -215,93 +211,9 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
 
 
     </header>
-
-{/* <div className="mega-menu-items" id="megaMenu_items">
-<div className="container">
-  <div className="row">
-
-    <div className="col-lg-3">
-    <div className="mega-menu-card">
-        <Link legacyBehavior href="NewWebDesign">
-            <p className="mega-menu-items-list"><CgWebsite className="mega_menu-icons"/> Website Design</p>  
-                    </Link>
-    </div>
-  
-                    </div>
-
-     <div className="col-lg-3"> 
-     <div className="mega-menu-card">
- <Link legacyBehavior href="WebSiteRedesign">
-    <p className="mega-menu-items-list"><BsPersonWorkspace className="mega_menu-icons"/>   Website Redesign</p>
-                    </Link>
-     </div>              
-   
-                    </div>
-
-     <div className="col-lg-3">  
-     <div className="mega-menu-card">
-  <Link legacyBehavior href="E-commerce">
-                      <p className="mega-menu-items-list"><CgWebsite className="mega_menu-icons"/> e-Commerce Website</p>
-                    </Link>
-     </div>             
- 
-                    </div>
-
-                  <div className="col-lg-3">  
-     <div className="mega-menu-card">
-   <Link legacyBehavior href="MobileAppDevelopment">
-                  <p className="mega-menu-items-list"><MdSendToMobile className="mega_menu-icons"/> Mobile App</p>  
-                    </Link>
-     </div>             
-
-                    </div>   
-
-</div>
-
-<div className="line-white"/>
-<div className="row"  >
-    
-
-     <div className="col-lg-3"> 
-     <div className="mega-menu-card">
-  <Link legacyBehavior href="SearchEngineOptimization">
-                  <p className="mega-menu-items-list"><FiSearch className="mega_menu-icons"/> Search Engine  Optimization </p>  
-                    </Link>
-     </div>              
-
-                    </div>
-
-     <div className="col-lg-3">  
-     <div className="mega-menu-card">
- <Link legacyBehavior href="SocialMediaMarketing">
-                 <p className="mega-menu-items-list"><IoShareSocialOutline className="mega_menu-icons"/> Social Media Marketing</p>  
-                    </Link> 
-     </div>           
-  
-                    </div>
-
-     <div className="col-lg-3">   
-     <div className="mega-menu-card">
-<Link legacyBehavior href="GoogleAds">
-               <p className="mega-menu-items-list"><IoLogoGooglePlaystore className="mega_menu-icons"/>  Google Ads</p> 
-                    </Link>
-     </div>            
-   
-                    </div>
-
-     <div className="col-lg-3"> 
-     <div className="mega-menu-card">
-  <Link legacyBehavior href="FacebookAds">
-               <p className="mega-menu-items-list"><FiFacebook className="mega_menu-icons"/> Facebook Ads</p>  
-                    </Link>
-     </div>              
- 
-
-    </div>
-
-  </div>
-</div>
-</div> */}
+    <a href="tel:+61 8 7200 7227" type="button" className="btn-mod">
+Call Now
+</a>
     </>
    
 

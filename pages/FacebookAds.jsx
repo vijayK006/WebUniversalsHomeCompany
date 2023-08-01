@@ -10,6 +10,12 @@ import { MdImportantDevices } from 'react-icons/md';
 import { IoIosApps } from 'react-icons/io';
 // import { IoIosApps } from 'react-icons/io6';
 // import { IoIosApps } from 'react-icons/io6';
+import { PiTargetLight } from 'react-icons/pi';
+import { IoCreateOutline } from 'react-icons/io5';
+import { PiFilesThin } from 'react-icons/pi';
+import { GoUpload } from 'react-icons/go';
+import { PiMonitorThin } from 'react-icons/pi';
+import { PiStrategyThin } from 'react-icons/pi';
 import Head from 'next/head';
 
 const FacebookAds = () => {
@@ -95,7 +101,7 @@ and convert them into valuable leads.
             <div className="row">
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                 <RiLightbulbFlashLine className="card-icons3"/>
+                 <PiTargetLight className="card-icons3"/>
                   <h4>Strategic Targeting</h4>
                   <p>
                   Our Facebook Ads specialists meticulously analyze your target audience,
@@ -107,7 +113,7 @@ those most likely to engage with your business.
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                <LiaUserCogSolid className="card-icons3"/>
+                <IoCreateOutline className="card-icons3"/>
 
                   <h4>Compelling Ad Creatives</h4>
                   <p>
@@ -118,7 +124,7 @@ captivate the audience&#39;s attention.</p>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                <LiaUserGraduateSolid className="card-icons3"/>
+                <PiFilesThin className="card-icons3"/>
                   <h4>Lead Generation Campaigns</h4>
                   <p>
                    We design lead generation campaigns that entice users to take
@@ -129,7 +135,7 @@ we make lead capture seamless and rewarding.
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                <AiOutlineSolution className="card-icons3"/>
+                <GoUpload className="card-icons3"/>
 
                   <h4>Landing Page Optimization</h4>
                   <p>
@@ -139,7 +145,7 @@ to fill out lead forms.</p></div>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                <MdImportantDevices className="card-icons3"/>
+                <PiMonitorThin className="card-icons3"/>
 
                   <h4>Constant Monitoring &amp; Optimization</h4>
                   <p>
@@ -150,7 +156,7 @@ data-driven adjustments to improve your campaign&#39;s effectiveness. </p>
               </div>
               <div className="col-xl-4 col-lg-6">
                 <div className="makes-us-different-text4">
-                <IoIosApps className="card-icons3"/>
+                <PiStrategyThin className="card-icons3"/>
 
                   <h4>Remarketing Strategies</h4>
                   <p>
