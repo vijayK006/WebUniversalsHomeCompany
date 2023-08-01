@@ -76,7 +76,7 @@ const TermsAndCondition = () => {
       <div className="content pt-4 pb-4">
         <h5>Payments and refunds:</h5>
         <ul className="list-items-head">
-          <li className="list-items1 pt-1 pb-2">All quotes are conveyed in INR and Excludes GST unless mentioned otherwise</li>
+          <li className="list-items1 pt-1 pb-2">All quotes are conveyed in AUD and Excludes GST unless mentioned otherwise</li>
           <li className="list-items1 pt-1 pb-2">Milestone payments need to be done inside 5 working days of each milestone. All pending payments and dues have to be cleared before the project is launched/released/ goes live.</li>
           <li className="list-items1 pt-1 pb-2">Payment made construes the automatic acceptance of quote, terms and conditions, budget, and schedule</li>
           <li className="list-items1 pt-1 pb-2">Below is the breakup of refund allowed on cancellation

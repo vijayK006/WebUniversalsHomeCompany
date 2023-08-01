@@ -178,7 +178,7 @@ SECTION 9 – CHANGES TO THIS PRIVACY POLICY
 <h5>QUESTIONS AND CONTACT INFORMATION</h5>
 
 <br/>
-<p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@webuniversals.co.in or by mail at #8 Gowri Nivas13th cross 1st k block, G Floor Rajajinagar Bengaluru 560-010</p>
+<p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@webuniversals.co.in or by mail at : south Australia</p>
 <br/>
 <br/>
 <p><b>read the updated terms and conditions and agree to abide by all terms laid down in this document.
