@@ -26,7 +26,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
       className={headerExtraClass ? headerExtraClass : ""}
       style={
         !noHeaderBg
-          ? { backgroundImage: `url(assets/img/header.jpg)` }
+          ? { backgroundColor: "black" }
           : { backgroundColor: "transparent" }
       }
     >

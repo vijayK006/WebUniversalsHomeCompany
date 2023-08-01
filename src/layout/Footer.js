@@ -22,10 +22,10 @@ const Footer = () => {
                   <a href="tel:+61 8 7200 7227" className="footer-links"><i class="fa-solid fa-phone"></i>  08 7200 7227</a>
                 </li>
                 <li className="mt-2 mb-2">
-                  <Link href="contacts" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</Link>
+                  <a href="mailto:www.webuniversals.com" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</a>
                 </li>
                 <li className="mt-2 mb-2">
-                  <a href="https://webuniversals.co.in/" target="_blank" rel="noopener" className="footer-links"><i class="fa-solid fa-globe"></i> www.webuniversals.com</a>
+                  <a href="https://webuniversals.com/" target="_blank" rel="noopener" className="footer-links"><i class="fa-solid fa-globe"></i> www.webuniversals.com</a>
                 </li>
            
               </ul>

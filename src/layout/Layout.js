@@ -14,9 +14,7 @@ const Layout = ({
 }) => {
   return (
     <Fragment>
-      <Head>
-        <title>Custom Web Application Development Services - {pageName}</title>
-      </Head>
+ 
       <VideoPopup />
       <ImageView />
       <Header

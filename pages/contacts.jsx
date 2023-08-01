@@ -83,7 +83,7 @@ const Contacts = () => {
                 </li>
                 <li>
                   <h4>Email :</h4>
-                  <Link href="contacts" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</Link>
+                  <a href="mailto:www.webuniversals.com" className="footer-links"><i class="fa-solid fa-envelope"></i> info@webuniversals.com</a>
 
                 </li>
                 <li>
