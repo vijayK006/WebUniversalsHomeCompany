@@ -45,7 +45,7 @@ document.getElementById("successMsg").classList.add('popuphidden');
 
 </Head>
 
-      <section className=" position-relative" style={{height:"100vh", width:"100%"}}>
+      <section className=" position-relative resp-screen">
         <div className="container">
              
         <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>

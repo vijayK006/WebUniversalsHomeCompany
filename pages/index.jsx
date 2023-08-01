@@ -860,67 +860,7 @@ goes the extra mile to ensure their clients&#39; satisfaction.
         </div>
       </section>
 
-      {/* <section className=" map-three">
-        <div className="container">
-             
-        <h2 className="text-center pb-5">Your Trusted Web Design Partner in Australia!</h2>
-          <div className="row">
-            <div className="col-xl-6">
-              <div className="heading">
-                <h6>Contact Us Today</h6>
-                <img alt="line" src="assets/img/headingline.png" />
-                <p style={{color:"black", fontWeight:"500"}}>Ready to embark on an unforgettable digital journey with Australia's top website design company? Reach out to us, and let's create something extraordinary together! <br/> <br/>
-                </p>
-
-            
-              </div>
-              <form className="touch two" ref={form} onSubmit={sendEmail}>
-                <div className="row">
-                  <div className="col-lg-4">
-                    <input type="text" name="from_name" placeholder="Your name *" 
-                      required
-                    />
-                  </div>
-                  <div className="col-lg-4">
-                    <input
-                      type="text"
-                      name="user_email"
-                      placeholder="Email address *"
-                      required
-                    />
-                  </div>
-                  <div className="col-lg-4">
-                    <input
-                      type="text"
-                      name="user_subject"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
-                  <div className="col-xl-12">
-                    <textarea placeholder="Your message *" name="message" defaultValue={""} required/>
-                  </div>
-                  <div className="btugap pb-5">
-                    <input type="submit" value="Send Message" className="themebtu full" style={{color:"white", width:"200px" , backgroundColor:"blue"}} required/>
-                  
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div className="offset-xl-1 col-xl-5">
-              <div className="map">
-              <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13924197.196521623!2d124.37171398494617!3d-31.566370704618578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6aa7589e5be8c7f3%3A0xdb7e79993dfad0d8!2sSouth%20Australia%2C%20Australia!5e0!3m2!1sen!2sin!4v1690524409240!5m2!1sen!2sin"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+    
 
 <FormHome/>
 

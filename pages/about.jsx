@@ -42,7 +42,7 @@ const About = () => {
       <h2 className="text-center">Unleashing Digital Excellence</h2>
 
         <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-6 col-md-12 ">
           <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-1(1)(1).jpg" />
           </div>
 

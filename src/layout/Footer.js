@@ -5,7 +5,8 @@ import { TfiGoogle } from 'react-icons/tfi';
 
 const Footer = () => {
   return (
-    <footer className="gap no-bottom" style={{ backgroundColor: "#222" }}>
+    <>
+          <footer className="gap no-bottom" style={{ backgroundColor: "#222" }}>
       <div className="container">
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-md-6">
@@ -167,6 +168,8 @@ const Footer = () => {
       
 
     </footer>
+    </>
+
   );
 };
 export default Footer;
