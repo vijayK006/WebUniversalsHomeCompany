@@ -77,7 +77,7 @@ const TermsAndCondition = () => {
 <p>How do I withdraw my consent?
 
 </p>
-<p>If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at info@webuniversals.co.in or mailing us at: #8 Gowri Nivas13th cross 1st k block G Floor Rajajinagar Bengaluru 560-010
+<p>If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at  info@webuniversals.com or mailing us at: South Australia
 
 </p>
 <br/>
@@ -178,7 +178,7 @@ SECTION 9 – CHANGES TO THIS PRIVACY POLICY
 <h5>QUESTIONS AND CONTACT INFORMATION</h5>
 
 <br/>
-<p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@webuniversals.co.in or by mail at : south Australia</p>
+<p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at  info@webuniversals.com or by mail at : South Australia</p>
 <br/>
 <br/>
 <p><b>read the updated terms and conditions and agree to abide by all terms laid down in this document.

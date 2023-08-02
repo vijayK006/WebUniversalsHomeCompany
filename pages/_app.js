@@ -30,7 +30,12 @@ const App = ({ Component, pageProps }) => {
         <link rel="stylesheet" href="assets/css/responsive.css" />
         {/* color */}
         <link rel="stylesheet" href="assets/css/color.css" />
+
+
+
       </Head>
+
+
       <Preloader />
       {!loader && <Component {...pageProps} />}
     </Fragment>

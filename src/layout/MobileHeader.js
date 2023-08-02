@@ -25,7 +25,7 @@ const MobileHeader = ({ toggle, close }) => {
 
 
               <li>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/About">
                   About Us
                 </Link>
               </li>
@@ -55,7 +55,7 @@ const MobileHeader = ({ toggle, close }) => {
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="WebDesignOffer">
+                    <Link legacyBehavior href="WebsiteDesignOffer">
                       Website Design Offer
                     </Link>
                   </li>
@@ -73,20 +73,20 @@ const MobileHeader = ({ toggle, close }) => {
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="SearchEngineOptimization">
+                    <Link legacyBehavior href="SocialMediaMarketing">
                     Social Media Marketing
                     </Link>
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="SearchEngineOptimization">
+                    <Link legacyBehavior href="GoogleAds">
 Google Ads
                     </Link>
                   </li>
 
                   
                   <li>
-                    <Link legacyBehavior href="SearchEngineOptimization">
+                    <Link legacyBehavior href="FacebookAds">
 Facebook Ads
                     </Link>
                   </li>

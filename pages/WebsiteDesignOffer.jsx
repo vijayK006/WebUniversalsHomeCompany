@@ -6,10 +6,22 @@ import { BsGraphUp } from 'react-icons/bs';
 import { PiPresentationChartThin } from 'react-icons/pi';
 import { LiaHandPointRightSolid } from 'react-icons/lia';
 import { GoCheck } from "react-icons/go";
+import Head from 'next/head';
+
 
 const Team = () => {
   return (
-    <Layout noHeaderBg pageName={"Team"}>
+    <>
+
+<Head>
+<title>Unlock Success with Our Website Design Packag</title>
+
+<meta name="description" content="You can transform your online presence with our Website Design Offer—professional, creative, and cost-effective packages. Get started now!"/>
+<meta name="keywords" content="Website design, Website design offer, Website design package, Professional website design, Creative website design, Cost-effective website design, Online presence transformation, Web design services,"/>
+
+</Head>
+
+          <Layout noHeaderBg pageName={"Team"}>
       <section
         className="splash-area-section"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
@@ -25,7 +37,7 @@ const Team = () => {
             {/* <a href="#">Meet The Team</a> */}
             <h2>
                   {" "}
-                  Unlock Success with Our Website Design Package
+            Website Design Offer
                 </h2>
           </div>
         </div>
@@ -325,6 +337,8 @@ const Team = () => {
       </div> */}
       
     </Layout>
+    </>
+
   );
 };
 export default Team;
