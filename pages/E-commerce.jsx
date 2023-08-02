@@ -1,6 +1,7 @@
 import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
 import Head from 'next/head';
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -276,11 +277,11 @@ extremely efficient in providing such effective services with precision just in 
             <div className="col-xl-4 col-lg-6">
               <div className="strategic">
                 <h2>O2/</h2>
-                <div className="pl-80">
                 
-                   
+                       <div className="pl-80"> 
                      <h4>e-Commerce Website Redesign</h4>
-                   <p>
+                  
+                      <p>
                   If you already have an e-Commerce website that needs a fresh look or improved functionality, 
                   our e-Commerce website design services include redesign options to revamp your online store.
                      </p>
@@ -310,9 +311,9 @@ extremely efficient in providing such effective services with precision just in 
       <div className="container  mt-5">
         <div className="awesome-project">
           <h4>Your Gateway to Captivating Website Design & Development!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
             Contact us now
-          </a>
+          </Link>
         </div>
       </div>
       {/* <div className="brands-we-work gap">

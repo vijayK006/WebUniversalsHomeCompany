@@ -36,7 +36,7 @@ const App = ({ Component, pageProps }) => {
       </Head>
 
 
-      <Preloader />
+      {/* <Preloader /> */} 
       {!loader && <Component {...pageProps} />}
     </Fragment>
   );

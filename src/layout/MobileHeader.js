@@ -50,7 +50,7 @@ const MobileHeader = ({ toggle, close }) => {
 
                   <li>
                     <Link legacyBehavior href="E-commerce">
-                      E-Commerce Website
+                      e-Commerce Website
                     </Link>
                   </li>
 

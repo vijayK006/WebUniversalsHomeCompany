@@ -221,9 +221,9 @@ const LogoDesign = () => {
         <div className="container">
         <div className="awesome-project">
           <h4>Your Gateway to Captivating Logo Design!</h4>
-          <a href="tel:08 8121 7826" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
           Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

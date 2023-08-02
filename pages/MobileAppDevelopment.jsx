@@ -12,6 +12,7 @@ import { IoIosApps } from 'react-icons/io';
 // import { IoIosApps } from 'react-icons/io6';
 
 import Head from 'next/head';
+import Link from "next/link";
 
 const MobileAppDevelopment = () => {
   return (
@@ -72,9 +73,9 @@ const MobileAppDevelopment = () => {
                   magna a ullamcorper laoreet, lectus arcu pulvinar facilisis.{" "}
                 </p> */}
              
-                <a href="Contact Us" className="themebtu">
+                <Link href="contacts" className="themebtu">
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -260,9 +261,9 @@ const MobileAppDevelopment = () => {
       <div className="container">
         <div className="awesome-project">
           <h4>Your Gateway to Pioneering Mobile App Development!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
    Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

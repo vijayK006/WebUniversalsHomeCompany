@@ -43,7 +43,7 @@ const About = () => {
 
         <div className="row pt-lg-5 pb-lg-5 pt-3 pb-3">
           <div className="col-lg-6 col-md-12 ">
-          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/discovery-1(1)(1).jpg" />
+          <img className="w-100 cross-over-img-a"   alt="discovery"   src="assets/img/websitescreenshots/webuniversalsImg.png" />
           </div>
 
           <div className="col-lg-6 col-md-12">
@@ -84,7 +84,7 @@ const About = () => {
 </div>
 
    <div className="col-lg-6 col-md-6">
-          <img className="w-100 cross-over-img-b"   alt="discovery"   src=" assets/img/discovery-4(4).jpg" />
+          <img className="w-100 cross-over-img-b"   alt="discovery"   src=" assets/img/philosophyImg.jpg" />
           </div>
         </div>
  
@@ -133,7 +133,7 @@ const About = () => {
 </div>
 
 <div className="col-lg-6 col-md-12">
-       <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/discovery-4(4)(4).jpg" />
+       <img className="w-100 cross-over-img-b"   alt="discovery"   src="assets/img/joinhandImg.jpg" />
        </div>
      </div>
 
@@ -263,9 +263,9 @@ const About = () => {
                  </p>
                   <div className="ceo">
                    
-                    <a href="team.html" className="themebtu">
+                    <Link href="contacts" className="themebtu">
                       Contact us
-                    </a>
+                    </Link>
                   </div>
               </div>
             </div>
@@ -424,9 +424,9 @@ const About = () => {
       <div className="container">
         <div className="awesome-project">
           <h4>Let's Start An Awesome Project Now!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
       </div>

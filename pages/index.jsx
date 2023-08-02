@@ -61,7 +61,7 @@ const Index3 = () => {
           <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken" }}
+                style={{background: "rgba(0, 0, 0, 0.5) url(assets/img/hero-img-2.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken", backgroundRepeat:"no-repeat", width:"100%", height:"844px" }}
               >
                 <div className="container">
                   <div className="heading-boder">
@@ -83,6 +83,7 @@ const Index3 = () => {
               <div
                 className="hero-section-one two"
                 style={{ backgroundImage: "url(assets/img/banner4.jpg)" }}
+
               >
                 <div className="container">
                   <div className="heading-boder">
@@ -103,7 +104,7 @@ const Index3 = () => {
             <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner1.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken"  }}
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner1.jpg)", backgroundPosition:"center", position:"relative", backgroundBlendMode:"darken", height:"844px", width:"100%"}}
               >
                 <div className="container">
                   <div className="heading-boder">
@@ -129,7 +130,7 @@ const Index3 = () => {
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                    From Vision to <br/><span>Viral</span>
+                    From Vision  <br/><span>to Viral</span>
                     </h2>
                     <p> Elevating Your Brand with Strategic Digital Magic</p>
                     <br/>
@@ -145,7 +146,7 @@ const Index3 = () => {
             <SwiperSlide className="swiper-slide">
               <div
                 className="hero-section-one two"
-                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner3.jpg)", position:"relative", backgroundBlendMode:"darken"  }}
+                style={{ background: "rgba(0, 0, 0, 0.5) url(assets/img/banner3.jpg)", position:"relative", backgroundBlendMode:"darken",height:"844px" }}
               >
                 <div className="container">
                   <div className="heading-boder">
@@ -290,7 +291,7 @@ const Index3 = () => {
                 Whether you're a small local enterprise or a large corporation, Web Universals has the perfect website design solution. Our talented designers and developers work collaboratively to create custom websites that make your brand stand out.</p>
               
                 <div className="card-btn">
-  <Link href="NewWebDesign" className="themebtu full " style={{padding: '8px 25px'}}>
+  <Link href="WebsiteDesignServices" className="themebtu full " style={{padding: '8px 25px'}}>
                   Know More
                 </Link>
 </div>

@@ -1,9 +1,7 @@
-import TerioCounter from "@/src/components/TerioCounter";
 import Layout from "@/src/layout/Layout";
-import { blogswiper } from "@/src/sliderProps";
 
-import { Swiper, SwiperSlide } from "swiper/react";
 import Head from 'next/head';
+import Link from "next/link";
 
 const SocialMediaMarketing = () => {
   return (
@@ -214,9 +212,9 @@ Our Social Media Marketing services are tailored to meet the needs of businesses
       <div className="container  mt-5">
         <div className="awesome-project">
           <h4>Your Gateway to Social Media Marketing Excellence!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
             Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

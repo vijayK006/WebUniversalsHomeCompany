@@ -1,6 +1,7 @@
 import TerioCounter from "@/src/components/TerioCounter";
 import Layout from "@/src/layout/Layout";
 import { blogswiper } from "@/src/sliderProps";
+import Link from "next/link";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -643,9 +644,9 @@ Online Public Relations
       <div className="container">
         <div className="awesome-project">
           <h4>Your Gateway to Empowering SEO Services!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
    Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

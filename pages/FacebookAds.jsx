@@ -18,6 +18,8 @@ import { PiMonitorThin } from 'react-icons/pi';
 import { PiStrategyThin } from 'react-icons/pi';
 import Head from 'next/head';
 
+import Link from "next/link";
+
 const FacebookAds = () => {
   return (
     <>
@@ -79,9 +81,9 @@ and convert them into valuable leads.
                   magna a ullamcorper laoreet, lectus arcu pulvinar facilisis.{" "}
                 </p> */}
              
-                <a href="Contact Us" className="themebtu">
+                <Link href="contacts" className="themebtu">
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -311,9 +313,9 @@ optimal results.</p>                </div>
         <div className="awesome-project">
           <h4>Your Gateway to Facebook Ads &amp; Lead Generation
 Excellence!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
    Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

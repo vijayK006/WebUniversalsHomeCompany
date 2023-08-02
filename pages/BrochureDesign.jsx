@@ -12,6 +12,8 @@ import { AiOutlinePrinter } from 'react-icons/ai';
 import { blogswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Head from 'next/head';
+import Link from "next/link";
+
 
 const BrochureDesign = () => {
   return (
@@ -68,9 +70,9 @@ const BrochureDesign = () => {
                   </p>
                   <div className="ceo">
                    
-                    <a href="tel:08 8121 7826" className="themebtu">
+                    <Link href="contacts" className="themebtu">
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -231,9 +233,9 @@ const BrochureDesign = () => {
         <div className="container">
         <div className="awesome-project">
           <h4>Your Gateway to Captivating Brochure, Leaflet, or Tri-fold Designs!</h4>
-          <a href="tel:08 8121 7826" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
           Contact Us Now
-          </a>
+          </Link>
         </div>
       </div>
 

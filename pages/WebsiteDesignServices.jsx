@@ -74,9 +74,9 @@ const WebDesignService = () => {
                  of exposure you are expecting; well this kind of situations often take place in case the website is not 
                 responsive enough due to several reasons related to it.
                 </p> */}
-                <a href="tel:08 8121 7826" className="themebtu">
+                <Link href="contacts" className="themebtu">
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -218,9 +218,9 @@ const WebDesignService = () => {
       <div className="container  mt-5">
         <div className="awesome-project">
           <h4>Your Gateway to Captivating Website Design & Development!</h4>
-          <a href="contacts.html" className="themebtu full">
+          <Link href="contacts" className="themebtu full">
             Contact Us 
-          </a>
+          </Link>
         </div>
       </div>
       {/* <div className="brands-we-work gap">
