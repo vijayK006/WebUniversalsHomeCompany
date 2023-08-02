@@ -394,7 +394,7 @@ const Index3 = () => {
       <section className="case-studies gap">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4">
+            <div className="col-xl-5">
               <div className="heading-boder">
                 <h2>
                 Recently
@@ -405,12 +405,12 @@ Completed
                 <p>
                 We Help You Build An Online Brand
                 </p>
-                <a href="" className="themebtu full">
+                {/* <a href="" className="themebtu full">
                   View More Works
-                </a>
+                </a> */}
               </div>
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-7">
               <Swiper
                 {...studiesswiper}
                 className="swiper-container studiesswiper"
@@ -418,55 +418,55 @@ Completed
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="case-studies-project">
-                      <a href="">
-                        <img alt="img" src="assets/img/project1.png" />
+                      <a href="https://townsvillealuminiumtrestles.com.au/">
+                        <img alt="img" src="assets/img/websitescreenshots/WebsitImg1.png" />
                       </a>
-                      <h4>Amma Constructions</h4>
+                      <h4>Townsville</h4>
                     
-                      <a href="#">View Project</a>
+                      <a href="https://townsvillealuminiumtrestles.com.au/">View Project</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide className="swiper-slide">
                     <div className="case-studies-project">
-                      <a href="">
-                        <img alt="img" src="assets/img/project2.png" />
+                      <a href="http://residentialrentalproperties.com.au/">
+                        <img alt="img" src="assets/img/websitescreenshots/WebsitImg2.png" />
                       </a>
-                      <h4>Campus Continents</h4>
+                      <h4>Residential Rental Properties</h4>
                  
-                      <a href="#">View Project</a>
+                      <a href="http://residentialrentalproperties.com.au/">View Project</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide className="swiper-slide">
                     <div className="case-studies-project">
-                      <a href="">
-                        <img alt="img" src="assets/img/project3.png" />
+                      <a href="https://www.northsuburbanplumbing.com.au/">
+                        <img alt="img" src="assets/img/websitescreenshots/WebsitImg3.png" />
                       </a>
-                      <h4>Endo Medical System</h4>
+                      <h4>North Suburban Plumbing</h4>
                      
-                      <a href="3">View Project</a>
+                      <a href="https://www.northsuburbanplumbing.com.au/">View Project</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide className="swiper-slide">
                     <div className="case-studies-project">
-                      <a href="">
-                        <img alt="img" src="assets/img/project4.png" />
+                      <a href="https://generalmowers.com.au/">
+                        <img alt="img" src="assets/img/websitescreenshots/WebsitImg4.png" />
                       </a>
-                      <h4>Energy Tech World</h4>
+                      <h4>General Mowers & Power Equipment</h4>
                     
-                      <a href="#">View Project</a>
+                      <a href="https://generalmowers.com.au/">View Project</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide className="swiper-slide">
                     <div className="case-studies-project">
                       <a href="">
-                        <img alt="img" src="assets/img/project5.png" />
+                        <img alt="img" src="assets/img/websitescreenshots/WebsitImg5.png" />
                       </a>
-                      <h4>Flow Tech Pumps & Motors</h4>
-                      <a href="#">View Project</a>
+                      <h4>Newmarket Car Care</h4>
+                      <a href="https://newmarketcarcare.com.au/">View Project</a>
                     </div>
                   </SwiperSlide>
 
@@ -485,42 +485,7 @@ Completed
         </div>
       </section>
 <hr /><br /><br />
-      {/* <section className="gap">
-        <div className="container">
-          <div className="our-clients">
-            <h4>
-            See the clients we've delivered experiences for and how we did it.
-            </h4>
-            <span>Pellentesque aliquet nibh nec urna.</span>
-            <ul>
-              <li>
-                <img alt="img" src="assets/img/brand-1.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-2.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-3.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-4.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-5.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-6.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-7.png" />
-              </li>
-              <li>
-                <img alt="img" src="assets/img/brand-8.png" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section> */}
+
       <section className="why-choose-us">
         <div className="container">
           <div className="row align-items-center">

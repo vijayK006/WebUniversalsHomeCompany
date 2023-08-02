@@ -199,7 +199,7 @@ export const studiesswiper = {
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 50,
     },
   },
