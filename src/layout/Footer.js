@@ -72,30 +72,30 @@ const Footer = () => {
               <ul>
                 <li>
                   {/* <a href="about.html">About us</a> */}
-                  <Link legacyBehavior href="Affodablewebsite">
-                  affordable website design
+                  <Link legacyBehavior href="/">
+          Website Design Company Australia
                 </Link>
                 </li>
                 <li>
-                <Link legacyBehavior href="CheapWebsiteDesign">
-                cheap website design
+                <Link legacyBehavior href="/">
+                Website Design Gold Coast Australia
                 </Link>
                 </li>
                 <li>
                   {/* <a href="team.html">team</a> */}
-                  <Link legacyBehavior href="WebDesignCompany">
-                  web design  australia
+                  <Link legacyBehavior href="/">
+                  e-Commerce Development Brisbane
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="WebDevlopSydney">
-                  web development Sydney
+                  <Link legacyBehavior href="/">
+                  e-Commerce Website Australia
                   </Link>
                 </li>
                 <li>
                   {/* <Link legacyBehavior href="#"></Link> */}
-                  <Link legacyBehavior href="WebsDesinerPerth">
-                  website designer perth
+                  <Link legacyBehavior href="/">
+                  e-Commerce Development Company
                   </Link>
                 </li>
                 
