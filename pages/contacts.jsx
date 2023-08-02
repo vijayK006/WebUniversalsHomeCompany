@@ -69,8 +69,17 @@ document.getElementById('successMsg').classList.add('popupvisiable');
                       required
                     />
                   </div>
+
+                  <div className="col-lg-6">
+                <input type="number" name="user_mobileno" placeholder="Your Mobile Number*" required/>
                 </div>
-                <input type="text" name="user_email" placeholder="Your Email *" required/>
+                <div className="col-lg-6">
+                <input type="email" name="user_email" placeholder="Your Email *" required/>
+                </div>
+                </div>
+
+               
+
                 <textarea placeholder="Your Message " name="message" defaultValue={""} required/>
                 <input type="submit" className="themebtu" value="Submit"/>
               </form>

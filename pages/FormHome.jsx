@@ -61,24 +61,33 @@ document.getElementById("successMsg").classList.add('popuphidden');
               </div>
               <form className="touch two" ref={form} onSubmit={sendEmail}>
                 <div className="row">
-                  <div className="col-lg-4">
+                  <div className="col-lg-6">
                     <input type="text" name="from_name" placeholder="Your name *" 
                       required
                     />
                   </div>
-                  <div className="col-lg-4">
-                    <input
-                      type="text"
-                      name="user_email"
-                      placeholder="Email address *"
-                      required
-                    />
-                  </div>
-                  <div className="col-lg-4">
+                
+                  <div className="col-lg-6">
                     <input
                       type="text"
                       name="user_subject"
                       placeholder="Subject"
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-6 pt-lg-5">
+                  <input
+                      type="number"
+                      name="user_mobileno"
+                      placeholder="Mobile Number"
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-6 pt-lg-5">
+                    <input
+                      type="email"
+                      name="user_email"
+                      placeholder="Email address *"
                       required
                     />
                   </div>
