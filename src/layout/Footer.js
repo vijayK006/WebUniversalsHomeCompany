@@ -73,7 +73,7 @@ const Footer = () => {
                 <li>
                   {/* <a href="about.html">About us</a> */}
                   <Link legacyBehavior href="/">
-          Website Design Company Australia
+Website Design Company Australia
                 </Link>
                 </li>
                 <li>
@@ -107,27 +107,27 @@ const Footer = () => {
               <h6>Social Media</h6>
               <ul>
             <li>
-              <a  href="http://www.facebook.com/sharer.php?u=https://webuniversals.com/&images=https://webuniversals.com/wp-content/uploads/2014/07/homepage2-94x150.png">
+              <a  href="http://www.facebook.com/sharer.php?u=https://webuniversals.com/&images=https://webuniversals.com/wp-content/uploads/2014/07/homepage2-94x150.png" target="_blank">
                 <i className="fa-brands fa-facebook-f" />&nbsp;Facebook
               </a> 
             </li>
             <li>
-              <a  href="https://twitter.com/share?url=https://webuniversals.com/&text=Home">
+              <a  href="https://twitter.com/webuniaustralia" target="_blank">
                 <i className="fa-brands fa-twitter" />&nbsp;Twitter
               </a> 
             </li>
             <li>
-              <a  href="http://pinterest.com/pin/create/button/?url=https://webuniversals.com/&media=https://webuniversals.com/wp-content/uploads/2014/07/homepage2-94x150.png&description=Home">
+              <a  href="https://in.pinterest.com/webuniaustralia/" target="_blank">
                 <BsPinterest/>&nbsp;Pinterest
               </a> 
             </li>
             <li>
-              <a  href="mailto:info@webuniversals.com?subject=Home&body=Check%20this%20out:%20https://webuniversals.com/">
+              <a  href="https://www.instagram.com/webuniversalsaus/" target="_blank">
               <i class="fa-brands fa-instagram"></i>&nbsp;Instagram
               </a>
             </li>
             <li>
-              <a  href="http://plus.google.com/share?url=https://webuniversals.com/&title=">
+              <a  href="http://plus.google.com/share?url=https://webuniversals.com/&title=" target="_blank">
               <i class="fa-brands fa-youtube"></i>&nbsp;YouTube
               </a> 
             </li>
