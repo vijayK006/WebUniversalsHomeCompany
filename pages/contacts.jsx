@@ -110,23 +110,29 @@ document.getElementById('successMsg').classList.add('popupvisiable');
                   <h4>Find us :</h4>
                   <ul className="brandicon">
                     <li>
-                      <a href="#">
+                      <a href="http://www.facebook.com/sharer.php?u=https://webuniversals.com/&images=https://webuniversals.com/wp-content/uploads/2014/07/homepage2-94x150.png" target="_blank">
                         <i className="fa-brands fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://twitter.com/webuniaustralia" target="_blank">
                         <i className="fa-brands fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/webuniversalsaus/" target="_blank">
                         <i className="fa-brands fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa-brands fa-linkedin-in" />
+                      <a href="http://plus.google.com/share?url=https://webuniversals.com/&title=" target="_blank">
+                        <i className="fa-brands fa-youtube" />
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://in.pinterest.com/webuniaustralia/" target="_blank">
+                        <i className="fa-brands fa-pinterest" />
                       </a>
                     </li>
                   </ul>
