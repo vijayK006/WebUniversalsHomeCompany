@@ -46,16 +46,16 @@ const WebSiteRedesign = () => {
             <h6> Unlock the Potential of Your Business with Web Universals <br/> Website   Design Services</h6>
             <img alt="line" src="assets/img/headingline.png" />
 
-<div className="content-para pt-4 pb-4">
-  <h4>The Power of Good Website Design</h4>
-                <p>
+<div >
+             <h4>The Power of Good Website Design</h4>
+                <p className="discovery-para">
                 In today's digital age, a well-designed website is more than just an online presence; it's a powerful tool that can drive growth, increase brand visibility, and boost conversions. At Web Universals, we understand the importance of good website design and its impact on your business success. As a creative website design agency, we craft visually stunning and user-centric websites that make a lasting impression on your visitors.
                 </p>
 </div>
 
-<div className="content-para pt-4 pb-4">
+<div >
   <h4>Captivate Your Audience with Creative Designs</h4>
-                <p>
+                <p className="discovery-para">
                 Our team of talented designers excels at creating captivating and unique designs that reflect your brand's identity. Whether you're a creative individual looking for a portfolio website design or a business seeking to establish a robust online presence, we tailor our strategies to suit your specific needs and objectives.  </p>
 </div>
                 

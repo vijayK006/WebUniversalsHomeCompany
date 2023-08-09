@@ -1503,7 +1503,7 @@ section.why-choose-us .heading-boder h2{
 } 
 .choose-us-img-text h5 {
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 14px;
     font-weight: 600;
     line-height: 32px;
@@ -2830,6 +2830,8 @@ li.menu-item-has-children.active {
 .card-text2{
     color: white !important;
     font-weight: 500;
+    text-align: center;
+    line-height: 30px;
 }
 
 
@@ -2901,6 +2903,9 @@ font-weight: 500;
 .makes-us-different-text4 .card-icons3 {
     width: 70px;
     height: auto;
+}
+.discovery-para{
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -3587,3 +3592,6 @@ margin: 10px 0px;
     
 }
 
+.swiper-container{
+    overflow: hidden !important;
+}
