@@ -122,12 +122,12 @@ Facebook Ads
                 </Link>
               </li>
 
-        <li>
+        {/* <li>
                 <Link legacyBehavior href="blog">
                   Blog
                 </Link>
               
-              </li>
+              </li> */}
 
         <li>
           <Link legacyBehavior href="contacts">
