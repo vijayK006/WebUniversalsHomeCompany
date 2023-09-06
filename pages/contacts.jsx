@@ -5,6 +5,7 @@ import Link from "next/link";
 import  React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {TiTickOutline} from 'react-icons/ti';
+import Head from 'next/head';
 
 
 
@@ -35,22 +36,35 @@ document.getElementById('successMsg').classList.add('popupvisiable');
       }
 
   return (
-    <Layout noHeaderBg pageName={"Contact"}>
+
+    <>
+<Head>
+<title>Contact | Top Web development company and Experts</title>
+
+<meta name="description" content="Connect with the top web development experts at Webuniversals. Reach out to us for all your web-related needs today"/>
+<meta name="keywords" content="Website design company australia"/>
+
+<link rel="canonical" href="https://webuniversals.com/contacts" />
+
+
+</Head>
+
+        <Layout noHeaderBg pageName={"Contact"}>
       <section
         className="splash-area-section position-relative"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
       >
         <div className="container">
           <div className="splash-area">
-            <h2>Let Us Know What You're Looking For</h2>
-            <a href="#">Get in Touch</a>
+            <h1>Contact us</h1>
+            <a href="#">Let Us Know What You're Looking For</a>
           </div>
         </div>
       </section>
       <section className="contact-page gap">
         <div className="container">
           <div className="heading">
-            <h6>Let's Talk</h6>
+            <h6>Get in touch</h6>
             <h2>CONTACT FORM</h2>
             <img alt="line" src="assets/img/headingline.png" />
           </div>
@@ -174,6 +188,8 @@ document.getElementById('successMsg').classList.add('popupvisiable');
       </div>
 
     </Layout>
+    </>
+  
   );
 };
 export default Contacts;
