@@ -37,13 +37,6 @@ document.getElementById("successMsg").classList.add('popuphidden');
   return (
 
   <>
-<Head>
-<title>Web Design Company - Affordable & Creative Services | Web Universals</title>
-
-<meta name="description" content="Empowering Your Online Journey - Web Design, SEO, Social Media, & More"/>
-<meta name="keywords" content="website design company, top website design company in Australia, best website design company in Australia, website design company Australia, website design companies Australia, website designing company in Australia, website design and development company in Australia, website designing company Australia, website design companies in Australia, website designing companies in Australia, website design company in Australia"/>
-
-</Head>
 
       <section className=" position-relative resp-screen">
         <div className="container">

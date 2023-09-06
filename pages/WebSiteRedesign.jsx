@@ -10,12 +10,14 @@ const WebSiteRedesign = () => {
   return (
     <>
 <Head>
-<title>Professional Website Redesign Services</title>
+<title>Website redesign service | Webuniversals </title>
 
-<meta name="description" content="Enhance Your Online Presence"/>
-<meta name="keywords" content="website redesign service, website redesign company, website revamp, website makeover, responsive web redesign"/>
+<meta name="description" content="Revitalize your online presence with our website redesign service. Webuniversals transforms your site for improved performance and aesthetics"/>
+<meta name="keywords" content="Website redesign service"/>
+<link rel="canonical" href="https://webuniversals.com/WebSiteRedesign" />
 
 </Head>
+
 
 
       <Layout noHeaderBg pageName={"About"}>
@@ -27,9 +29,9 @@ const WebSiteRedesign = () => {
           <div className="container">
             <div className="splash-area">
 
-            <h2>
+            <h1>
           Website Redesign Service
-            </h2>
+            </h1>
     {/* <a href="#">Unlock the Potential of Your Business with Web Universals <br/> Website   Design Services</a> */}
      
             </div>

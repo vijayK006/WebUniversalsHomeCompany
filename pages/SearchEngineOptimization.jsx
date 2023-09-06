@@ -10,10 +10,11 @@ const SearchEngineOptimization = () => {
   return (
     <>
     <head>
-<title>Result-Oriented SEO Experts | Web Universals</title>
+<title>Best  seo company | Top seo services | Webuniversals </title>
 
-<meta name="description" content="Skyrocket Your Visibility with Result-Oriented SEO Strategies"/>
-<meta name="keywords" content="seo agency, seo company, seo services experts, local seo services, best seo company, top seo company, seo service Australia, affordable seo, result-oriented seo services"/>
+<meta name="description" content="Webuniversals | The Best Indian SEO Company for Top-Notch SEO Services. Elevate Your Online Presence with Our Expert Solutions"/>
+<meta name="keywords" content="Best  seo company ,Top seo services"/>
+<link rel="canonical" href="https://webuniversals.com/SearchEngineOptimization" />
 
 </head>
 
@@ -25,10 +26,10 @@ const SearchEngineOptimization = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
-            S E O
-            </h2>
-            <a href="#">Search Engine Optimization</a>
+            <h1>
+            Best Indian SEO Company 
+            </h1>
+            <a href="">Search Engine Optimization</a>
             </div>
           </div>
         </section>

@@ -7,11 +7,11 @@ const SocialMediaMarketing = () => {
   return (
     <>
 <Head>
-<title>Strategic Social Media Marketing</title>
+<title>Social media marketing services | Webuniversals</title>
 
-<meta name="description" content="Boost Brand Awareness & Engagement"/>
-<meta name="keywords" content="Social media marketing, SMM agency, social media management, social media campaigns, brand promotion"/>
-
+<meta name="description" content="Boost your brand with top-notch social media marketing services by Webuniversals. Maximize your online presence today"/>
+<meta name="keywords" content="social media marketing services"/>
+<link rel="canonical" href="https://webuniversals.com/SocialMediaMarketing" />
 </Head>
 
         <Layout noHeaderBg pageName={"About"}>
@@ -22,9 +22,9 @@ const SocialMediaMarketing = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
-            Social Media Marketing
-            </h2>
+            <h1>
+            Social Media Marketing Services
+            </h1>
             <a href="#"></a>
             </div>
           </div>

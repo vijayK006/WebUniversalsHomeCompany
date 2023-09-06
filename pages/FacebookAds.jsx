@@ -25,10 +25,11 @@ const FacebookAds = () => {
     <>
 
 <Head>
-<title>Engaging Facebook Ads & Lead Generation</title>
+<title>Facebook ad management |Facebook ad agency | Webuniversals</title>
 
-<meta name="description" content="Connect with Your Audience on Social Media"/>
-<meta name="keywords" content="Facebook ads, lead generation, social media marketing, Facebook advertising, targeted ads"/>
+<meta name="description" content="Efficient Facebook ad management services by Webuniversals. Maximize ROI with our expert team. Unlock your social media potential today"/>
+<meta name="keywords" content="Facebook ad management ,Facebook ad agency"/>
+<link rel="canonical" href="https://webuniversals.com/FacebookAds" />
 
 </Head>
           <Layout noHeaderBg pageName={"About"}>
@@ -39,9 +40,9 @@ const FacebookAds = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
-            Facebook Ads 
-            </h2>
+            <h1>
+            Facebook ad management
+            </h1>
             <a href="#"></a>
             </div>
           </div>

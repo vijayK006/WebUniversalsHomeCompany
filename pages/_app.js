@@ -10,6 +10,26 @@ const App = ({ Component, pageProps }) => {
     }, 1000);
   }, []);
 
+  function addProductJsonLd() {
+    return {
+      __html: `{
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElemen": [{
+          "@type": "ListItem", 
+          "position": 1, 
+          "name": "About us",
+          "item": "https://webuniversals.com/about"  
+        },{
+          "@type": "ListItem", 
+          "position": 2, 
+          "name": "Contact us",
+          "item": "https://webuniversals.com/contacts"  
+        }]
+      }`,
+    };
+  }
+
   return (
     <Fragment>
       <Head>
@@ -31,9 +51,12 @@ const App = ({ Component, pageProps }) => {
         {/* color */}
         <link rel="stylesheet" href="assets/css/color.css" />
 
-
+ 
 
       </Head>
+
+
+<script   type="application/ld+json" dangerouslySetInnerHTML={addProductJsonLd()} key="product-jsonld" />
 
 
       {/* <Preloader /> */} 

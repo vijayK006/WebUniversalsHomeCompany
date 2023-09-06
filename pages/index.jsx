@@ -39,10 +39,12 @@ const Index3 = () => {
 
   <>
 <Head>
-<title>Web Design Company - Affordable & Creative Services | Web Universals</title>
+<title>Website design company australia | webuniversals</title>
 
-<meta name="description" content="Empowering Your Online Journey - Web Design, SEO, Social Media, & More"/>
-<meta name="keywords" content="website design company, top website design company in Australia, best website design company in Australia, website design company Australia, website design companies Australia, website designing company in Australia, website design and development company in Australia, website designing company Australia, website design companies in Australia, website designing companies in Australia, website design company in Australia"/>
+<meta name="description" content="Transform your brand's online presence with our top-tier website design services in Australia. Engaging, responsive, and results-driven solutions await."/>
+<meta name="keywords" content="Website design company australia"/>
+
+    <link rel="canonical" href="https://webuniversals.com/"/>
 
 </Head>
 
@@ -192,7 +194,7 @@ const Index3 = () => {
                 /> */}
               </div>
               <div className="welcome-text">
-<h2>Your Trusted Australian Website Design & Development Company! </h2> 
+<h1 style={{fontSize:"35px"}}>Website Design Company Australia  </h1> 
 <br/>
 
                 <h3> Discover the Essence of Online Excellence</h3>

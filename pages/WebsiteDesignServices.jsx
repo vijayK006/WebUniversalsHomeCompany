@@ -11,11 +11,11 @@ const WebDesignService = () => {
   return (
 <>
 <Head>
-<title>Custom Website Design Services | Web Universals</title>
+<title>Web development company | Webuniversals | web design</title>
 
-<meta name="description" content="Craft Your Digital Masterpiece - Custom, Responsive, and User-centric Designs"/>
-<meta name="keywords" content="website design, wordpress website designer, best website design, website design company, website designer near me, website design agency, portfolio website design, website design for small business, website design cost, website design services, website design near me, good website design, custom website design, cheap website design, modern website design, simple website design, creative website design, business website design, minimalist website design, website design and development, affordable website design, website design packages"/>
-
+<meta name="description" content="Transform your online presence with our premier web development company | We bring expertise, innovation, and quality to your project. "/>
+<meta name="keywords" content="Web development company"/>
+<link rel="canonical" href="https://webuniversals.com/WebsiteDesignServices" />
 </Head>
 
 
@@ -33,10 +33,10 @@ const WebDesignService = () => {
             </h2> */}
             {/* <h2>Crafting Your <br />Digital Identity</h2> */}
             {/* <a href="#">Meet The Team</a> */}
-            <h2>
+            <h1>
                   {" "}
-                  Crafting Your Digital Identity
-                </h2>
+                  Web Development Company
+                </h1>
           </div>
         </div>
       </section>
@@ -45,7 +45,7 @@ const WebDesignService = () => {
           <div className="row">
             <div className="col-xl-5">
               <div className="heading">
-                <h6>Responsive Website Design</h6>
+                <h1 style={{fontSize:"25px"}}>Web development company</h1>
                 
                 <h3>
                   {" "}

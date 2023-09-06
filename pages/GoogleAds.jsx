@@ -25,10 +25,11 @@ const GoogleAds = () => {
   return (
     <>
 <Head>
-<title>Effective Google Ads Management</title>
+<title> Google ads | Webuniversals | Top Google ads agency</title>
 
-<meta name="description" content="Drive Conversions with Targeted Campaigns"/>
+<meta name="description" content="Webuniversals: Your top Google Ads agency for expert PPC management and results-driven online advertising campaignss"/>
 <meta name="keywords" content="Google ads, PPC management, online advertising, ad campaigns, Google ads agency"/>
+<link rel="canonical" href="https://webuniversals.com/GoogleAds" />
 
 </Head>
 
@@ -41,9 +42,9 @@ const GoogleAds = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
+            <h1>
             Google Ads 
-            </h2>
+            </h1>
             <a href="#"></a>
             </div>
           </div>

@@ -19,10 +19,11 @@ const LogoDesign = () => {
     <>
     <Head>
 
-    <title> Distinctive & Timeless Logos | Web Universals</title>
+    <title>Logo design | Webuniversals | Logo design company</title>
 
-<meta name="description" content="Distinctive, Timeless, and Memorable Logos - Your Brand's Identity Redefined"/>
-<meta name="keywords" content="logo design, logo design company, professional logo design, business logo design, creative logo design, custom logo design, company logo design, modern logo design, minimalist logo design, logo design services, logo designer, brand logo design, unique logo design, best logo design, affordable logo design, logo design agency"/>
+<meta name="description" content=" Your premier logo design company crafts iconic logos that resonate. Elevate your brand identity with our creative expertise | Webuniversals."/>
+<meta name="keywords" content="logo design"/>
+<link rel="canonical" href="https://webuniversals.com/LogoDesign" />
 
     </Head>
    <Layout noHeaderBg pageName={"Team3"}>
@@ -33,9 +34,9 @@ const LogoDesign = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
+            <h1>
             Logo Design
-            </h2>
+            </h1>
             {/* <a href="#">The highest quality in design Within budget <br />and under the tightest deadline</a> */}
             </div>
           </div>

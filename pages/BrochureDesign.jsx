@@ -20,11 +20,11 @@ const BrochureDesign = () => {
     <>
 
 <Head>
-<title>Captivating Marketing Designs | Web Universals</title>
+<title>Brochure design | Bamphlet designer | Webuniversals</title>
 
-<meta name="description" content="Captivating Visual Communication - Stunning Designs for Effective Marketing"/>
-<meta name="keywords" content="brochure design, leaflet design, tri-fold design, brochure design services, leaflet design services, tri-fold design services, brochure designer, leaflet designer, tri-fold designer, professional brochure design, creative brochure design, custom brochure design, brochure design agency, leaflet design agency, tri-fold design agency, brochure design company, leaflet design company, tri-fold design company, brochure design near me, leaflet design near me, tri-fold design near me, brochure printing, leaflet printing"/>
-
+<meta name="description" content="Transform your brand with captivating brochure designs by Webuniversals. Make a lasting impression with our creative expertiseg"/>
+<meta name="keywords" content="Brochure design ,Bamphlet designer"/>
+<link rel="canonical" href="https://webuniversals.com/BrochureDesign" />
 </Head>
 
 
@@ -36,9 +36,9 @@ const BrochureDesign = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
+            <h1>
             Brochure Design
-            </h2>
+            </h1>
             {/* <a href="#">The highest quality in design Within budget <br />and under the tightest deadline</a> */}
             </div>
           </div>

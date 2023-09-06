@@ -19,10 +19,11 @@ const MobileAppDevelopment = () => {
     <>
         <Head>
 
-        <title>Innovative Mobile App Development | Web Universals</title>
+        <title>Mobile app development | app development |Webuniversals</title>
 
-<meta name="description" content="Innovate and Redefine User Experience - Mobile Apps that Shape the Future"/>
-<meta name="keywords" content="mobile application development, mobile app development, mobile app development company, mobile app development services, mobile app development agency, mobile app developers, app development, mobile app design, app development services, android app development, iOS app development, cross-platform app development, mobile app development solutions, mobile app development process, mobile app development cost, mobile app development company near me, mobile app development agency near me"/>
+<meta name="description" content="Realize your app vision with our top-notch mobile app development services. Webuniversals delivers success through innovation"/>
+<meta name="keywords" content="Mobile app development,app developmente"/>
+<link rel="canonical" href="https://webuniversals.com/MobileAppDevelopment" />
 
     </Head>
     <Layout noHeaderBg pageName={"About"}>
@@ -33,9 +34,9 @@ const MobileAppDevelopment = () => {
         >
           <div className="container">
             <div className="splash-area">
-            <h2>
+            <h1>
             Mobile<br/> App Development
-            </h2>
+            </h1>
             <a href="#"></a>
             </div>
           </div>

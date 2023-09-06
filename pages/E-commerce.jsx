@@ -8,11 +8,13 @@ const Services = () => {
 
     <>
 <Head>
-<title>Captivating E-commerce Solutions | Web Universals</title>
+<title>Mobile app development | app development |Webuniversals</title>
 
-<meta name="description" content="Unleash Your Online Retail Potential - E-commerce Solutions that Captivate"/>
-<meta name="keywords" content="ecommerce website cost, ecommerce web development company, best ecommerce website design, ecommerce web design company, ecommerce website design services, ecommerce development agency, ecommerce website development company, ecommerce web design services, ecommerce website development cost, ecommerce website designers, ecommerce web developer, ecommerce developers, ecommerce web design agency, ecommerce website design & development services, ecommerce web developers, custom ecommerce website development, ecommerce website design agency, ecommerce design agency, ecommerce web designers, best ecommerce website development company, ecommerce designer, custom ecommerce website, ecommerce website agency, best website for ecommerce, ecommerce website html css javascript, ecommerce site development, magento ecommerce developers, ecommerce website design company, ecommerce website development agency, ecommerce website design and development, ecommerce website company, ecommerce web solutions, ecommerce website packages, ecommerce web development agency, custom ecommerce web design services, ecommerce web agency, custom ecommerce website design, ecommerce design company, ecommerce website developer near me, best ecommerce web design, best ecommerce developers, ecommerce web development firm, creative ecommerce website, top ecommerce developers, ecommerce custom development, ecommerce web design solutions, ecommerce web development solutions, shopify ecommerce website development, ecommerce website design and development company, best ecommerce website design company, custom ecommerce design, interactive ecommerce websites, best ecommerce website development, best ecommerce web design company, custom ecommerce website development company, ecommerce website design & development company, magento ecommerce website design, ecommerce website developers near me, bespoke ecommerce website, ecommerce custom design, ecommerce website building companies, top ecommerce website development company, custom ecommerce web design service, best ecommerce web development company, ecommerce website design and development services"/>
+<meta name="description" content="Realize your app vision with our top-notch mobile app development services. Webuniversals delivers success through innovation"/>
+<meta name="keywords" content="Mobile app development,app development"/>
+<link rel="canonical" href="https://webuniversals.com/MobileAppDevelopment" />
 
+<link rel="canonical" href="https://webuniversals.com/E-commerce" />
 </Head>
 
        <Layout noHeaderBg pageName={"Services"}>
@@ -22,10 +24,10 @@ const Services = () => {
       >
         <div className="container">
           <div className="splash-area">
-            <h2>
+            <h1>
             e-Commerce  
             <br />Website
-            </h2>
+            </h1>
             {/* <a href="tel:08 8121 7826">CONTACT US TODAY</a> */}
           </div>
         </div>
@@ -36,7 +38,7 @@ const Services = () => {
             <div className="row">
               <div className="col-xl-5">
                 <div className="heading">
-                  <h6 style={{textTransform:"none"}}>e-Commerce Website</h6>
+                  <h6 style={{textTransform:"none"}}>eCommerce Website</h6>
                   {/* <h2>
                   Development Company Australia
                   </h2> */}
