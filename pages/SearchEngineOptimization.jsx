@@ -2,6 +2,8 @@ import TerioCounter from "@/src/components/TerioCounter";
 import Layout from "@/src/layout/Layout";
 import { blogswiper } from "@/src/sliderProps";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,14 +11,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const SearchEngineOptimization = () => {
   return (
     <>
-    <head>
-<title>Best  seo company | Top seo services | Webuniversals </title>
+    <Head>
+<title>Best seo company | Top seo services | Webuniversals </title>
 
 <meta name="description" content="Webuniversals | The Best Indian SEO Company for Top-Notch SEO Services. Elevate Your Online Presence with Our Expert Solutions"/>
-<meta name="keywords" content="Best  seo company ,Top seo services"/>
+<meta name="keywords" content="Best seo company ,Top seo services"/>
 <link rel="canonical" href="https://webuniversals.com/SearchEngineOptimization" />
 
-</head>
+</Head>
 
     <Layout noHeaderBg pageName={"About"}>
       <div>

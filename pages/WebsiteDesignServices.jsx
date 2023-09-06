@@ -45,7 +45,7 @@ const WebDesignService = () => {
           <div className="row">
             <div className="col-xl-5">
               <div className="heading">
-                <h1 style={{fontSize:"25px"}}>Web development company</h1>
+                <h6>Web development company</h6>
                 
                 <h3>
                   {" "}

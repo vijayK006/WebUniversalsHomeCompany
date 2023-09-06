@@ -152,12 +152,12 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
               </li>
 
 
-              <li>
+              {/* <li>
                 <Link legacyBehavior href="blog">
                   Blog
                 </Link>
               
-              </li>
+              </li> */}
 
               
               <li>

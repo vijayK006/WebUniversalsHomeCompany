@@ -8,12 +8,10 @@ const Services = () => {
 
     <>
 <Head>
-<title>Mobile app development | app development |Webuniversals</title>
+<title>Your E-commerce Website Solution | Webuniversals</title>
 
-<meta name="description" content="Realize your app vision with our top-notch mobile app development services. Webuniversals delivers success through innovation"/>
-<meta name="keywords" content="Mobile app development,app development"/>
-<link rel="canonical" href="https://webuniversals.com/MobileAppDevelopment" />
-
+<meta name="description" content="Shop the future with our eCommerce website solutions. Webuniversals brings your online store vision to life for success"/>
+<meta name="keywords" content="Your E-commerce Website Solution"/>
 <link rel="canonical" href="https://webuniversals.com/E-commerce" />
 </Head>
 
